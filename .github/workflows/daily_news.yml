@@ -2,7 +2,7 @@ name: Daily News Update
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # ensures full history for rebase
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -38,7 +40,7 @@ jobs:
           git add news.json
           git commit -m "Daily news update" || echo "No changes to commit"
 
-      - name: Push changes
+      - name: Push changes safely
         run: |
           git fetch origin news-data
           git rebase origin/news-data || git pull --rebase
