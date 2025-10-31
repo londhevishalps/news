@@ -2,28 +2,35 @@ name: Daily News Update
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Every day at 08:00 UTC
-  workflow_dispatch:
+    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
   update_news:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repository with token access
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Important! Disable default credentials
 
+      # 2️⃣ Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: pip install feedparser
 
+      # 4️⃣ Run news fetch script
       - name: Run news fetch script
         run: python fetch_news.py
 
+      # 5️⃣ Commit and push updates using GITHUB_TOKEN
       - name: Commit and push updated news
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,4 +39,5 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add news.json
           git commit -m "Daily news update" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin HEAD:main
