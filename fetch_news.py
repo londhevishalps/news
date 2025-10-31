@@ -1,12 +1,11 @@
 # Author: Vishal L
-# Purpose: Fetch Google News RSS for sustainability keywords and store in news.json
-# Scope: Works with keywords list and preserves all historical news
+# Purpose: Fetch Google News RSS for sustainability keywords and store last 7 days in news.json
 # Date format: DD-MM-YYYY
-# Note: Uses only Python standard libraries
+# Uses only standard libraries + feedparser
 
 import feedparser
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 
 # --- Keywords ---
@@ -33,49 +32,51 @@ else:
 
 existing_urls = {article["url"] for article in all_articles}
 
-# --- Fetch and parse new news ---
+# --- Fetch new news ---
 new_articles = []
+seven_days_ago = datetime.now() - timedelta(days=7)
+
 for url in rss_urls:
     try:
         feed = feedparser.parse(url)
         for entry in feed.entries:
             link = entry.link
-            if link not in existing_urls:
-                # Parse date and convert to DD-MM-YYYY
-                if 'published' in entry:
-                    try:
-                        # Take only YYYY-MM-DD from RSS published field
-                        dt = datetime.strptime(entry.published[:10], "%Y-%m-%d")
-                        date_str = dt.strftime("%d-%m-%Y")
-                    except:
-                        date_str = datetime.now().strftime("%d-%m-%Y")
-                else:
-                    date_str = datetime.now().strftime("%d-%m-%Y")
+            if link in existing_urls:
+                continue
 
-                article = {
-                    "title": entry.title,
-                    "url": link,
-                    "source": entry.source.title if 'source' in entry else 'Unknown',
-                    "date": date_str
-                }
-                new_articles.append(article)
-                existing_urls.add(link)
+            # Parse date
+            if 'published' in entry:
+                try:
+                    dt = datetime.strptime(entry.published[:10], "%Y-%m-%d")
+                except:
+                    dt = datetime.now()
+            else:
+                dt = datetime.now()
+
+            if dt < seven_days_ago:
+                continue  # Skip older than 7 days
+
+            date_str = dt.strftime("%d-%m-%Y")
+            article = {
+                "title": entry.title,
+                "url": link,
+                "source": entry.source.title if 'source' in entry else 'Unknown',
+                "date": date_str
+            }
+            new_articles.append(article)
+            existing_urls.add(link)
     except Exception as e:
         print(f"Error fetching feed {url}: {e}")
 
-# --- Merge and sort by date descending ---
+# --- Merge, keep only last 7 days ---
 all_articles.extend(new_articles)
+all_articles = [a for a in all_articles if datetime.strptime(a["date"], "%d-%m-%Y") >= seven_days_ago]
 
-def parse_dd_mm_yyyy(date_str):
-    try:
-        return datetime.strptime(date_str, "%d-%m-%Y")
-    except:
-        return datetime.now()
+# --- Sort descending ---
+all_articles.sort(key=lambda x: datetime.strptime(x["date"], "%d-%m-%Y"), reverse=True)
 
-all_articles.sort(key=lambda x: parse_dd_mm_yyyy(x["date"]), reverse=True)
-
-# --- Save to JSON ---
+# --- Save JSON ---
 with open("news.json", "w", encoding="utf-8") as f:
     json.dump(all_articles, f, ensure_ascii=False, indent=2)
 
-print(f"Fetched {len(new_articles)} new articles. Total articles stored: {len(all_articles)}")
+print(f"Fetched {len(new_articles)} new articles. Total stored (last 7 days): {len(all_articles)}")
