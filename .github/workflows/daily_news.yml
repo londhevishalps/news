@@ -2,7 +2,7 @@ name: Daily News Update
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Daily at 08:00 UTC
+    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -35,7 +35,16 @@ jobs:
           git add news.json
           git commit -m "Daily news update" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          git fetch origin news-data
-          git checkout news-data
-          git merge main --allow-unrelated-histories -m "Merge updates"
+
+          # Check if remote branch exists
+          if git ls-remote --heads origin news-data; then
+            echo "Remote branch exists, checking out..."
+            git fetch origin news-data
+            git checkout news-data
+            git merge main --allow-unrelated-histories -m "Merge updates"
+          else
+            echo "Remote branch does not exist, creating news-data..."
+            git checkout -b news-data
+          fi
+
           git push origin news-data
