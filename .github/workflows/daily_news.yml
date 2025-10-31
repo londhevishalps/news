@@ -23,8 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run daily news script
-        run: python sustainability_updates.py
+      - name: Run fetch news script
+        run: |
+          set -o pipefail
+          python fetch_news.py 2>&1 | tee fetch_news.log
 
       - name: Configure Git
         run: |
