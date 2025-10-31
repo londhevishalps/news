@@ -1,8 +1,12 @@
-name: Daily News Update
+name: Daily Sustainability News Update
+
+# Grant write permission for push
+permissions:
+  contents: write
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC
+    - cron: '0 8 * * *'  # Daily at 08:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -10,22 +14,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo without persisting credentials
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           persist-credentials: false
 
+      # 2️⃣ Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: pip install feedparser
 
+      # 4️⃣ Run news fetch script
       - name: Run news fetch script
         run: python fetch_news.py
 
+      # 5️⃣ Commit and push news.json to news-data branch
       - name: Commit and push updated news
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -34,6 +43,8 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add news.json
           git commit -m "Daily news update" || echo "No changes to commit"
+
+          # Set remote with token
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
           # Check if remote branch exists
@@ -43,8 +54,9 @@ jobs:
             git checkout news-data
             git merge main --allow-unrelated-histories -m "Merge updates"
           else
-            echo "Remote branch does not exist, creating news-data..."
+            echo "Remote branch does not exist, creating..."
             git checkout -b news-data
           fi
 
-          git push origin news-data
+          # Push explicitly using token
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} news-data:news-data
