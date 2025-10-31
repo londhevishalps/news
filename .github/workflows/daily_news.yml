@@ -39,4 +39,8 @@ jobs:
           git commit -m "Daily news update" || echo "No changes to commit"
 
       - name: Push changes
-        run: git push origin news-data
+        run: |
+          git fetch origin news-data
+          git rebase origin/news-data || git pull --rebase
+          git push origin news-data
+        shell: bash
