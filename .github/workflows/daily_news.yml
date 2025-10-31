@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Must override credentials
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,7 +26,7 @@ jobs:
       - name: Run news fetch script
         run: python fetch_news.py
 
-      - name: Commit and push updated news to news-data branch
+      - name: Commit and push updated news
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -35,7 +35,7 @@ jobs:
           git add news.json
           git commit -m "Daily news update" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          git fetch origin news-data || git checkout -b news-data
+          git fetch origin news-data
           git checkout news-data
           git merge main --allow-unrelated-histories -m "Merge updates"
           git push origin news-data
