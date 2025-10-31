@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Latest Sustainability News</title>
+</head>
+<body>
+<h1>Latest Sustainability News</h1>
+
+<label for="filter">Filter:</label>
+<select id="filter">
+  <option value="all">All</option>
+  <option value="1">Today</option>
+  <option value="7">Last 7 Days</option>
+  <option value="30">Last 30 Days</option>
+</select>
+
+<ul id="news-list"></ul>
+
+<script>
+async function loadNews() {
+  const res = await fetch('news.json');
+  const data = await res.json();
+  const ul = document.getElementById('news-list');
+  const filterDays = parseInt(document.getElementById('filter').value);
+
+  ul.innerHTML = '';
+  const now = new Date();
+
+  data.forEach(article => {
+    const articleDate = new Date(article.date);
+    const diffDays = (now - articleDate) / (1000 * 60 * 60 * 24);
+
+    if (filterDays === 0 || filterDays === 'all' || diffDays <= filterDays) {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${article.url}" target="_blank">${article.title}</a> (${article.source}, ${article.date})`;
+      ul.appendChild(li);
+    }
+  });
+}
+
+document.getElementById('filter').addEventListener('change', loadNews);
+
+loadNews();
+</script>
+</body>
+</html>
