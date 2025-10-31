@@ -1,6 +1,6 @@
 feedparser
-newspaper3k
 pandas
+newspaper3k
 scikit-learn
 sentence-transformers
 transformers
