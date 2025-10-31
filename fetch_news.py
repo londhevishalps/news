@@ -2,12 +2,12 @@
 # Purpose: Fetch Google News RSS for sustainability keywords and store in news.json
 # Scope: Works with keywords list and preserves all historical news
 # Date format: DD-MM-YYYY
+# Note: Uses only Python standard libraries
 
 import feedparser
 import json
 from datetime import datetime
 import os
-from dateutil import parser  # pip install python-dateutil
 
 # --- Keywords ---
 keywords = [
@@ -44,7 +44,8 @@ for url in rss_urls:
                 # Parse date and convert to DD-MM-YYYY
                 if 'published' in entry:
                     try:
-                        dt = parser.parse(entry.published)
+                        # Take only YYYY-MM-DD from RSS published field
+                        dt = datetime.strptime(entry.published[:10], "%Y-%m-%d")
                         date_str = dt.strftime("%d-%m-%Y")
                     except:
                         date_str = datetime.now().strftime("%d-%m-%Y")
@@ -64,7 +65,7 @@ for url in rss_urls:
 
 # --- Merge and sort by date descending ---
 all_articles.extend(new_articles)
-# Convert dates back to datetime objects for proper sorting
+
 def parse_dd_mm_yyyy(date_str):
     try:
         return datetime.strptime(date_str, "%d-%m-%Y")
