@@ -12,142 +12,35 @@
         .hero-section {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 4rem 0;
-            margin-bottom: 2rem;
+            padding: 3rem 0;
         }
-        
         .news-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.2s;
             height: 100%;
-            margin-bottom: 1.5rem;
         }
-        
         .news-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
         }
-        
-        .news-image {
-            height: 200px;
-            overflow: hidden;
-        }
-        
-        .news-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        .topic-badge {
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        
-        .topic-badge:hover {
-            background-color: #0b5ed7 !important;
-        }
-        
-        .filter-section {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            border-left: 4px solid #667eea;
-        }
-        
-        .active-filter {
-            background: #667eea;
-            color: white;
-        }
-        
         .footer {
             background: #2c3e50;
             color: white;
             padding: 2rem 0;
             margin-top: 3rem;
         }
-        
-        .curated-by {
-            font-style: italic;
-            opacity: 0.9;
-        }
-        
-        .debug-info {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 10px 0;
-            font-family: monospace;
-            font-size: 12px;
-        }
     </style>
 </head>
 <body>
     <!-- Hero Section -->
     <section class="hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="display-4 mb-3">🌱 Sustainability News Hub</h1>
-                    <p class="lead mb-2">Latest updates on ESG, circular economy, and sustainable business practices</p>
-                    <p class="curated-by">curated by Vishal Londhe</p>
-                </div>
-            </div>
+        <div class="container text-center">
+            <h1 class="display-4 mb-3">🌱 Sustainability News Hub</h1>
+            <p class="lead mb-2">Latest updates on ESG, circular economy, and sustainable business practices</p>
+            <p class="mb-0"><small>curated by Vishal Londhe</small></p>
         </div>
     </section>
 
     <!-- Main Content -->
-    <div class="container">
-        <!-- Debug Info (remove this section after fixing) -->
-        <div id="debugInfo" class="debug-info" style="display: none;">
-            <strong>Debug Information:</strong>
-            <div id="debugContent"></div>
-        </div>
-
-        <!-- Filter Section -->
-        <div class="filter-section">
-            <div class="row g-3 align-items-end">
-                <div class="col-md-3">
-                    <label class="form-label fw-bold">Filter by Topic</label>
-                    <select id="topicFilter" class="form-select">
-                        <option value="">All Topics</option>
-                    </select>
-                </div>
-                <div class="col-md-3">
-                    <label class="form-label fw-bold">Filter by Date</label>
-                    <input type="date" id="dateFilter" class="form-control">
-                </div>
-                <div class="col-md-4">
-                    <label class="form-label fw-bold">Search Articles</label>
-                    <input type="text" id="searchFilter" class="form-control" placeholder="Search titles and descriptions...">
-                </div>
-                <div class="col-md-2">
-                    <button onclick="applyFilters()" class="btn btn-primary w-100 mb-1">
-                        <i class="fas fa-filter"></i> Apply
-                    </button>
-                    <button onclick="clearFilters()" class="btn btn-outline-secondary w-100">
-                        <i class="fas fa-times"></i> Clear
-                    </button>
-                </div>
-            </div>
-            
-            <!-- Active Filters -->
-            <div id="activeFilters" class="row mt-3">
-                <!-- Active filters will appear here -->
-            </div>
-        </div>
-
-        <!-- Stats Bar -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded">
-                    <span id="lastUpdated" class="text-muted">Last updated: Loading...</span>
-                    <span id="articleCount" class="badge bg-primary fs-6">Loading articles...</span>
-                </div>
-            </div>
-        </div>
-
+    <div class="container mt-4">
         <!-- Loading Spinner -->
         <div id="loading" class="text-center py-5">
             <div class="spinner-border text-primary" role="status">
@@ -161,35 +54,22 @@
             <!-- News cards will be inserted here -->
         </div>
 
-        <!-- No Results Message -->
-        <div id="noResults" class="text-center py-5" style="display: none;">
-            <h3 class="text-muted">No news articles match your filters</h3>
-            <p class="text-muted">Try adjusting your search criteria or clear filters to see all articles.</p>
-            <button onclick="clearFilters()" class="btn btn-primary">
-                Clear All Filters
-            </button>
-        </div>
-
         <!-- Error Message -->
-        <div id="errorMessage" class="alert alert-danger" style="display: none;">
-            <h4 class="alert-heading">Error Loading News</h4>
-            <p id="errorText"></p>
+        <div id="errorMessage" class="alert alert-danger text-center" style="display: none;">
+            <h4>Unable to Load News</h4>
+            <p id="errorText">There was a problem loading the news articles.</p>
             <button onclick="loadNews()" class="btn btn-danger">Try Again</button>
         </div>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="https://www.linkedin.com/in/vishallondhe" target="_blank" class="btn btn-outline-light">
-                        <i class="fab fa-linkedin me-2"></i>
-                        Follow me on LinkedIn
-                    </a>
-                    <p class="mt-3 mb-0">&copy; 2024 Sustainability News Hub. All rights reserved.</p>
-                </div>
-            </div>
+        <div class="container text-center">
+            <a href="https://www.linkedin.com/in/vishallondhe" target="_blank" class="btn btn-outline-light btn-sm">
+                <i class="fab fa-linkedin me-2"></i>
+                Follow me on LinkedIn
+            </a>
+            <p class="mt-3 mb-0">&copy; 2024 Sustainability News Hub</p>
         </div>
     </footer>
 
@@ -198,357 +78,82 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        let allArticles = [];
-        let currentFilters = {
-            topic: '',
-            date: '',
-            search: ''
-        };
-
-        // Load news data with robust error handling
         async function loadNews() {
             try {
-                console.log('🔍 Starting to load news from news.json...');
+                console.log('Loading news...');
                 
-                // Show loading state
                 $('#loading').show();
                 $('#newsGrid').hide();
-                $('#noResults').hide();
                 $('#errorMessage').hide();
-                $('#debugInfo').hide();
-                
+
                 const response = await fetch('./news.json');
-                console.log('📡 Response status:', response.status);
                 
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error('Failed to load news file');
                 }
-                
-                const text = await response.text();
-                console.log('📄 Raw response length:', text.length);
-                
-                // Show debug info
-                $('#debugContent').html(`
-                    <div>Response length: ${text.length} characters</div>
-                    <div>First 500 chars: ${text.substring(0, 500)}...</div>
-                `);
-                $('#debugInfo').show();
-                
-                let data;
-                try {
-                    data = JSON.parse(text);
-                    console.log('✅ JSON parsing successful');
-                    console.log('📊 Data structure:', data);
-                } catch (jsonError) {
-                    console.error('❌ JSON parse error:', jsonError);
-                    
-                    // Try to fix common JSON issues
-                    const fixedText = text
-                        .replace(/[\u0000-\u001F\u007F-\u009F]/g, '') // Remove control characters
-                        .replace(/,\s*}/g, '}') // Remove trailing commas
-                        .replace(/,\s*]/g, ']') // Remove trailing commas in arrays
-                        .replace(/([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)/g, '$1"$2"$3') // Add quotes to unquoted keys
-                        .replace(/'/g, '"') // Replace single quotes with double quotes
-                        .trim();
-                    
-                    console.log('🛠️ Attempting to fix JSON...');
-                    
-                    try {
-                        data = JSON.parse(fixedText);
-                        console.log('✅ Fixed JSON parsing successful');
-                    } catch (secondError) {
-                        console.error('❌ Could not fix JSON:', secondError);
-                        throw new Error('Invalid JSON format in news.json file');
-                    }
-                }
-                
-                // Handle different possible data structures
+
+                const data = await response.json();
+                console.log('News data:', data);
+
+                // Handle different data structures
+                let articles = [];
                 if (Array.isArray(data)) {
-                    // If the root is an array, use it directly
-                    console.log('📝 Data is array, using directly');
-                    allArticles = data;
-                } else if (data && typeof data === 'object') {
-                    // If it's an object, look for articles property
-                    if (data.articles && Array.isArray(data.articles)) {
-                        console.log('📝 Found articles array in data object');
-                        allArticles = data.articles;
-                    } else if (data.articles && typeof data.articles === 'object') {
-                        // Handle case where articles might be an object instead of array
-                        console.log('📝 Articles is object, converting to array');
-                        allArticles = Object.values(data.articles);
-                    } else {
-                        // Try to find any array in the object
-                        const arrays = Object.values(data).filter(val => Array.isArray(val));
-                        if (arrays.length > 0) {
-                            console.log('📝 Using first array found in object');
-                            allArticles = arrays[0];
-                        } else {
-                            console.log('📝 No articles array found, using empty array');
-                            allArticles = [];
-                        }
-                    }
+                    articles = data;
+                } else if (data.articles && Array.isArray(data.articles)) {
+                    articles = data.articles;
                 } else {
-                    console.log('📝 Unexpected data format, using empty array');
-                    allArticles = [];
+                    throw new Error('Unexpected data format in news.json');
                 }
-                
-                console.log(`📰 Loaded ${allArticles.length} articles`);
-                
-                // Update debug info with article count
-                $('#debugContent').append(`<div>Articles loaded: ${allArticles.length}</div>`);
-                
-                if (allArticles.length > 0) {
-                    console.log('📋 Sample article:', allArticles[0]);
-                }
-                
-                initializeFilters(allArticles);
-                displayNews(allArticles);
-                
+
+                displayNews(articles);
+
             } catch (error) {
-                console.error('❌ Error loading news:', error);
-                showError('Failed to load news: ' + error.message);
+                console.error('Error:', error);
+                $('#loading').hide();
+                $('#errorText').text(error.message);
+                $('#errorMessage').show();
             }
-        }
-
-        function initializeFilters(articles) {
-            console.log('🔧 Initializing filters with', articles.length, 'articles');
-            
-            // Extract unique topics from articles
-            const topics = [...new Set(articles
-                .map(article => {
-                    // Handle different possible property names
-                    return article.keyword || article.topic || article.category || '';
-                })
-                .filter(Boolean))];
-            
-            console.log('📌 Found topics:', topics);
-            
-            const topicFilter = $('#topicFilter');
-            
-            // Clear existing options except the first one
-            topicFilter.find('option:not(:first)').remove();
-            
-            // Add topic options
-            topics.sort().forEach(topic => {
-                topicFilter.append(`<option value="${topic}">${topic}</option>`);
-            });
-        }
-
-        function applyFilters() {
-            const topicFilter = $('#topicFilter').val();
-            const dateFilter = $('#dateFilter').val();
-            const searchFilter = $('#searchFilter').val().toLowerCase();
-            
-            currentFilters = {
-                topic: topicFilter,
-                date: dateFilter,
-                search: searchFilter
-            };
-            
-            updateActiveFilters();
-            
-            const filteredArticles = allArticles.filter(article => {
-                // Get article properties (handle different possible names)
-                const title = (article.title || '').toLowerCase();
-                const description = (article.description || article.summary || '').toLowerCase();
-                const keyword = article.keyword || article.topic || article.category || '';
-                const articleDate = article.date || article.publishedAt || '';
-                
-                // Topic filter
-                if (topicFilter && keyword !== topicFilter) {
-                    return false;
-                }
-                
-                // Date filter
-                if (dateFilter && articleDate) {
-                    try {
-                        // Try different date formats
-                        let articleDateObj;
-                        if (articleDate.includes('-')) {
-                            // Handle DD-MM-YYYY format
-                            const [day, month, year] = articleDate.split('-');
-                            articleDateObj = new Date(`${year}-${month}-${day}`);
-                        } else {
-                            articleDateObj = new Date(articleDate);
-                        }
-                        
-                        const filterDate = new Date(dateFilter);
-                        
-                        if (articleDateObj.toDateString() !== filterDate.toDateString()) {
-                            return false;
-                        }
-                    } catch (e) {
-                        console.log('Date parsing error for article:', articleDate);
-                    }
-                }
-                
-                // Search filter
-                if (searchFilter) {
-                    const titleMatch = title.includes(searchFilter);
-                    const descMatch = description.includes(searchFilter);
-                    if (!titleMatch && !descMatch) {
-                        return false;
-                    }
-                }
-                
-                return true;
-            });
-            
-            console.log(`🔍 Filtered to ${filteredArticles.length} articles`);
-            displayNews(filteredArticles);
-        }
-
-        function clearFilters() {
-            $('#topicFilter').val('');
-            $('#dateFilter').val('');
-            $('#searchFilter').val('');
-            currentFilters = { topic: '', date: '', search: '' };
-            updateActiveFilters();
-            displayNews(allArticles);
-        }
-
-        function updateActiveFilters() {
-            const activeFiltersContainer = $('#activeFilters');
-            activeFiltersContainer.empty();
-            
-            if (currentFilters.topic) {
-                activeFiltersContainer.append(`
-                    <div class="col-auto">
-                        <span class="badge active-filter p-2">
-                            Topic: ${currentFilters.topic}
-                            <i class="fas fa-times ms-1" style="cursor: pointer;" onclick="removeFilter('topic')"></i>
-                        </span>
-                    </div>
-                `);
-            }
-            
-            if (currentFilters.date) {
-                activeFiltersContainer.append(`
-                    <div class="col-auto">
-                        <span class="badge active-filter p-2">
-                            Date: ${new Date(currentFilters.date).toLocaleDateString()}
-                            <i class="fas fa-times ms-1" style="cursor: pointer;" onclick="removeFilter('date')"></i>
-                        </span>
-                    </div>
-                `);
-            }
-            
-            if (currentFilters.search) {
-                activeFiltersContainer.append(`
-                    <div class="col-auto">
-                        <span class="badge active-filter p-2">
-                            Search: "${currentFilters.search}"
-                            <i class="fas fa-times ms-1" style="cursor: pointer;" onclick="removeFilter('search')"></i>
-                        </span>
-                    </div>
-                `);
-            }
-        }
-
-        function removeFilter(filterType) {
-            if (filterType === 'topic') {
-                $('#topicFilter').val('');
-            } else if (filterType === 'date') {
-                $('#dateFilter').val('');
-            } else if (filterType === 'search') {
-                $('#searchFilter').val('');
-            }
-            applyFilters();
-        }
-
-        function filterByTopic(topic) {
-            $('#topicFilter').val(topic);
-            applyFilters();
         }
 
         function displayNews(articles) {
-            console.log('🎨 Displaying', articles.length, 'articles');
-            
-            // Hide loading spinner
             $('#loading').hide();
             
-            // Update last updated time
-            $('#lastUpdated').text(`Last updated: ${new Date().toLocaleString()}`);
-            
-            // Update article count
-            $('#articleCount').text(`${articles.length} articles`);
-            
-            // Show/hide no results message
             if (articles.length === 0) {
-                $('#newsGrid').hide();
-                $('#noResults').show();
+                $('#errorText').text('No news articles available. Please check back later.');
+                $('#errorMessage').show();
                 return;
-            } else {
-                $('#noResults').hide();
-                $('#newsGrid').show();
             }
-            
-            // Create news cards
+
             const newsGrid = $('#newsGrid');
             newsGrid.empty();
-            
-            articles.forEach((article, index) => {
-                // Safely get article properties with fallbacks
-                const title = article.title || 'No title available';
-                const url = article.url || article.link || '#';
-                const source = article.source || (article.source && article.source.name) || 'Unknown Source';
-                const date = article.date || article.publishedAt || 'Unknown date';
-                const description = article.description || article.summary || 'No description available.';
-                const imageUrl = article.imageUrl || article.urlToImage || '';
-                const keyword = article.keyword || article.topic || article.category || '';
-                
-                const newsCard = `
-                    <div class="col-lg-4 col-md-6">
+
+            articles.forEach(article => {
+                const card = `
+                    <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card news-card h-100">
-                            ${imageUrl ? `
-                                <div class="news-image">
-                                    <img src="${imageUrl}" class="card-img-top" alt="${title}" 
-                                         onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\"card-img-top bg-primary text-white d-flex align-items-center justify-content-center\" style=\"height: 200px;\"><i class=\"fas fa-leaf fa-3x\"></i></div>'">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <span class="badge bg-secondary">${article.source || 'Unknown'}</span>
+                                    <small class="text-muted">${article.date || ''}</small>
                                 </div>
-                            ` : '<div class="card-img-top bg-primary text-white d-flex align-items-center justify-content-center" style="height: 200px;"><i class="fas fa-leaf fa-3x"></i></div>'}
-                            <div class="card-body d-flex flex-column">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge bg-secondary">${source}</span>
-                                    <small class="text-muted">${date}</small>
-                                </div>
-                                <h5 class="card-title">${title}</h5>
-                                <p class="card-text flex-grow-1">${description.substring(0, 150)}${description.length > 150 ? '...' : ''}</p>
-                                ${keyword ? `
-                                <div class="mb-3">
-                                    <span class="badge topic-badge bg-info" onclick="filterByTopic('${keyword}')" 
-                                          title="Click to filter by this topic" style="cursor: pointer;">
-                                        Topic: ${keyword}
-                                    </span>
-                                </div>
-                                ` : ''}
-                                <a href="${url}" target="_blank" class="btn btn-primary mt-auto">
-                                    Read Full Article <i class="fas fa-arrow-right ms-1"></i>
+                                <h6 class="card-title">${article.title || 'No title'}</h6>
+                                <p class="card-text small">${article.description || 'No description available.'}</p>
+                                ${article.keyword ? `<span class="badge bg-info mb-2">${article.keyword}</span>` : ''}
+                                <a href="${article.url || '#'}" target="_blank" class="btn btn-primary btn-sm mt-auto">
+                                    Read Article <i class="fas fa-arrow-right ms-1"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 `;
-                
-                newsGrid.append(newsCard);
+                newsGrid.append(card);
             });
-            
-            console.log('✅ News display completed');
+
+            newsGrid.show();
         }
 
-        function showError(message) {
-            console.error('🚨 Showing error:', message);
-            
-            $('#loading').hide();
-            $('#newsGrid').hide();
-            $('#noResults').hide();
-            
-            $('#errorText').text(message);
-            $('#errorMessage').show();
-        }
-
-        // Load news when page loads
+        // Load news when page is ready
         $(document).ready(function() {
-            console.log('🚀 Page loaded, starting news load...');
             loadNews();
         });
     </script>
