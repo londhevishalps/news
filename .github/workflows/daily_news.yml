@@ -29,7 +29,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install feedparser
+        pip install requests feedparser  # Add requests here
         
     - name: Fetch latest news
       run: |
@@ -39,6 +39,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add public/news.json
+        git add news.json
         git diff --staged --quiet || git commit -m "🤖 Auto-update news - $(date +'%Y-%m-%d %H:%M')"
         git push
