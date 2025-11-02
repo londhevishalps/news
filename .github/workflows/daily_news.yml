@@ -26,16 +26,26 @@ jobs:
       with:
         python-version: '3.9'
         
-    - name: Install dependencies
+    - name: Install dependencies from requirements.txt
       run: |
         python -m pip install --upgrade pip
-        pip install requests feedparser  # Add requests here
+        pip install -r requirements.txt
         
     - name: Fetch latest news
+      id: fetch-news
       run: |
         python fetch_news.py
+        # Check if news.json was created
+        if [ -f "news.json" ]; then
+          echo "news_file_exists=true" >> $GITHUB_OUTPUT
+          echo "✅ news.json created successfully"
+        else
+          echo "news_file_exists=false" >> $GITHUB_OUTPUT
+          echo "❌ news.json was not created"
+        fi
         
     - name: Commit and push if changed
+      if: steps.fetch-news.outputs.news_file_exists == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
