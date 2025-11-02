@@ -1,46 +1,342 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Latest Sustainability News</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Sustainability News</title>
+    <style>
+        /* News CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .news-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .news-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+        }
+
+        .news-header h1 {
+            color: #2c5530;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .news-header p {
+            color: #666;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .last-updated {
+            background: #e8f5e8;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #2c5530;
+            font-weight: 500;
+        }
+
+        .news-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            color: #666;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border: 1px solid #e0e0e0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 4rem;
+            color: #666;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #2c5530;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e8e8e8;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .news-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .news-card:hover .news-image img {
+            transform: scale(1.05);
+        }
+
+        .news-content {
+            padding: 1.5rem;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .news-source {
+            background: #2c5530;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .news-date {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .news-title {
+            color: #2c5530;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .news-description {
+            color: #555;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .news-keyword {
+            margin-bottom: 1.5rem;
+        }
+
+        .news-keyword span {
+            background: #f0f7f0;
+            color: #2c5530;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            border: 1px solid #d4e6d4;
+        }
+
+        .read-more-btn {
+            display: inline-block;
+            background: #2c5530;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .read-more-btn:hover {
+            background: #1e3a23;
+        }
+
+        .no-news {
+            text-align: center;
+            padding: 3rem;
+            grid-column: 1 / -1;
+        }
+
+        .no-news h3 {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .news-container {
+                padding: 1rem;
+            }
+            
+            .news-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-<h1>Latest Sustainability News</h1>
+    <div class="news-container">
+        <div class="news-header">
+            <h1>Latest Sustainability News</h1>
+            <p>Automatically updated with the latest ESG, circular economy, and sustainable business news</p>
+            <div id="lastUpdated" class="last-updated"></div>
+        </div>
 
-<label for="filter">Filter:</label>
-<select id="filter">
-  <option value="all">All</option>
-  <option value="1">Today</option>
-  <option value="7">Last 7 Days</option>
-  <option value="30">Last 30 Days</option>
-</select>
+        <div class="news-stats">
+            <span id="articleCount" class="stat">Loading articles...</span>
+            <span class="stat">Updated daily at 7 AM CET</span>
+        </div>
 
-<ul id="news-list"></ul>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading latest sustainability news...</p>
+        </div>
 
-<script>
-async function loadNews() {
-  const res = await fetch('news.json');
-  const data = await res.json();
-  const ul = document.getElementById('news-list');
-  const filterDays = parseInt(document.getElementById('filter').value);
+        <div id="newsGrid" class="news-grid" style="display: none;">
+            <!-- News cards will be inserted here by JavaScript -->
+        </div>
+    </div>
 
-  ul.innerHTML = '';
-  const now = new Date();
+    <script>
+        // Load news data
+        async function loadNews() {
+            try {
+                const response = await fetch('news.json');
+                if (!response.ok) throw new Error('Failed to load news');
+                
+                const data = await response.json();
+                displayNews(data);
+            } catch (error) {
+                console.error('Error loading news:', error);
+                showError();
+            }
+        }
 
-  data.forEach(article => {
-    const articleDate = new Date(article.date);
-    const diffDays = (now - articleDate) / (1000 * 60 * 60 * 24);
+        function displayNews(data) {
+            // Hide loading spinner
+            document.getElementById('loading').style.display = 'none';
+            
+            // Update last updated time
+            const lastUpdated = document.getElementById('lastUpdated');
+            if (data.lastUpdated) {
+                lastUpdated.textContent = `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
+            }
+            
+            // Update article count
+            const articleCount = document.getElementById('articleCount');
+            articleCount.textContent = `${data.articles.length} articles`;
+            
+            // Display news articles
+            const newsGrid = document.getElementById('newsGrid');
+            newsGrid.style.display = 'grid';
+            
+            if (data.articles.length === 0) {
+                newsGrid.innerHTML = `
+                    <div class="no-news">
+                        <h3>No news articles available</h3>
+                        <p>News are automatically fetched daily. Check back soon!</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Create news cards
+            newsGrid.innerHTML = data.articles.map(article => `
+                <div class="news-card">
+                    ${article.imageUrl ? `
+                        <div class="news-image">
+                            <img src="${article.imageUrl}" alt="${article.title}" onerror="this.style.display='none'">
+                        </div>
+                    ` : ''}
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-source">${article.source}</span>
+                            <span class="news-date">${article.date}</span>
+                        </div>
+                        <h3 class="news-title">${article.title}</h3>
+                        <p class="news-description">${article.description}</p>
+                        <div class="news-keyword">
+                            <span>Topic: ${article.keyword}</span>
+                        </div>
+                        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+            `).join('');
+        }
 
-    if (filterDays === 0 || filterDays === 'all' || diffDays <= filterDays) {
-      const li = document.createElement('li');
-      li.innerHTML = `<a href="${article.url}" target="_blank">${article.title}</a> (${article.source}, ${article.date})`;
-      ul.appendChild(li);
-    }
-  });
-}
+        function showError() {
+            document.getElementById('loading').style.display = 'none';
+            const newsGrid = document.getElementById('newsGrid');
+            newsGrid.style.display = 'block';
+            newsGrid.innerHTML = `
+                <div class="no-news">
+                    <h3>Unable to load news</h3>
+                    <p>Please check back later or refresh the page.</p>
+                    <button onclick="loadNews()" class="read-more-btn" style="margin-top: 1rem;">
+                        Try Again
+                    </button>
+                </div>
+            `;
+        }
 
-document.getElementById('filter').addEventListener('change', loadNews);
-
-loadNews();
-</script>
+        // Load news when page loads
+        document.addEventListener('DOMContentLoaded', loadNews);
+    </script>
 </body>
 </html>
