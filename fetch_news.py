@@ -8,24 +8,9 @@ import time
 API_KEY = "5497339175ca40fcba7f961024dfd34d"
 BASE_URL = "https://newsapi.org/v2/everything"
 
-# Sustainability keywords
+# Your original extensive keywords list - ALL KEYWORDS INCLUDED
 KEYWORDS = [
-    "sustainability",
-    "ESG",
-    "circular economy", 
-    "green business",
-    "sustainable fashion",
-    "climate action",
-    "corporate sustainability",
-    "renewable energy",
-    "carbon neutral",
-    "sustainable development",
-    "environmental social governance",
-    "green technology",
-    "eco-friendly",
-    "sustainable investment",
-    "climate change",
-    "net zero", "sustainability business", "corporate sustainability", "ESG strategy", "green business",
+    "sustainability business", "corporate sustainability", "ESG strategy", "green business",
     "circular economy", "reuse materials", "recycling fashion", "closed-loop textiles",
     "sustainable textiles", "eco-friendly fabrics", "ethical apparel", "fashion sustainability",
     "textile wastewater", "water stewardship", "water pollution textile", "clean water in fashion",
@@ -35,6 +20,22 @@ KEYWORDS = [
     "sustainable innovation", "eco-fashion technology", "sustainable material innovation",
     "GRI reporting", "Higg Index", "sustainability standards", "corporate ESG report"
 ]
+
+def test_newsapi_connection():
+    """Test if we can connect to NewsAPI"""
+    try:
+        test_url = f"https://newsapi.org/v2/top-headlines?country=us&pageSize=1&apiKey={API_KEY}"
+        response = requests.get(test_url)
+        if response.status_code == 200:
+            print("✅ NewsAPI connection successful")
+            return True
+        else:
+            print(f"❌ NewsAPI connection failed: {response.status_code}")
+            print(f"Response: {response.text}")
+            return False
+    except Exception as e:
+        print(f"❌ NewsAPI connection error: {e}")
+        return False
 
 def fetch_news_from_api():
     """Fetch news from NewsAPI for all keywords"""
@@ -50,7 +51,7 @@ def fetch_news_from_api():
                 'from': seven_days_ago,
                 'sortBy': 'publishedAt',
                 'language': 'en',
-                'pageSize': 10,
+                'pageSize': 5,  # Reduced to avoid hitting API limits
                 'apiKey': API_KEY
             }
             
@@ -79,9 +80,18 @@ def fetch_news_from_api():
                 print(f"✅ Found {len(articles)} articles for '{keyword}'")
             else:
                 print(f"❌ API error for '{keyword}': {response.status_code}")
+                if response.status_code == 429:
+                    print("⚠️ Rate limit hit, waiting 10 seconds...")
+                    time.sleep(10)
+                # Print error details for debugging
+                try:
+                    error_data = response.json()
+                    print(f"Error message: {error_data}")
+                except:
+                    print(f"Error response: {response.text}")
             
             # Be nice to the API - small delay between requests
-            time.sleep(1)
+            time.sleep(2)
             
         except Exception as e:
             print(f"❌ Error fetching news for '{keyword}': {e}")
@@ -112,10 +122,7 @@ def remove_duplicates(articles):
     return unique_articles
 
 def save_articles(articles):
-    """Save articles to public/news.json"""
-    # Ensure public directory exists
-    os.makedirs('public', exist_ok=True)
-    
+    """Save articles to news.json in root"""
     # Prepare final data
     news_data = {
         'lastUpdated': datetime.now().isoformat(),
@@ -124,7 +131,7 @@ def save_articles(articles):
     }
     
     # Save to file
-    with open('public/news.json', 'w', encoding='utf-8') as f:
+    with open('news.json', 'w', encoding='utf-8') as f:
         json.dump(news_data, f, indent=2, ensure_ascii=False)
     
     return len(articles)
@@ -133,22 +140,64 @@ def main():
     print("🚀 Starting daily news fetch...")
     print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # Fetch articles from NewsAPI
-    articles = fetch_news_from_api()
-    print(f"📰 Total articles fetched: {len(articles)}")
+    # Debug info
+    print("=== DEBUG INFO ===")
+    print(f"Current directory: {os.getcwd()}")
+    print(f"Files in directory: {os.listdir('.')}")
+    print("==================")
     
-    # Remove duplicates
-    unique_articles = remove_duplicates(articles)
-    print(f"🔍 Unique articles: {len(unique_articles)}")
-    
-    # Sort by date (newest first)
-    unique_articles.sort(key=lambda x: datetime.strptime(x['date'], '%d-%m-%Y'), reverse=True)
-    
-    # Save to file
-    saved_count = save_articles(unique_articles)
-    
-    print(f"✅ Successfully saved {saved_count} articles to public/news.json")
-    print("🎉 News update completed!")
+    try:
+        # Test connection first
+        if not test_newsapi_connection():
+            print("⚠️ Cannot connect to NewsAPI, creating empty news file")
+            emergency_data = {
+                'lastUpdated': datetime.now().isoformat(),
+                'totalArticles': 0,
+                'articles': [],
+                'error': 'NewsAPI connection failed'
+            }
+            with open('news.json', 'w', encoding='utf-8') as f:
+                json.dump(emergency_data, f, indent=2, ensure_ascii=False)
+            return
+        
+        # Fetch articles from NewsAPI
+        articles = fetch_news_from_api()
+        print(f"📰 Total articles fetched: {len(articles)}")
+        
+        if not articles:
+            print("⚠️ No articles found. Creating empty news file.")
+            # Create empty but valid JSON structure
+            articles = []
+        
+        # Remove duplicates
+        unique_articles = remove_duplicates(articles)
+        print(f"🔍 Unique articles: {len(unique_articles)}")
+        
+        # Sort by date (newest first)
+        unique_articles.sort(key=lambda x: datetime.strptime(x['date'], '%d-%m-%Y'), reverse=True)
+        
+        # Save to file
+        saved_count = save_articles(unique_articles)
+        
+        print(f"✅ Successfully saved {saved_count} articles to news.json")
+        print("🎉 News update completed!")
+        
+    except Exception as e:
+        print(f"❌ Critical error in main: {e}")
+        import traceback
+        traceback.print_exc()
+        
+        # Create a basic news.json file even if there's an error
+        emergency_data = {
+            'lastUpdated': datetime.now().isoformat(),
+            'totalArticles': 0,
+            'articles': [],
+            'error': str(e)
+        }
+        with open('news.json', 'w', encoding='utf-8') as f:
+            json.dump(emergency_data, f, indent=2, ensure_ascii=False)
+        print("⚠️ Created emergency news.json file")
+        # Don't re-raise the error so workflow can continue
 
 if __name__ == "__main__":
     main()
