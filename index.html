@@ -1,3 +1,4 @@
+<title>Sustainability News Hub</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.6;
@@ -238,3 +239,137 @@
         }
     }
 </style>
+🌱 Sustainability News Hub
+Latest updates on ESG, circular economy, and sustainable business practices
+
+    <div class="news-container">
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+        
+        <div class="stats-bar">
+            <div id="lastUpdated" class="last-updated">Last updated: Loading...</div>
+            <div id="articleCount" class="article-count">Loading articles...</div>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading latest sustainability news...</p>
+        </div>
+
+        <div id="newsGrid" class="news-grid" style="display: none;">
+            <!-- News cards will be inserted here by JavaScript -->
+        </div>
+    </div>
+</div>
+
+<script>
+    // Load news data
+    async function loadNews() {
+        try {
+            console.log('Starting to load news...');
+            
+            const response = await fetch('./news.json');
+            console.log('Response status:', response.status);
+            
+            if (!response.ok) {
+                throw new Error(`Failed to load news: ${response.status} ${response.statusText}`);
+            }
+            
+            const data = await response.json();
+            console.log('News data loaded:', data);
+            
+            displayNews(data);
+        } catch (error) {
+            console.error('Error loading news:', error);
+            showError('Failed to load news: ' + error.message);
+        }
+    }
+
+    function displayNews(data) {
+        // Hide loading spinner
+        document.getElementById('loading').style.display = 'none';
+        
+        // Update last updated time
+        const lastUpdated = document.getElementById('lastUpdated');
+        if (data.lastUpdated) {
+            const date = new Date(data.lastUpdated);
+            lastUpdated.textContent = `Last updated: ${date.toLocaleString()}`;
+        }
+        
+        // Update article count
+        const articleCount = document.getElementById('articleCount');
+        const count = data.articles ? data.articles.length : 0;
+        articleCount.textContent = `${count} articles`;
+        
+        // Display news articles
+        const newsGrid = document.getElementById('newsGrid');
+        newsGrid.style.display = 'grid';
+        
+        if (!data.articles || data.articles.length === 0) {
+            newsGrid.innerHTML = `
+                <div class="no-news">
+                    <h3>No news articles available</h3>
+                    <p>News are automatically fetched daily. Check back soon!</p>
+                    <p><small>Last fetch: ${data.lastUpdated ? new Date(data.lastUpdated).toLocaleString() : 'Unknown'}</small></p>
+                </div>
+            `;
+            return;
+        }
+        
+        // Create news cards
+        newsGrid.innerHTML = data.articles.map(article => `
+            <div class="news-card">
+                ${article.imageUrl ? `
+                    <div class="news-image">
+                        <img src="${article.imageUrl}" alt="${article.title}" onerror="this.style.display='none'">
+                    </div>
+                ` : '<div class="news-image" style="background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">🌱</div>'}
+                <div class="news-content">
+                    <div class="news-meta">
+                        <span class="news-source">${article.source || 'Unknown Source'}</span>
+                        <span class="news-date">${article.date || 'Unknown date'}</span>
+                    </div>
+                    <h3 class="news-title">${article.title || 'No title'}</h3>
+                    <p class="news-description">${article.description || 'No description available.'}</p>
+                    ${article.keyword ? `
+                    <div class="news-keyword">
+                        <span>Topic: ${article.keyword}</span>
+                    </div>
+                    ` : ''}
+                    <a href="${article.url || '#'}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                        Read Full Article →
+                    </a>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function showError(message) {
+        document.getElementById('loading').style.display = 'none';
+        const errorDiv = document.getElementById('errorMessage');
+        errorDiv.textContent = message;
+        errorDiv.style.display = 'block';
+        
+        const newsGrid = document.getElementById('newsGrid');
+        newsGrid.style.display = 'block';
+        newsGrid.innerHTML = `
+            <div class="no-news">
+                <h3>Unable to load news</h3>
+                <p>${message}</p>
+                <button onclick="loadNews()" class="read-more-btn" style="margin-top: 1rem;">
+                    Try Again
+                </button>
+            </div>
+        `;
+    }
+
+    // Load news when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOM loaded, starting news load...');
+        loadNews();
+    });
+
+    // Also try to load news if there's an issue
+    window.addEventListener('error', function(e) {
+        console.error('Window error:', e);
+    });
+</script>
