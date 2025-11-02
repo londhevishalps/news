@@ -1,5 +1,456 @@
 {
-  "lastUpdated": "2024-01-01T00:00:00",
-  "totalArticles": 0,
-  "articles": []
+  "lastUpdated": "2025-11-02T23:07:04.862087",
+  "totalArticles": 115,
+  "articles": [
+    {
+      "title": "4 ChatGPT Prompts To Help Scale Your Company With Purpose",
+      "url": "https://www.forbes.com/sites/sarahhernholm/2025/11/01/4-chatgpt-prompts-to-help-scale-your-company-with-purpose/",
+      "source": "Forbes",
+      "date": "01-11-2025",
+      "description": "Use these 4 ChatGPT prompts to clarify vision, streamline systems, build authority, and anticipate risk—so your company scales with purpose, not chaos.",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/67e30b8b51444b1ac1c6d4db/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "keyword": "sustainability business"
+    },
+    {
+      "title": "Five Star AWS AI Practitioner Book ★ ★ ★ ★ ★",
+      "url": "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Five-Star-AWS-AI-Practitioner-Book",
+      "source": "Theserverside.com",
+      "date": "01-11-2025",
+      "description": "The AWS Certified AI Practitioner Book of Exam Questions & Answers by Cameron McKenzie is a clear and complete resource for passing the AWS Certified AI Practitioner exam (AIF-C01). It fits ...",
+      "imageUrl": null,
+      "keyword": "sustainability business"
+    },
+    {
+      "title": "Data Centers Drink And Children Thirst: The AI Bubble’s Moral Mis-calculus",
+      "url": "https://www.forbes.com/sites/corneliawalther/2025/11/01/data-centers-drink-and-children-thirst-the-ai-bubbles-moral-mis-calculus/",
+      "source": "Forbes",
+      "date": "01-11-2025",
+      "description": "Billions suffer from funding shortfalls for development. While we feed a system that allows the spending of hundreds of billions annually to build AI infrastructure.",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/69062fd1dd1acb2e8da0da20/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "keyword": "sustainability business"
+    },
+    {
+      "title": "Conversational Marketing Tools Market, By Application",
+      "url": "https://www.linkedin.com/pulse/conversational-marketing-tools-market-application-xnzoe",
+      "source": "Linkedin.com",
+      "date": "01-11-2025",
+      "description": "South Korea Conversational Marketing Tools Market size is expected to develop revenue and exponential market growth at a remarkable CAGR during the forecast period from 2024-2030. South Korea Conversational Marketing Tools Market, By Application The adoption …",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4E12AQGg-JDoTr0XQw/article-cover_image-shrink_720_1280/B4EZo8KGbNGcAI-/0/1761945872666?e=2147483647&v=beta&t=K9brcozqpH7V01JJ8vV3Yt35yOTpzyKLnXW_OZbomVY",
+      "keyword": "sustainability business"
+    },
+    {
+      "title": "Only 7% of Materials Get Recycled – These 5 Products Were Designed to Fix That",
+      "url": "https://www.yankodesign.com/2025/11/01/only-7-of-materials-get-recycled-these-5-products-were-designed-to-fix-that/",
+      "source": "Yanko Design",
+      "date": "01-11-2025",
+      "description": "Only 7% of Materials Get Recycled – These 5 Products Were Designed to Fix ThatThe circular economy is a sustainable model of production and consumption that aims to reduce waste and extend the life of resources. Unlike the traditional...",
+      "imageUrl": "https://www.yankodesign.com/images/design_news/2025/11/only-7-of-materials-get-recycled-these-5-products-were-designed-to-fix-that/Circular-Design_Recycled_9.jpg",
+      "keyword": "sustainability business"
+    },
+    {
+      "title": "Satoshi's Bitcoin Whitepaper Turns 17: From Cypherpunk Rebellion to Wall Street Staple",
+      "url": "https://www.coindesk.com/markets/2025/11/01/satoshi-s-bitcoin-whitepaper-turns-17-from-cypherpunk-rebellion-to-wall-street-staple",
+      "source": "CoinDesk",
+      "date": "01-11-2025",
+      "description": "Once envisioned as peer-to-peer cash, Bitcoin’s journey reflects both mainstream triumph and existential tension.",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/dbaaf4ee09d542d601779598bea948f38611ee01-1184x678.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "keyword": "corporate sustainability"
+    },
+    {
+      "title": "In practice, ‘Net Zero’ Was Exactly How Much Such Pledges Were Worth",
+      "url": "https://wattsupwiththat.com/2025/11/01/in-practice-net-zero-was-exactly-how-much-such-pledges-were-worth/",
+      "source": "Wattsupwiththat.com",
+      "date": "01-11-2025",
+      "description": "The public “net zero” pledges by countless corporate and political entities in recent years were always baffling. How could the United States or much of the industrialized world reach “net zero” emissions without destroying modern living?",
+      "imageUrl": "https://i0.wp.com/wattsupwiththat.com/wp-content/uploads/2025/10/100_Clean_Energy_Economy__Net-Zero_Emissions_By_2050_Biden_2020.webp?fit=1024%2C512&quality=75&ssl=1",
+      "keyword": "corporate sustainability"
+    },
+    {
+      "title": "Impactive Capital sees a structural shift creating upside for this wastewater company",
+      "url": "https://www.cnbc.com/2025/11/01/impactive-capital-sees-a-structural-shift-creating-upside-for-this-wastewater-company-.html",
+      "source": "CNBC",
+      "date": "01-11-2025",
+      "description": "Impactive Capital recently took a stake in Advanced Drainage Systems and sees earnings growth ahead that is under appreciated.",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108220032-1761921555804-gettyimages-2008254880-img_5607--exmr24-018.jpeg?v=1761921587&w=1920&h=1080",
+      "keyword": "ESG strategy"
+    },
+    {
+      "title": "Woman Takes Revenge On Bakery Manager And It’s The Perfectly Delicious “Icing On The Cake”",
+      "url": "https://www.boredpanda.com/pregnant-cake-decorator-quit-busiest-season/",
+      "source": "Boredpanda.com",
+      "date": "01-11-2025",
+      "description": "Doesn't this petty revenge seem particularly sweet?",
+      "imageUrl": "https://www.boredpanda.com/blog/wp-content/uploads/2025/10/pregnant-cake-decorator-quit-busiest-season-fb.png",
+      "keyword": "green business"
+    },
+    {
+      "title": "Massachusetts gun violence debate erupts at State House over bill to punish firearms makers",
+      "url": "https://www.bostonherald.com/2025/11/01/massachusetts-gun-violence-debate-erupts-at-state-house-over-bill-to-punish-industry-members/",
+      "source": "Boston Herald",
+      "date": "01-11-2025",
+      "description": "A bill up for consideration on Beacon Hill would open the door for firearm manufacturers and distributors to be civilly sued for the harm their products cause, igniting a debate over what gun violence exactly means.",
+      "imageUrl": "https://www.bostonherald.com/wp-content/uploads/2025/10/gunsms003.jpg?w=1024&h=699",
+      "keyword": "green business"
+    },
+    {
+      "title": "The screens of “Alien: Earth” – interview with Dave Henri and Stefan Grimm",
+      "url": "https://www.pushing-pixels.org/2025/11/01/the-screens-of-alien-earth-interview-with-dave-henri-and-stefan-grimm.html",
+      "source": "Pushing-pixels.org",
+      "date": "01-11-2025",
+      "description": "Continuing the ongoing series of interviews on fantasy user interfaces, it’s my pleasure to welcome Dave Henri and Stefan Grimm. Dave founded Modern Motion Pictures back in 2009 to provide services to design and present screen graphics for film and TV. Some o…",
+      "imageUrl": null,
+      "keyword": "green business"
+    },
+    {
+      "title": "Food scraps could power future airplanes",
+      "url": "http://www.popsci.com/technology/food-scraps-airplane-fuel/",
+      "source": "Popular Science",
+      "date": "01-11-2025",
+      "description": "Scientists are turning last night’s leftovers into tomorrow’s takeoff.\nThe post Food scraps could power future airplanes appeared first on Popular Science.",
+      "imageUrl": "https://www.popsci.com/wp-content/uploads/2025/10/food-scraps.png?quality=85&w=1200",
+      "keyword": "circular economy"
+    },
+    {
+      "title": "Ipoh collects over 53,000kg of used clothing for recycling",
+      "url": "https://www.thestar.com.my/news/nation/2025/11/01/ipoh-collects-over-53000kg-of-used-clothing-for-recycling",
+      "source": "The Star Online",
+      "date": "01-11-2025",
+      "description": "IPOH: More than 53,000kg of used clothing have been collected for recycling from June to October this year, says Ipoh Mayor Datuk Zamakhshari Hanipah. Read full story",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2025/11/01/3600434.jpeg",
+      "keyword": "circular economy"
+    },
+    {
+      "title": "Cutting-Edge Ways to Decouple Data Growth from Power and Water Consumption",
+      "url": "https://bradenkelley.com/2025/11/cutting-edge-ways-to-decouple-data-growth-from-power-and-water-consumption/",
+      "source": "Bradenkelley.com",
+      "date": "01-11-2025",
+      "description": "The Sustainability Imperative LAST UPDATED: November 1, 2025 at 1:10 AM GUEST POST from Art Inteligencia The global digital economy runs on data, and data runs on power and water. As AI and machine learning rapidly accelerate our reliance on high-density comp…",
+      "imageUrl": null,
+      "keyword": "circular economy"
+    },
+    {
+      "title": "plastic marble display shelf turns upcycled materials into reconfigurable furniture",
+      "url": "https://www.designboom.com/design/plastic-marble-display-shelf-upcycled-materials-reconfigurable-furniture-11-01-2025/",
+      "source": "Designboom",
+      "date": "01-11-2025",
+      "description": "the composite material forms a marbled surface with distinct visual character.\nThe post plastic marble display shelf turns upcycled materials into reconfigurable furniture appeared first on designboom | architecture & design magazine.",
+      "imageUrl": "https://www.designboom.com/twitterimages/uploads/2025/10/plastic-marble-display-shelf-modular-furniture-dls-world-official-would-you-love-seoul-wyl-designboom-1200.jpg",
+      "keyword": "reuse materials"
+    },
+    {
+      "title": "Hardware Afterlives",
+      "url": "https://interactions.acm.org/archive/view/november-december-2025/hardware-afterlives",
+      "source": "Acm.org",
+      "date": "01-11-2025",
+      "description": "If reusing technology is key to a more sustainable industry, where can we best learn how to design with this intention? At the recent International Association for Media and Communication Research (IAMCR) conference in Singapore, my fellow panelists Ramon Lob…",
+      "imageUrl": "https://interactions.acm.org/images/uploads/articles/IX3206W_0403_SS2516197447_N-Universe.jpg",
+      "keyword": "reuse materials"
+    },
+    {
+      "title": "The giant basket case countries",
+      "url": "https://www.noahpinion.blog/p/the-giant-basket-case-countries",
+      "source": "Noahpinion.blog",
+      "date": "01-11-2025",
+      "description": "Article URL: https://www.noahpinion.blog/p/the-giant-basket-case-countries\nComments URL: https://news.ycombinator.com/item?id=45783465\nPoints: 3\n# Comments: 0",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DWa9!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1685b2f-9df7-4f39-93e3-a2bb656d3cdf_720x893.jpeg",
+      "keyword": "sustainable textiles"
+    },
+    {
+      "title": "Drinking tequila and mezcal sustainably on The Day of the Dead",
+      "url": "https://phys.org/news/2025-10-tequila-mezcal-sustainably-day-dead.html",
+      "source": "Phys.Org",
+      "date": "01-11-2025",
+      "description": "People in Mexico and elsewhere will soon be marking the annual Día de Muertos (Day of the Dead) on Nov. 2. Many will celebrate the day with the quintessential Mexican beverage, tequila; perhaps in the form of a slushy margarita or a shot.",
+      "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2025/day-of-the-dead.jpg",
+      "keyword": "sustainable textiles"
+    },
+    {
+      "title": "designboom radar: exhibitions to see around the world this november",
+      "url": "https://www.designboom.com/design/designboom-radar-exhibitions-around-world-november-11-01-2025/",
+      "source": "Designboom",
+      "date": "01-11-2025",
+      "description": "designboom radar rounds up a list of must-see exhibitions around the world to check out during the month of november.\nThe post designboom radar: exhibitions to see around the world this november appeared first on designboom | architecture & design magazine.",
+      "imageUrl": "https://www.designboom.com/twitterimages/uploads/2025/11/november-radar-exhibitions-2025-designboom-FB.jpg",
+      "keyword": "sustainable textiles"
+    },
+    {
+      "title": "Regenerative agriculture: How soil health can strengthen India’s textile supply chains",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/regenerative-agriculture-how-soil-health-can-strengthen-indias-textile-supply-chains/article70226702.ece",
+      "source": "BusinessLine",
+      "date": "01-11-2025",
+      "description": "As world consumers shift from valuing price to purpose, regenerative fibres will provide India with a unique opportunity: ecological restoration and economic vibrancy",
+      "imageUrl": "https://bl-i.thgim.com/public/incoming/xo20sw/article70216829.ece/alternates/LANDSCAPE_1200/11073_17_11_2023_23_25_28_2_18TVAL2_STARTUP.JPG",
+      "keyword": "sustainable textiles"
+    },
+    {
+      "title": "The No. 1 Reason New Businesses Fail, According to a Shark Tank Investor",
+      "url": "https://finance.yahoo.com/news/no-1-reason-businesses-fail-134219697.html",
+      "source": "Yahoo Entertainment",
+      "date": "01-11-2025",
+      "description": "FUBU founder Daymond John reveals why many startups fail and shares his top advice for staying honest, focused, and financially disciplined.",
+      "imageUrl": "https://s.yimg.com/ny/api/res/1.2/pwwgy5aBnPS0caQlvRmCTA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gobankingrates_644/1d8cb6cdecd541a786e08bab87635062",
+      "keyword": "fashion sustainability"
+    },
+    {
+      "title": "‘It’s the flea market of the internet’: How platforms like Vinted made second-hand clothes shopping cool again",
+      "url": "https://www.independent.ie/style/fashion/its-the-flea-market-of-the-internet-how-platforms-like-vinted-made-second-hand-clothes-shopping-cool-again/a1828831574.html",
+      "source": "Independent.ie",
+      "date": "01-11-2025",
+      "description": "Sarah Magliocco has been an enthusiastic customer of Vinted – the second-hand online clothes marketplace – since its Irish launch a year ago, and of all her purchases, one stands out.",
+      "imageUrl": "https://focus.independent.ie/thumbor/j2VSS3csorE76J-b-ivgjTstR_c=/629x460/smart/prod-mh-ireland/ff92390b-89ce-498b-a2d8-911f01941d1b/d9d830e3-78f6-4af9-a627-0e8c506a2fc2/IR%20HAPPY%20DAYS%201SH.jpg",
+      "keyword": "fashion sustainability"
+    },
+    {
+      "title": "Expedia Finds Experience-Driven Journeys On The Rise",
+      "url": "https://www.forbes.com/sites/jefffromm/2025/11/01/expedia-finds-experience-driven-journeys-on-the-rise/",
+      "source": "Forbes",
+      "date": "01-11-2025",
+      "description": "Expedia research shows the experience economy is strong.",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6903677a49ee70c205a8152d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "keyword": "water stewardship"
+    },
+    {
+      "title": "What camping teaches us about commercial real estate",
+      "url": "https://www.ocregister.com/2025/11/01/what-camping-teaches-us-about-commercial-real-estate/",
+      "source": "OCRegister",
+      "date": "01-11-2025",
+      "description": "An overnight Cub Scout campout at Oso Lake brings to mind three things about commercial spaces.",
+      "imageUrl": "https://www.ocregister.com/wp-content/uploads/2025/10/OCR-L-BUCHANAN-1102.jpg?w=1024&h=667",
+      "keyword": "water stewardship"
+    },
+    {
+      "title": "What India Should Consider to Revitalize Ties for Nepal’s Credibility",
+      "url": "https://english.khabarhub.com/2025/01/503412/",
+      "source": "Khabarhub.com",
+      "date": "01-11-2025",
+      "description": "Introduction: A relationship at the crossroads: Few bilateral relationships in South Asia are as intertwined and deeply rooted as that between Nepal and India — bound by open borders, the weight of history, geography, shared culture, emotions, and a history o…",
+      "imageUrl": "https://english.khabarhub.com/wp-content/uploads/2025/10/Khabar-Hub-Article_Binoj-Basnyat_1200px-630X-px-Final_2025.10.30-Upload.jpg",
+      "keyword": "water stewardship"
+    },
+    {
+      "title": "Jade Fighter by D.A. Xiaolin Spires",
+      "url": "https://clarkesworldmagazine.com/spires_11_25/",
+      "source": "Clarkesworldmagazine.com",
+      "date": "01-11-2025",
+      "description": "It was a strange place, full of lights and fluorescence, for a space that was supposed to look like a temple in winter. Synthetic polymers gathered into fake snow fell […]",
+      "imageUrl": "https://clarkesworldmagazine.com/covers/cw_230_800.jpg?3",
+      "keyword": "clean water in fashion"
+    },
+    {
+      "title": "The Apologists by Tade Thompson",
+      "url": "https://clarkesworldmagazine.com/thompson_11_25/",
+      "source": "Clarkesworldmagazine.com",
+      "date": "01-11-2025",
+      "description": "1. THE MURDER CHAPTER ONE A dual-carriage road descends from a flyover bridge in Thamesmead, bearing sluggish traffic on both sides. From inside bus number 229, a woman looks out […]",
+      "imageUrl": "https://clarkesworldmagazine.com/covers/cw_230_800.jpg?3",
+      "keyword": "clean water in fashion"
+    },
+    {
+      "title": "11/01/2025",
+      "url": "http://www.bay12games.com/dwarves/index.html#2025-11-01",
+      "source": "Bay12games.com",
+      "date": "01-11-2025",
+      "description": "(Toady One) Ah, last month was quiet since I was a bit absorbed in the work and testing - siege update is in two days, on November 3rd! Here is \n\na monthly report.\n\n Here also is \n\na Future of the Fortress reply.",
+      "imageUrl": null,
+      "keyword": "clean water in fashion"
+    },
+    {
+      "title": "Your November Horoscope Is Here—How to Make the Most of It",
+      "url": "https://www.womansworld.com/life/horoscopes/november-horoscope",
+      "source": "Womansworld.com",
+      "date": "01-11-2025",
+      "description": "Every year, November bridges the gap between spooky season and one of the most festive, buoyant seasons of the year, thanks to the sun moving through dynamic...",
+      "imageUrl": "https://media.zenfs.com/en/woman_s_world_418/a5e1d9f0c66bb1b653a3155fc6ef7b91",
+      "keyword": "green chemistry"
+    },
+    {
+      "title": "The World’s Best Whiskey Blenders—According To The Top Spirits Competitions",
+      "url": "https://www.forbes.com/sites/bradjaphe/2025/11/01/the-worlds-best-whiskey-blenders-according-to-the-top-spirits-competitions/",
+      "source": "Forbes",
+      "date": "01-11-2025",
+      "description": "Blending isn’t merely an important step in whiskey production, it’s what lifts the endeavor into the realm of art form. Here are the talented artists who exemplify this truth better than the rest.",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/68f69db2a78adbccafbc1a08/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "keyword": "green chemistry"
+    },
+    {
+      "title": "Space Clouds Are Chemical Factories Making the Building Blocks of Life",
+      "url": "https://www.universetoday.com/articles/space-clouds-are-chemical-factories-making-the-building-blocks-of-life",
+      "source": "Universe Today",
+      "date": "01-11-2025",
+      "description": "Scientists at MIT have discovered over 100 different molecules in a stellar nursery called the Taurus Molecular Cloud-1, making it the most chemically diverse interstellar cloud ever observed. Using over 1,400 hours of telescope time, the team found mostly hy…",
+      "imageUrl": "https://www.universetoday.com/article_images/1280px-Herschels_view_of_the_Taurus_molecular_cloud_ESA384012_20251101_003456.jpg",
+      "keyword": "green chemistry"
+    },
+    {
+      "title": "Solvent-Induced Microstructure Disruption and Catalytic Activation Synergy Toward Mild and Rapid Degradation of Epoxy Thermosets",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc04437e",
+      "source": "Royal Society of Chemistry",
+      "date": "01-11-2025",
+      "description": "Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC04437E, PaperKe Li, Xu Zhao, Dongchu Liu, Weifeng Jia, Qiang PengEpoxy thermosets' superior properties enable widespread applications, yet simultaneously impose persistent environmental burdens. Current r…",
+      "imageUrl": null,
+      "keyword": "green chemistry"
+    },
+    {
+      "title": "Cascade synthesis of diarylamines catalyzed by oxygen-rich and porous carbon",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc05166e",
+      "source": "Royal Society of Chemistry",
+      "date": "01-11-2025",
+      "description": "Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC05166E, Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.Juho Pekka Helaja, Anna Lenarda, Itisha Jain, Aleksi Kaleva, Valtteri Oksanen, Sami Heikk…",
+      "imageUrl": null,
+      "keyword": "green chemistry"
+    },
+    {
+      "title": "Westlake Chemical Partners (WLKP) Profit Margin Holds at 4.8%, Reinforcing Stable Yield Narrative",
+      "url": "https://finance.yahoo.com/news/westlake-chemical-partners-wlkp-profit-052332268.html",
+      "source": "Yahoo Entertainment",
+      "date": "01-11-2025",
+      "description": "Westlake Chemical Partners (WLKP) reported a net profit margin of 4.8%, matching last year’s performance. Earnings have declined by 6.7% per year over the...",
+      "imageUrl": "https://media.zenfs.com/en/simply_wall_st__316/7fa6b21aab4e9cc4df912754c66beb3e",
+      "keyword": "sustainable chemicals"
+    },
+    {
+      "title": "Quaker Chemical (KWR): Five-Year Losses and Slow 4% Revenue Growth Highlight Cautious Earnings Backdrop",
+      "url": "https://finance.yahoo.com/news/quaker-chemical-kwr-five-losses-052127812.html",
+      "source": "Yahoo Entertainment",
+      "date": "01-11-2025",
+      "description": "Quaker Chemical (KWR) remains unprofitable, with losses having increased at a rate of 1.1% per year over the last five years. While revenue is forecast to...",
+      "imageUrl": "https://media.zenfs.com/en/simply_wall_st__316/7dcbeb026ed19dd2c830be7b78839b8e",
+      "keyword": "sustainable chemicals"
+    },
+    {
+      "title": "Beyond chemicals: Why biofertilisers are becoming the cornerstone of climate-smart agriculture",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/beyond-chemicals-why-biofertilisers-are-becoming-the-cornerstone-of-climate-smart-agriculture/article70226205.ece",
+      "source": "BusinessLine",
+      "date": "01-11-2025",
+      "description": "Adaptation of modern formulation technologies is the most critical next step to resolving the dichotomy between biological effectiveness and commercial availability",
+      "imageUrl": "https://bl-i.thgim.com/public/incoming/76qa3c/article70228463.ece/alternates/LANDSCAPE_1200/TCRAJ_6-12-2011_18-10-17_06_12_2011_TUT_09STANDALONE.JPG",
+      "keyword": "sustainable chemicals"
+    },
+    {
+      "title": "ThinkCareBelieve: Week 41 of Trump's Golden America",
+      "url": "https://www.globenewswire.com/news-release/2025/11/01/3178771/0/en/ThinkCareBelieve-Week-41-of-Trump-s-Golden-America.html",
+      "source": "GlobeNewswire",
+      "date": "01-11-2025",
+      "description": "Week 41 of America under the leadership of President Trump and the Trump Administration.......",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/353cfcaf-e50d-4ea8-b709-7f9ab2de465f",
+      "keyword": "supply chain transparency"
+    },
+    {
+      "title": "Five held for snatching chains from woman in Bengaluru",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/five-held-for-snatching-chains-from-woman-in-bengaluru/articleshow/125020483.cms",
+      "source": "The Times of India",
+      "date": "01-11-2025",
+      "description": "Bengaluru: Kengeri police arrested five men for snatching a woman's chain and recovered 70 grams of gold jewellery worth Rs 8 lakh.The incident took p.",
+      "imageUrl": "https://static.toiimg.com/thumb/msid-125020482,width-1070,height-580,imgsize-22106,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "keyword": "supply chain transparency"
+    },
+    {
+      "title": "New Crypto Mutuum Finance (MUTM) Announces V1 Launch for Q4 2025 as Phase 6 Crosses 80%",
+      "url": "https://www.globenewswire.com/news-release/2025/11/01/3178757/0/en/New-Crypto-Mutuum-Finance-MUTM-Announces-V1-Launch-for-Q4-2025-as-Phase-6-Crosses-80.html",
+      "source": "GlobeNewswire",
+      "date": "01-11-2025",
+      "description": "Dubai, UAE, Nov. 01, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM)\r\n is moving closer to one of its biggest milestones yet. The project has officially confirmed that its V1 protocol will go live on the Sepolia Testnet in Q4 2025, marking a major step from de…",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/a940f2b3-fca0-4a80-82b1-a6ec639a8461",
+      "keyword": "supply chain transparency"
+    },
+    {
+      "title": "New Crypto Mutuum Finance (MUTM) Announces V1 Launch for Q4 2025 as Phase 6 Crosses 80%",
+      "url": "https://www.globenewswire.com/news-release/2025/11/01/3178723/0/en/New-Crypto-Mutuum-Finance-MUTM-Announces-V1-Launch-for-Q4-2025-as-Phase-6-Crosses-80.html",
+      "source": "GlobeNewswire",
+      "date": "01-11-2025",
+      "description": "Dubai, UAE, Nov. 01, 2025 (GLOBE NEWSWIRE) -- Mutuum Finance (MUTM) is moving closer to one of its biggest milestones yet. The project has officially confirmed that its V1 protocol will go live on the Sepolia Testnet in Q4 2025, marking a major step from deve…",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/a940f2b3-fca0-4a80-82b1-a6ec639a8461",
+      "keyword": "supply chain transparency"
+    },
+    {
+      "title": "8 ways to help your teams build lasting responsible AI",
+      "url": "https://www.zdnet.com/article/8-ways-to-help-your-teams-build-lasting-responsible-ai/",
+      "source": "ZDNet",
+      "date": "01-11-2025",
+      "description": "Make responsible AI part of system design and deployment, not an afterthought. Industry experts offer guidelines for building and managing responsible applications.",
+      "imageUrl": "https://www.zdnet.com/a/img/resize/0b161868a0ed01eb060b00b7238dd83866c66e51/2025/10/31/a358d260-f6c3-4b2b-8c2f-6e037497a612/blackboxnetworkgettyimages-156642978.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "keyword": "ethical sourcing"
+    },
+    {
+      "title": "Some Up In Arms as Shein Moves Into Paris",
+      "url": "https://www.newser.com/story/377675/some-up-in-arms-as-shein-moves-into-paris.html",
+      "source": "Newser",
+      "date": "01-11-2025",
+      "description": "Shein will have a physical presence in Paris beginning Saturday, and even the mayor is dismayed—Anne Hidalgo called the opening \"a betrayal of Paris' values.\" The Chinese fast-fashion behemoth will open within the historic Paris department store BHV, a retail…",
+      "imageUrl": "https://img1-azrcdn.newser.com/image/1643396-12-20251101101131.jpeg",
+      "keyword": "carbon footprint fashion"
+    },
+    {
+      "title": "Dr. Whitney Bowe Beauty, Founded By The Dermatologist Behind Skin Cycling, Isn’t Trend Based: ‘We Take Our Science Very Seriously’",
+      "url": "https://www.forbes.com/sites/rachelburchfield/2025/11/01/dr-whitney-bowe-beauty-founded-by-the-dermatologist-behind-skin-cycling-isnt-trend-based-we-take-our-science-very-seriously/",
+      "source": "Forbes",
+      "date": "01-11-2025",
+      "description": "Dr. Whitney Bowe, the dermatologist behind the popular skin cycling phenomenon, launched Dr. Whitney Bowe Beauty three years ago and says the brand takes \"our science very seriously.\"",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/68fc16527b1b913d3b51ff53/0x0.jpg?format=jpg&crop=1280,720,x0,y116,safe&height=900&width=1600&fit=bounds",
+      "keyword": "carbon footprint fashion"
+    },
+    {
+      "title": "Wan Azizah: Seek help, break stigma",
+      "url": "https://www.thestar.com.my/news/education/2025/11/02/wan-azizah-seek-help-break-stigma",
+      "source": "The Star Online",
+      "date": "01-11-2025",
+      "description": "Seek help when needed. Read full story",
+      "imageUrl": "https://apicms.thestar.com.my/uploads/images/2025/11/02/3600948.jpg",
+      "keyword": "sustainable innovation"
+    },
+    {
+      "title": "Researcher accidentally discovers material that's stronger and cheaper than concrete — and its potential is dizzying",
+      "url": "https://www.yahoo.com/news/articles/researcher-accidentally-discovers-material-stronger-120000930.html",
+      "source": "Yahoo Entertainment",
+      "date": "01-11-2025",
+      "description": "\"Time is on our side.\"",
+      "imageUrl": "https://s.yimg.com/ny/api/res/1.2/r..UJ8hNwSCqJB_eTMsJlQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDI7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/c3d1a2c295cc3f7456c7afd885ce26d6",
+      "keyword": "sustainable innovation"
+    },
+    {
+      "title": "Honeywell Unveils New Biocrude Technology for Sustainable Fuel",
+      "url": "https://oilprice.com/Energy/Energy-General/Honeywell-Unveils-New-Biocrude-Technology-for-Sustainable-Fuel.html",
+      "source": "OilPrice.com",
+      "date": "01-11-2025",
+      "description": "Shipping and aviation are considered to be some of the hardest to abate sectors when it comes to decarbonization. Together, these two sectors account for a whopping 10% of global greenhouse gas emissions, and that figure is likely going to rise as more goods …",
+      "imageUrl": "https://d32r1sh890xpii.cloudfront.net/article/718x300/2025-10-31_ahihfxoue2.jpg",
+      "keyword": "sustainable innovation"
+    },
+    {
+      "title": "Verizon CEO sounds alarm on why customers are leaving in droves",
+      "url": "https://www.thestreet.com/retail/verizon-ceo-sounds-alarm-on-why-customers-are-leaving-in-droves",
+      "source": "TheStreet",
+      "date": "01-11-2025",
+      "description": "Verizon is struggling to shake a consumer trend that continues to grow legs, especially after the phone carrier issued several price hikes over the past year...",
+      "imageUrl": "https://media.zenfs.com/en/thestreet_881/5cfdad1fe8e2c15defe697ec26cdfc2e",
+      "keyword": "sustainable innovation"
+    },
+    {
+      "title": "SBI joins India International Bullion Exchange as special category client",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-joins-india-international-bullion-exchange-as-special-category-client/articleshow/125019727.cms",
+      "source": "The Times of India",
+      "date": "01-11-2025",
+      "description": "State Bank of India has successfully completed its first gold trade on the India International Bullion Exchange. This marks a significant step towards modernizing India's gold imports. The move promises greater efficiency and transparency for the entire bulli…",
+      "imageUrl": "https://img.etimg.com/thumb/msid-125019746,width-1200,height-630,imgsize-35300,overlay-economictimes/articleshow.jpg",
+      "keyword": "sustainable innovation"
+    },
+    {
+      "title": "Should AI-Powered Product Launches and a Nordstrom Partnership Change the Outlook for Lightspeed (TSX:LSPD) Investors?",
+      "url": "https://finance.yahoo.com/news/ai-powered-product-launches-nordstrom-121621431.html",
+      "source": "Yahoo Entertainment",
+      "date": "01-11-2025",
+      "description": "Lightspeed Commerce Inc. recently announced a comprehensive suite of AI-powered product innovations aimed at helping retail and hospitality merchants...",
+      "imageUrl": "https://media.zenfs.com/en/simply_wall_st__316/0fe4d5d105492213ce106a92b49639d4",
+      "keyword": "sustainable material innovation"
+    },
+    {
+      "title": "These are the falls and deaths racing doesn't want you to see",
+      "url": "https://www.abc.net.au/news/2025-11-02/horse-racing-disappearing-video-replay-ethical-concerns/105812252",
+      "source": "ABC News (AU)",
+      "date": "01-11-2025",
+      "description": "For years, the racing industry has been quietly removing falls and deaths from its replays. Now, industry insiders are speaking out.",
+      "imageUrl": "https://live-production.wcms.abc-cdn.net.au/8368b8487e97b866632b608b49bff0f6?impolicy=wcms_watermark_news&cropH=1687&cropW=2998&xPos=0&yPos=251&width=862&height=485&imformat=generic",
+      "keyword": "sustainability standards"
+    }
+  ]
 }
