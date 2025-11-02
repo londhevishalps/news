@@ -4,468 +4,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustainability News Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
+        .hero-section {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 2rem;
             color: white;
-        }
-
-        .header h1 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            max-width: 600px;
-            margin: 0 auto 0.5rem;
-        }
-
-        .curated-by {
-            font-size: 1rem;
-            opacity: 0.8;
-            font-style: italic;
-        }
-
-        .news-container {
-            background: white;
-            border-radius: 15px;
-            padding: 2rem;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            padding: 4rem 0;
             margin-bottom: 2rem;
         }
-
-        /* Filter Section */
-        .filter-section {
-            background: #f8f9fa;
-            padding: 1.5rem;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            border-left: 4px solid #667eea;
-        }
-
-        .filter-row {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            align-items: end;
-        }
-
-        .filter-group {
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .filter-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-            color: #555;
-        }
-
-        .filter-select, .filter-input {
-            width: 100%;
-            padding: 0.75rem;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: border-color 0.3s ease;
-        }
-
-        .filter-select:focus, .filter-input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-
-        .filter-actions {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .filter-btn {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: background 0.3s ease;
-        }
-
-        .filter-btn:hover {
-            background: #5a6fd8;
-        }
-
-        .filter-btn.secondary {
-            background: #6c757d;
-        }
-
-        .filter-btn.secondary:hover {
-            background: #5a6268;
-        }
-
-        .active-filters {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-
-        .active-filter {
-            background: #667eea;
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.9rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .active-filter .remove {
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        .stats-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-        }
-
-        .last-updated {
-            color: #666;
-            font-size: 0.9rem;
-        }
-
-        .article-count {
-            background: #667eea;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-weight: bold;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: #666;
-        }
-
-        .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
+        
         .news-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            border: 1px solid #e8e8e8;
-            display: flex;
-            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             height: 100%;
+            margin-bottom: 1.5rem;
         }
-
+        
         .news-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
-
+        
         .news-image {
-            width: 100%;
             height: 200px;
             overflow: hidden;
-            background: #f8f9fa;
         }
-
+        
         .news-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.3s ease;
         }
-
-        .news-card:hover .news-image img {
-            transform: scale(1.05);
-        }
-
-        .news-content {
-            padding: 1.5rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .news-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .news-source {
-            background: #667eea;
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-
-        .news-date {
-            color: #888;
-            font-size: 0.9rem;
-        }
-
-        .news-title {
-            color: #2c5530;
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-            line-height: 1.4;
-            flex-grow: 1;
-        }
-
-        .news-description {
-            color: #555;
-            margin-bottom: 1.5rem;
-            line-height: 1.5;
-            flex-grow: 1;
-        }
-
-        .news-keyword {
-            margin-bottom: 1.5rem;
-        }
-
-        .news-keyword span {
-            background: #f0f7f0;
-            color: #2c5530;
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            border: 1px solid #d4e6d4;
+        
+        .topic-badge {
             cursor: pointer;
-            transition: background 0.3s ease;
+            transition: background-color 0.3s ease;
         }
-
-        .news-keyword span:hover {
-            background: #e0f0e0;
+        
+        .topic-badge:hover {
+            background-color: #0b5ed7 !important;
         }
-
-        .read-more-btn {
-            display: inline-block;
+        
+        .filter-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid #667eea;
+        }
+        
+        .active-filter {
             background: #667eea;
             color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s ease;
-            text-align: center;
-            margin-top: auto;
         }
-
-        .read-more-btn:hover {
-            background: #5a6fd8;
-        }
-
-        .no-news {
-            text-align: center;
-            padding: 3rem;
-            grid-column: 1 / -1;
-            color: #666;
-        }
-
-        .no-news h3 {
-            margin-bottom: 1rem;
-        }
-
-        .error-message {
-            background: #ffeaa7;
-            color: #e17055;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-
-        /* Footer */
+        
         .footer {
-            text-align: center;
-            padding: 2rem;
+            background: #2c3e50;
             color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
         }
-
-        .linkedin-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            padding: 0.75rem 1.5rem;
-            border: 2px solid white;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-        }
-
-        .linkedin-link:hover {
-            background: white;
-            color: #667eea;
-        }
-
-        .linkedin-icon {
-            font-size: 1.3rem;
-        }
-
-        @media (max-width: 768px) {
-            .news-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .stats-bar {
-                flex-direction: column;
-                gap: 1rem;
-                text-align: center;
-            }
-            
-            .filter-row {
-                flex-direction: column;
-            }
-            
-            .filter-actions {
-                width: 100%;
-                justify-content: stretch;
-            }
-            
-            .filter-btn {
-                flex: 1;
-            }
+        
+        .curated-by {
+            font-style: italic;
+            opacity: 0.9;
         }
     </style>
 </head>
 <body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 mb-3">🌱 Sustainability News Hub</h1>
+                    <p class="lead mb-2">Latest updates on ESG, circular economy, and sustainable business practices</p>
+                    <p class="curated-by">curated by Vishal Londhe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
     <div class="container">
-        <div class="header">
-            <h1>🌱 Sustainability News Hub</h1>
-            <p>Latest updates on ESG, circular economy, and sustainable business practices</p>
-            <p class="curated-by">curated by Vishal Londhe</p>
-        </div>
-
-        <div class="news-container">
-            <div id="errorMessage" class="error-message" style="display: none;"></div>
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <div class="row g-3 align-items-end">
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Filter by Topic</label>
+                    <select id="topicFilter" class="form-select">
+                        <option value="">All Topics</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Filter by Date</label>
+                    <input type="date" id="dateFilter" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label fw-bold">Search Articles</label>
+                    <input type="text" id="searchFilter" class="form-control" placeholder="Search titles and descriptions...">
+                </div>
+                <div class="col-md-2">
+                    <button onclick="applyFilters()" class="btn btn-primary w-100 mb-1">
+                        <i class="fas fa-filter"></i> Apply
+                    </button>
+                    <button onclick="clearFilters()" class="btn btn-outline-secondary w-100">
+                        <i class="fas fa-times"></i> Clear
+                    </button>
+                </div>
+            </div>
             
-            <!-- Filter Section -->
-            <div class="filter-section">
-                <div class="filter-row">
-                    <div class="filter-group">
-                        <label for="topicFilter">Filter by Topic</label>
-                        <select id="topicFilter" class="filter-select">
-                            <option value="">All Topics</option>
-                            <!-- Topics will be populated dynamically -->
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label for="dateFilter">Filter by Date</label>
-                        <input type="date" id="dateFilter" class="filter-input">
-                    </div>
-                    <div class="filter-group">
-                        <label for="searchFilter">Search Articles</label>
-                        <input type="text" id="searchFilter" class="filter-input" placeholder="Search titles and descriptions...">
-                    </div>
-                </div>
-                <div class="filter-actions">
-                    <button onclick="applyFilters()" class="filter-btn">
-                        <i class="fas fa-filter"></i> Apply Filters
-                    </button>
-                    <button onclick="clearFilters()" class="filter-btn secondary">
-                        <i class="fas fa-times"></i> Clear All
-                    </button>
-                </div>
-                <div id="activeFilters" class="active-filters">
-                    <!-- Active filters will appear here -->
+            <!-- Active Filters -->
+            <div id="activeFilters" class="row mt-3">
+                <!-- Active filters will appear here -->
+            </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded">
+                    <span id="lastUpdated" class="text-muted">Last updated: Loading...</span>
+                    <span id="articleCount" class="badge bg-primary fs-6">Loading articles...</span>
                 </div>
             </div>
+        </div>
 
-            <div class="stats-bar">
-                <div id="lastUpdated" class="last-updated">Last updated: Loading...</div>
-                <div id="articleCount" class="article-count">Loading articles...</div>
+        <!-- Loading Spinner -->
+        <div id="loading" class="text-center py-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
+            <p class="mt-2 text-muted">Loading latest sustainability news...</p>
+        </div>
 
-            <div id="loading" class="loading">
-                <div class="spinner"></div>
-                <p>Loading latest sustainability news...</p>
-            </div>
+        <!-- News Grid -->
+        <div id="newsGrid" class="row" style="display: none;">
+            <!-- News cards will be inserted here -->
+        </div>
 
-            <div id="newsGrid" class="news-grid" style="display: none;">
-                <!-- News cards will be inserted here by JavaScript -->
-            </div>
+        <!-- No Results Message -->
+        <div id="noResults" class="text-center py-5" style="display: none;">
+            <h3 class="text-muted">No news articles match your filters</h3>
+            <p class="text-muted">Try adjusting your search criteria or clear filters to see all articles.</p>
+            <button onclick="clearFilters()" class="btn btn-primary">
+                Clear All Filters
+            </button>
         </div>
     </div>
 
-    <div class="footer">
-        <a href="https://www.linkedin.com/in/vishallondhe" target="_blank" class="linkedin-link">
-            <i class="fab fa-linkedin linkedin-icon"></i>
-            Follow me on LinkedIn
-        </a>
-    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="https://www.linkedin.com/in/vishallondhe" target="_blank" class="btn btn-outline-light">
+                        <i class="fab fa-linkedin me-2"></i>
+                        Follow me on LinkedIn
+                    </a>
+                    <p class="mt-3 mb-0">&copy; 2024 Sustainability News Hub. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         let allArticles = [];
@@ -481,49 +188,13 @@
                 console.log('Starting to load news...');
                 
                 const response = await fetch('./news.json');
-                console.log('Response status:', response.status);
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
-                const text = await response.text();
-                console.log('Raw response text length:', text.length);
-                
-                let data;
-                try {
-                    data = JSON.parse(text);
-                    console.log('✅ Direct JSON parsing successful');
-                } catch (jsonError) {
-                    console.error('JSON parse error:', jsonError);
-                    // Try to fix JSON
-                    const fixedText = text
-                        .replace(/[\u0000-\u001F\u007F-\u009F]/g, '')
-                        .replace(/,\s*}/g, '}')
-                        .replace(/,\s*]/g, ']')
-                        .replace(/([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)/g, '$1"$2"$3')
-                        .replace(/'/g, '"')
-                        .trim();
-                    
-                    try {
-                        data = JSON.parse(fixedText);
-                        console.log('✅ Fixed JSON parsing successful');
-                    } catch (secondError) {
-                        console.error('Could not fix JSON:', secondError);
-                        data = {
-                            lastUpdated: new Date().toISOString(),
-                            totalArticles: 0,
-                            articles: [],
-                            error: 'Invalid JSON format'
-                        };
-                    }
-                }
-                
-                console.log('Parsed data structure:', {
-                    lastUpdated: data.lastUpdated,
-                    totalArticles: data.totalArticles,
-                    articlesCount: data.articles ? data.articles.length : 0
-                });
+                const data = await response.json();
+                console.log('News data loaded:', data);
                 
                 allArticles = data.articles || [];
                 initializeFilters(allArticles);
@@ -538,26 +209,21 @@
         function initializeFilters(articles) {
             // Extract unique topics
             const topics = [...new Set(articles.map(article => article.keyword).filter(Boolean))];
-            const topicFilter = document.getElementById('topicFilter');
+            const topicFilter = $('#topicFilter');
             
             // Clear existing options except the first one
-            while (topicFilter.options.length > 1) {
-                topicFilter.remove(1);
-            }
+            topicFilter.find('option:not(:first)').remove();
             
             // Add topic options
             topics.sort().forEach(topic => {
-                const option = document.createElement('option');
-                option.value = topic;
-                option.textContent = topic;
-                topicFilter.appendChild(option);
+                topicFilter.append(`<option value="${topic}">${topic}</option>`);
             });
         }
 
         function applyFilters() {
-            const topicFilter = document.getElementById('topicFilter').value;
-            const dateFilter = document.getElementById('dateFilter').value;
-            const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
+            const topicFilter = $('#topicFilter').val();
+            const dateFilter = $('#dateFilter').val();
+            const searchFilter = $('#searchFilter').val().toLowerCase();
             
             currentFilters = {
                 topic: topicFilter,
@@ -599,170 +265,146 @@
         }
 
         function clearFilters() {
-            document.getElementById('topicFilter').value = '';
-            document.getElementById('dateFilter').value = '';
-            document.getElementById('searchFilter').value = '';
+            $('#topicFilter').val('');
+            $('#dateFilter').val('');
+            $('#searchFilter').val('');
             currentFilters = { topic: '', date: '', search: '' };
             updateActiveFilters();
             displayNews(allArticles);
         }
 
         function updateActiveFilters() {
-            const activeFiltersContainer = document.getElementById('activeFilters');
-            activeFiltersContainer.innerHTML = '';
+            const activeFiltersContainer = $('#activeFilters');
+            activeFiltersContainer.empty();
             
             if (currentFilters.topic) {
-                const filterElement = document.createElement('div');
-                filterElement.className = 'active-filter';
-                filterElement.innerHTML = `
-                    Topic: ${currentFilters.topic}
-                    <span class="remove" onclick="removeFilter('topic')">×</span>
-                `;
-                activeFiltersContainer.appendChild(filterElement);
+                activeFiltersContainer.append(`
+                    <div class="col-auto">
+                        <span class="badge active-filter p-2">
+                            Topic: ${currentFilters.topic}
+                            <i class="fas fa-times ms-1" style="cursor: pointer;" onclick="removeFilter('topic')"></i>
+                        </span>
+                    </div>
+                `);
             }
             
             if (currentFilters.date) {
-                const filterElement = document.createElement('div');
-                filterElement.className = 'active-filter';
-                filterElement.innerHTML = `
-                    Date: ${new Date(currentFilters.date).toLocaleDateString()}
-                    <span class="remove" onclick="removeFilter('date')">×</span>
-                `;
-                activeFiltersContainer.appendChild(filterElement);
+                activeFiltersContainer.append(`
+                    <div class="col-auto">
+                        <span class="badge active-filter p-2">
+                            Date: ${new Date(currentFilters.date).toLocaleDateString()}
+                            <i class="fas fa-times ms-1" style="cursor: pointer;" onclick="removeFilter('date')"></i>
+                        </span>
+                    </div>
+                `);
             }
             
             if (currentFilters.search) {
-                const filterElement = document.createElement('div');
-                filterElement.className = 'active-filter';
-                filterElement.innerHTML = `
-                    Search: "${currentFilters.search}"
-                    <span class="remove" onclick="removeFilter('search')">×</span>
-                `;
-                activeFiltersContainer.appendChild(filterElement);
+                activeFiltersContainer.append(`
+                    <div class="col-auto">
+                        <span class="badge active-filter p-2">
+                            Search: "${currentFilters.search}"
+                            <i class="fas fa-times ms-1" style="cursor: pointer;" onclick="removeFilter('search')"></i>
+                        </span>
+                    </div>
+                `);
             }
         }
 
         function removeFilter(filterType) {
             if (filterType === 'topic') {
-                document.getElementById('topicFilter').value = '';
+                $('#topicFilter').val('');
             } else if (filterType === 'date') {
-                document.getElementById('dateFilter').value = '';
+                $('#dateFilter').val('');
             } else if (filterType === 'search') {
-                document.getElementById('searchFilter').value = '';
+                $('#searchFilter').val('');
             }
             applyFilters();
         }
 
         function filterByTopic(topic) {
-            document.getElementById('topicFilter').value = topic;
+            $('#topicFilter').val(topic);
             applyFilters();
         }
 
         function displayNews(articles) {
             // Hide loading spinner
-            const loadingElement = document.getElementById('loading');
-            if (loadingElement) {
-                loadingElement.style.display = 'none';
-            }
+            $('#loading').hide();
             
             // Update last updated time
-            const lastUpdated = document.getElementById('lastUpdated');
-            if (lastUpdated) {
-                lastUpdated.textContent = `Last updated: ${new Date().toLocaleString()}`;
-            }
+            $('#lastUpdated').text(`Last updated: ${new Date().toLocaleString()}`);
             
             // Update article count
-            const articleCount = document.getElementById('articleCount');
-            if (articleCount) {
-                articleCount.textContent = `${articles.length} articles`;
-            }
+            $('#articleCount').text(`${articles.length} articles`);
             
-            // Display news articles
-            const newsGrid = document.getElementById('newsGrid');
-            if (!newsGrid) return;
-            
-            newsGrid.style.display = 'grid';
-            
-            if (!articles || articles.length === 0) {
-                newsGrid.innerHTML = `
-                    <div class="no-news">
-                        <h3>No news articles match your filters</h3>
-                        <p>Try adjusting your search criteria or clear filters to see all articles.</p>
-                        <button onclick="clearFilters()" class="read-more-btn" style="margin-top: 1rem;">
-                            Clear Filters
-                        </button>
-                    </div>
-                `;
+            // Show/hide no results message
+            if (articles.length === 0) {
+                $('#newsGrid').hide();
+                $('#noResults').show();
                 return;
+            } else {
+                $('#noResults').hide();
+                $('#newsGrid').show();
             }
             
             // Create news cards
-            try {
-                newsGrid.innerHTML = articles.map((article, index) => {
-                    const title = article.title || 'No title available';
-                    const url = article.url || '#';
-                    const source = article.source || 'Unknown Source';
-                    const date = article.date || 'Unknown date';
-                    const description = article.description || 'No description available.';
-                    const imageUrl = article.imageUrl || '';
-                    const keyword = article.keyword || '';
-                    
-                    return `
-                        <div class="news-card">
+            const newsGrid = $('#newsGrid');
+            newsGrid.empty();
+            
+            articles.forEach(article => {
+                const title = article.title || 'No title available';
+                const url = article.url || '#';
+                const source = article.source || 'Unknown Source';
+                const date = article.date || 'Unknown date';
+                const description = article.description || 'No description available.';
+                const imageUrl = article.imageUrl || '';
+                const keyword = article.keyword || '';
+                
+                const newsCard = `
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card news-card h-100">
                             ${imageUrl ? `
                                 <div class="news-image">
-                                    <img src="${imageUrl}" alt="${title}" onerror="this.parentElement.innerHTML = '<div style=\"display: flex; align-items: center; justify-content: center; height: 100%; background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 2rem;\">🌱</div>';">
+                                    <img src="${imageUrl}" class="card-img-top" alt="${title}" 
+                                         onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\"card-img-top bg-primary text-white d-flex align-items-center justify-content-center\" style=\"height: 200px;\"><i class=\"fas fa-leaf fa-3x\"></i></div>'">
                                 </div>
-                            ` : '<div class="news-image" style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 2rem;">🌱</div>'}
-                            <div class="news-content">
-                                <div class="news-meta">
-                                    <span class="news-source">${source}</span>
-                                    <span class="news-date">${date}</span>
+                            ` : '<div class="card-img-top bg-primary text-white d-flex align-items-center justify-content-center" style="height: 200px;"><i class="fas fa-leaf fa-3x"></i></div>'}
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="badge bg-secondary">${source}</span>
+                                    <small class="text-muted">${date}</small>
                                 </div>
-                                <h3 class="news-title">${title}</h3>
-                                <p class="news-description">${description}</p>
+                                <h5 class="card-title">${title}</h5>
+                                <p class="card-text flex-grow-1">${description}</p>
                                 ${keyword ? `
-                                <div class="news-keyword">
-                                    <span onclick="filterByTopic('${keyword}')" title="Click to filter by this topic">Topic: ${keyword}</span>
+                                <div class="mb-3">
+                                    <span class="badge topic-badge bg-info" onclick="filterByTopic('${keyword}')" 
+                                          title="Click to filter by this topic">
+                                        Topic: ${keyword}
+                                    </span>
                                 </div>
                                 ` : ''}
-                                <a href="${url}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
-                                    Read Full Article →
+                                <a href="${url}" target="_blank" class="btn btn-primary mt-auto">
+                                    Read Full Article <i class="fas fa-arrow-right ms-1"></i>
                                 </a>
                             </div>
                         </div>
-                    `;
-                }).join('');
-                
-                console.log(`✅ Displayed ${articles.length} articles`);
-            } catch (renderError) {
-                console.error('Error rendering articles:', renderError);
-                newsGrid.innerHTML = `
-                    <div class="no-news">
-                        <h3>Error displaying articles</h3>
-                        <p>There was a problem rendering the news content.</p>
                     </div>
                 `;
-            }
+                
+                newsGrid.append(newsCard);
+            });
         }
 
         function showError(message) {
-            console.error('Showing error:', message);
-            
-            const loadingElement = document.getElementById('loading');
-            if (loadingElement) {
-                loadingElement.style.display = 'none';
-            }
-            
-            const errorDiv = document.getElementById('errorMessage');
-            if (errorDiv) {
-                errorDiv.textContent = message;
-                errorDiv.style.display = 'block';
-            }
+            $('#loading').hide();
+            alert('Error: ' + message);
         }
 
         // Load news when page loads
-        document.addEventListener('DOMContentLoaded', loadNews);
+        $(document).ready(function() {
+            loadNews();
+        });
     </script>
 </body>
 </html>
