@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustainability News Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -27,13 +28,13 @@
 
         .header {
             text-align: center;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             color: white;
         }
 
         .header h1 {
             font-size: 3rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
@@ -41,7 +42,13 @@
             font-size: 1.2rem;
             opacity: 0.9;
             max-width: 600px;
-            margin: 0 auto;
+            margin: 0 auto 0.5rem;
+        }
+
+        .curated-by {
+            font-size: 1rem;
+            opacity: 0.8;
+            font-style: italic;
         }
 
         .news-container {
@@ -49,6 +56,100 @@
             border-radius: 15px;
             padding: 2rem;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 2rem;
+        }
+
+        /* Filter Section */
+        .filter-section {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: end;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .filter-select, .filter-input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-select:focus, .filter-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .filter-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .filter-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .filter-btn:hover {
+            background: #5a6fd8;
+        }
+
+        .filter-btn.secondary {
+            background: #6c757d;
+        }
+
+        .filter-btn.secondary:hover {
+            background: #5a6268;
+        }
+
+        .active-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .active-filter {
+            background: #667eea;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .active-filter .remove {
+            cursor: pointer;
+            font-weight: bold;
         }
 
         .stats-bar {
@@ -192,6 +293,12 @@
             border-radius: 15px;
             font-size: 0.8rem;
             border: 1px solid #d4e6d4;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .news-keyword span:hover {
+            background: #e0f0e0;
         }
 
         .read-more-btn {
@@ -231,6 +338,35 @@
             text-align: center;
         }
 
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+        }
+
+        .linkedin-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 0.75rem 1.5rem;
+            border: 2px solid white;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .linkedin-link:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .linkedin-icon {
+            font-size: 1.3rem;
+        }
+
         @media (max-width: 768px) {
             .news-grid {
                 grid-template-columns: 1fr;
@@ -249,6 +385,19 @@
                 gap: 1rem;
                 text-align: center;
             }
+            
+            .filter-row {
+                flex-direction: column;
+            }
+            
+            .filter-actions {
+                width: 100%;
+                justify-content: stretch;
+            }
+            
+            .filter-btn {
+                flex: 1;
+            }
         }
     </style>
 </head>
@@ -257,11 +406,44 @@
         <div class="header">
             <h1>🌱 Sustainability News Hub</h1>
             <p>Latest updates on ESG, circular economy, and sustainable business practices</p>
+            <p class="curated-by">curated by Vishal Londhe</p>
         </div>
 
         <div class="news-container">
             <div id="errorMessage" class="error-message" style="display: none;"></div>
             
+            <!-- Filter Section -->
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="topicFilter">Filter by Topic</label>
+                        <select id="topicFilter" class="filter-select">
+                            <option value="">All Topics</option>
+                            <!-- Topics will be populated dynamically -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="dateFilter">Filter by Date</label>
+                        <input type="date" id="dateFilter" class="filter-input">
+                    </div>
+                    <div class="filter-group">
+                        <label for="searchFilter">Search Articles</label>
+                        <input type="text" id="searchFilter" class="filter-input" placeholder="Search titles and descriptions...">
+                    </div>
+                </div>
+                <div class="filter-actions">
+                    <button onclick="applyFilters()" class="filter-btn">
+                        <i class="fas fa-filter"></i> Apply Filters
+                    </button>
+                    <button onclick="clearFilters()" class="filter-btn secondary">
+                        <i class="fas fa-times"></i> Clear All
+                    </button>
+                </div>
+                <div id="activeFilters" class="active-filters">
+                    <!-- Active filters will appear here -->
+                </div>
+            </div>
+
             <div class="stats-bar">
                 <div id="lastUpdated" class="last-updated">Last updated: Loading...</div>
                 <div id="articleCount" class="article-count">Loading articles...</div>
@@ -278,7 +460,21 @@
         </div>
     </div>
 
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/vishallondhe" target="_blank" class="linkedin-link">
+            <i class="fab fa-linkedin linkedin-icon"></i>
+            Follow me on LinkedIn
+        </a>
+    </div>
+
     <script>
+        let allArticles = [];
+        let currentFilters = {
+            topic: '',
+            date: '',
+            search: ''
+        };
+
         // Load news data
         async function loadNews() {
             try {
@@ -288,107 +484,285 @@
                 console.log('Response status:', response.status);
                 
                 if (!response.ok) {
-                    throw new Error(`Failed to load news: ${response.status} ${response.statusText}`);
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
-                const data = await response.json();
-                console.log('News data loaded:', data);
+                const text = await response.text();
+                console.log('Raw response text length:', text.length);
                 
-                displayNews(data);
+                let data;
+                try {
+                    data = JSON.parse(text);
+                    console.log('✅ Direct JSON parsing successful');
+                } catch (jsonError) {
+                    console.error('JSON parse error:', jsonError);
+                    // Try to fix JSON
+                    const fixedText = text
+                        .replace(/[\u0000-\u001F\u007F-\u009F]/g, '')
+                        .replace(/,\s*}/g, '}')
+                        .replace(/,\s*]/g, ']')
+                        .replace(/([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)/g, '$1"$2"$3')
+                        .replace(/'/g, '"')
+                        .trim();
+                    
+                    try {
+                        data = JSON.parse(fixedText);
+                        console.log('✅ Fixed JSON parsing successful');
+                    } catch (secondError) {
+                        console.error('Could not fix JSON:', secondError);
+                        data = {
+                            lastUpdated: new Date().toISOString(),
+                            totalArticles: 0,
+                            articles: [],
+                            error: 'Invalid JSON format'
+                        };
+                    }
+                }
+                
+                console.log('Parsed data structure:', {
+                    lastUpdated: data.lastUpdated,
+                    totalArticles: data.totalArticles,
+                    articlesCount: data.articles ? data.articles.length : 0
+                });
+                
+                allArticles = data.articles || [];
+                initializeFilters(allArticles);
+                displayNews(allArticles);
+                
             } catch (error) {
                 console.error('Error loading news:', error);
                 showError('Failed to load news: ' + error.message);
             }
         }
 
-        function displayNews(data) {
+        function initializeFilters(articles) {
+            // Extract unique topics
+            const topics = [...new Set(articles.map(article => article.keyword).filter(Boolean))];
+            const topicFilter = document.getElementById('topicFilter');
+            
+            // Clear existing options except the first one
+            while (topicFilter.options.length > 1) {
+                topicFilter.remove(1);
+            }
+            
+            // Add topic options
+            topics.sort().forEach(topic => {
+                const option = document.createElement('option');
+                option.value = topic;
+                option.textContent = topic;
+                topicFilter.appendChild(option);
+            });
+        }
+
+        function applyFilters() {
+            const topicFilter = document.getElementById('topicFilter').value;
+            const dateFilter = document.getElementById('dateFilter').value;
+            const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
+            
+            currentFilters = {
+                topic: topicFilter,
+                date: dateFilter,
+                search: searchFilter
+            };
+            
+            updateActiveFilters();
+            
+            const filteredArticles = allArticles.filter(article => {
+                // Topic filter
+                if (topicFilter && article.keyword !== topicFilter) {
+                    return false;
+                }
+                
+                // Date filter
+                if (dateFilter) {
+                    const articleDate = new Date(article.date.split('-').reverse().join('-'));
+                    const filterDate = new Date(dateFilter);
+                    if (articleDate.toDateString() !== filterDate.toDateString()) {
+                        return false;
+                    }
+                }
+                
+                // Search filter
+                if (searchFilter) {
+                    const searchText = searchFilter.toLowerCase();
+                    const titleMatch = article.title.toLowerCase().includes(searchText);
+                    const descMatch = article.description.toLowerCase().includes(searchText);
+                    if (!titleMatch && !descMatch) {
+                        return false;
+                    }
+                }
+                
+                return true;
+            });
+            
+            displayNews(filteredArticles);
+        }
+
+        function clearFilters() {
+            document.getElementById('topicFilter').value = '';
+            document.getElementById('dateFilter').value = '';
+            document.getElementById('searchFilter').value = '';
+            currentFilters = { topic: '', date: '', search: '' };
+            updateActiveFilters();
+            displayNews(allArticles);
+        }
+
+        function updateActiveFilters() {
+            const activeFiltersContainer = document.getElementById('activeFilters');
+            activeFiltersContainer.innerHTML = '';
+            
+            if (currentFilters.topic) {
+                const filterElement = document.createElement('div');
+                filterElement.className = 'active-filter';
+                filterElement.innerHTML = `
+                    Topic: ${currentFilters.topic}
+                    <span class="remove" onclick="removeFilter('topic')">×</span>
+                `;
+                activeFiltersContainer.appendChild(filterElement);
+            }
+            
+            if (currentFilters.date) {
+                const filterElement = document.createElement('div');
+                filterElement.className = 'active-filter';
+                filterElement.innerHTML = `
+                    Date: ${new Date(currentFilters.date).toLocaleDateString()}
+                    <span class="remove" onclick="removeFilter('date')">×</span>
+                `;
+                activeFiltersContainer.appendChild(filterElement);
+            }
+            
+            if (currentFilters.search) {
+                const filterElement = document.createElement('div');
+                filterElement.className = 'active-filter';
+                filterElement.innerHTML = `
+                    Search: "${currentFilters.search}"
+                    <span class="remove" onclick="removeFilter('search')">×</span>
+                `;
+                activeFiltersContainer.appendChild(filterElement);
+            }
+        }
+
+        function removeFilter(filterType) {
+            if (filterType === 'topic') {
+                document.getElementById('topicFilter').value = '';
+            } else if (filterType === 'date') {
+                document.getElementById('dateFilter').value = '';
+            } else if (filterType === 'search') {
+                document.getElementById('searchFilter').value = '';
+            }
+            applyFilters();
+        }
+
+        function filterByTopic(topic) {
+            document.getElementById('topicFilter').value = topic;
+            applyFilters();
+        }
+
+        function displayNews(articles) {
             // Hide loading spinner
-            document.getElementById('loading').style.display = 'none';
+            const loadingElement = document.getElementById('loading');
+            if (loadingElement) {
+                loadingElement.style.display = 'none';
+            }
             
             // Update last updated time
             const lastUpdated = document.getElementById('lastUpdated');
-            if (data.lastUpdated) {
-                const date = new Date(data.lastUpdated);
-                lastUpdated.textContent = `Last updated: ${date.toLocaleString()}`;
+            if (lastUpdated) {
+                lastUpdated.textContent = `Last updated: ${new Date().toLocaleString()}`;
             }
             
             // Update article count
             const articleCount = document.getElementById('articleCount');
-            const count = data.articles ? data.articles.length : 0;
-            articleCount.textContent = `${count} articles`;
+            if (articleCount) {
+                articleCount.textContent = `${articles.length} articles`;
+            }
             
             // Display news articles
             const newsGrid = document.getElementById('newsGrid');
+            if (!newsGrid) return;
+            
             newsGrid.style.display = 'grid';
             
-            if (!data.articles || data.articles.length === 0) {
+            if (!articles || articles.length === 0) {
                 newsGrid.innerHTML = `
                     <div class="no-news">
-                        <h3>No news articles available</h3>
-                        <p>News are automatically fetched daily. Check back soon!</p>
-                        <p><small>Last fetch: ${data.lastUpdated ? new Date(data.lastUpdated).toLocaleString() : 'Unknown'}</small></p>
+                        <h3>No news articles match your filters</h3>
+                        <p>Try adjusting your search criteria or clear filters to see all articles.</p>
+                        <button onclick="clearFilters()" class="read-more-btn" style="margin-top: 1rem;">
+                            Clear Filters
+                        </button>
                     </div>
                 `;
                 return;
             }
             
             // Create news cards
-            newsGrid.innerHTML = data.articles.map(article => `
-                <div class="news-card">
-                    ${article.imageUrl ? `
-                        <div class="news-image">
-                            <img src="${article.imageUrl}" alt="${article.title}" onerror="this.style.display='none'">
+            try {
+                newsGrid.innerHTML = articles.map((article, index) => {
+                    const title = article.title || 'No title available';
+                    const url = article.url || '#';
+                    const source = article.source || 'Unknown Source';
+                    const date = article.date || 'Unknown date';
+                    const description = article.description || 'No description available.';
+                    const imageUrl = article.imageUrl || '';
+                    const keyword = article.keyword || '';
+                    
+                    return `
+                        <div class="news-card">
+                            ${imageUrl ? `
+                                <div class="news-image">
+                                    <img src="${imageUrl}" alt="${title}" onerror="this.parentElement.innerHTML = '<div style=\"display: flex; align-items: center; justify-content: center; height: 100%; background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 2rem;\">🌱</div>';">
+                                </div>
+                            ` : '<div class="news-image" style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 2rem;">🌱</div>'}
+                            <div class="news-content">
+                                <div class="news-meta">
+                                    <span class="news-source">${source}</span>
+                                    <span class="news-date">${date}</span>
+                                </div>
+                                <h3 class="news-title">${title}</h3>
+                                <p class="news-description">${description}</p>
+                                ${keyword ? `
+                                <div class="news-keyword">
+                                    <span onclick="filterByTopic('${keyword}')" title="Click to filter by this topic">Topic: ${keyword}</span>
+                                </div>
+                                ` : ''}
+                                <a href="${url}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                                    Read Full Article →
+                                </a>
+                            </div>
                         </div>
-                    ` : '<div class="news-image" style="background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">🌱</div>'}
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-source">${article.source || 'Unknown Source'}</span>
-                            <span class="news-date">${article.date || 'Unknown date'}</span>
-                        </div>
-                        <h3 class="news-title">${article.title || 'No title'}</h3>
-                        <p class="news-description">${article.description || 'No description available.'}</p>
-                        ${article.keyword ? `
-                        <div class="news-keyword">
-                            <span>Topic: ${article.keyword}</span>
-                        </div>
-                        ` : ''}
-                        <a href="${article.url || '#'}" target="_blank" rel="noopener noreferrer" class="read-more-btn">
-                            Read Full Article →
-                        </a>
+                    `;
+                }).join('');
+                
+                console.log(`✅ Displayed ${articles.length} articles`);
+            } catch (renderError) {
+                console.error('Error rendering articles:', renderError);
+                newsGrid.innerHTML = `
+                    <div class="no-news">
+                        <h3>Error displaying articles</h3>
+                        <p>There was a problem rendering the news content.</p>
                     </div>
-                </div>
-            `).join('');
+                `;
+            }
         }
 
         function showError(message) {
-            document.getElementById('loading').style.display = 'none';
-            const errorDiv = document.getElementById('errorMessage');
-            errorDiv.textContent = message;
-            errorDiv.style.display = 'block';
+            console.error('Showing error:', message);
             
-            const newsGrid = document.getElementById('newsGrid');
-            newsGrid.style.display = 'block';
-            newsGrid.innerHTML = `
-                <div class="no-news">
-                    <h3>Unable to load news</h3>
-                    <p>${message}</p>
-                    <button onclick="loadNews()" class="read-more-btn" style="margin-top: 1rem;">
-                        Try Again
-                    </button>
-                </div>
-            `;
+            const loadingElement = document.getElementById('loading');
+            if (loadingElement) {
+                loadingElement.style.display = 'none';
+            }
+            
+            const errorDiv = document.getElementById('errorMessage');
+            if (errorDiv) {
+                errorDiv.textContent = message;
+                errorDiv.style.display = 'block';
+            }
         }
 
         // Load news when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('DOM loaded, starting news load...');
-            loadNews();
-        });
-
-        // Also try to load news if there's an issue
-        window.addEventListener('error', function(e) {
-            console.error('Window error:', e);
-        });
+        document.addEventListener('DOMContentLoaded', loadNews);
     </script>
 </body>
 </html>
