@@ -1,55 +1,44 @@
-name: Daily News Fetch
+name: Daily News Update
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs daily at 08:00 UTC
-  workflow_dispatch:
+    # Run daily at 7 AM CET (6 AM UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual triggering
+    inputs:
+      debug:
+        description: 'Run in debug mode'
+        required: false
+        default: false
 
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run news fetcher
-        run: python fetch_news.py
-
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-
-          # Make sure we're in a valid branch
-          if git rev-parse --verify news-data >/dev/null 2>&1; then
-            git checkout news-data
-          else
-            git checkout -b news-data
-          fi
-
-          # Add and commit any changes
-          git add news.json || true
-          if git diff --cached --quiet; then
-            echo "No new changes to commit."
-            exit 0
-          fi
-
-          git commit -m "Daily news update - $(date '+%Y-%m-%d %H:%M:%S')"
-
-          # Push safely (create branch if missing)
-          git push --set-upstream origin news-data --force
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install feedparser
+        
+    - name: Fetch latest news
+      run: |
+        python fetch_news.py
+        
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/news.json
+        git diff --staged --quiet || git commit -m "🤖 Auto-update news - $(date +'%Y-%m-%d %H:%M')"
+        git push
