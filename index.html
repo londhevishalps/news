@@ -71,6 +71,16 @@
             font-style: italic;
             opacity: 0.9;
         }
+        
+        .debug-info {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
@@ -89,6 +99,12 @@
 
     <!-- Main Content -->
     <div class="container">
+        <!-- Debug Info (remove this section after fixing) -->
+        <div id="debugInfo" class="debug-info" style="display: none;">
+            <strong>Debug Information:</strong>
+            <div id="debugContent"></div>
+        </div>
+
         <!-- Filter Section -->
         <div class="filter-section">
             <div class="row g-3 align-items-end">
@@ -153,6 +169,13 @@
                 Clear All Filters
             </button>
         </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="alert alert-danger" style="display: none;">
+            <h4 class="alert-heading">Error Loading News</h4>
+            <p id="errorText"></p>
+            <button onclick="loadNews()" class="btn btn-danger">Try Again</button>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -182,33 +205,124 @@
             search: ''
         };
 
-        // Load news data
+        // Load news data with robust error handling
         async function loadNews() {
             try {
-                console.log('Starting to load news...');
+                console.log('🔍 Starting to load news from news.json...');
+                
+                // Show loading state
+                $('#loading').show();
+                $('#newsGrid').hide();
+                $('#noResults').hide();
+                $('#errorMessage').hide();
+                $('#debugInfo').hide();
                 
                 const response = await fetch('./news.json');
+                console.log('📡 Response status:', response.status);
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
-                const data = await response.json();
-                console.log('News data loaded:', data);
+                const text = await response.text();
+                console.log('📄 Raw response length:', text.length);
                 
-                allArticles = data.articles || [];
+                // Show debug info
+                $('#debugContent').html(`
+                    <div>Response length: ${text.length} characters</div>
+                    <div>First 500 chars: ${text.substring(0, 500)}...</div>
+                `);
+                $('#debugInfo').show();
+                
+                let data;
+                try {
+                    data = JSON.parse(text);
+                    console.log('✅ JSON parsing successful');
+                    console.log('📊 Data structure:', data);
+                } catch (jsonError) {
+                    console.error('❌ JSON parse error:', jsonError);
+                    
+                    // Try to fix common JSON issues
+                    const fixedText = text
+                        .replace(/[\u0000-\u001F\u007F-\u009F]/g, '') // Remove control characters
+                        .replace(/,\s*}/g, '}') // Remove trailing commas
+                        .replace(/,\s*]/g, ']') // Remove trailing commas in arrays
+                        .replace(/([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)/g, '$1"$2"$3') // Add quotes to unquoted keys
+                        .replace(/'/g, '"') // Replace single quotes with double quotes
+                        .trim();
+                    
+                    console.log('🛠️ Attempting to fix JSON...');
+                    
+                    try {
+                        data = JSON.parse(fixedText);
+                        console.log('✅ Fixed JSON parsing successful');
+                    } catch (secondError) {
+                        console.error('❌ Could not fix JSON:', secondError);
+                        throw new Error('Invalid JSON format in news.json file');
+                    }
+                }
+                
+                // Handle different possible data structures
+                if (Array.isArray(data)) {
+                    // If the root is an array, use it directly
+                    console.log('📝 Data is array, using directly');
+                    allArticles = data;
+                } else if (data && typeof data === 'object') {
+                    // If it's an object, look for articles property
+                    if (data.articles && Array.isArray(data.articles)) {
+                        console.log('📝 Found articles array in data object');
+                        allArticles = data.articles;
+                    } else if (data.articles && typeof data.articles === 'object') {
+                        // Handle case where articles might be an object instead of array
+                        console.log('📝 Articles is object, converting to array');
+                        allArticles = Object.values(data.articles);
+                    } else {
+                        // Try to find any array in the object
+                        const arrays = Object.values(data).filter(val => Array.isArray(val));
+                        if (arrays.length > 0) {
+                            console.log('📝 Using first array found in object');
+                            allArticles = arrays[0];
+                        } else {
+                            console.log('📝 No articles array found, using empty array');
+                            allArticles = [];
+                        }
+                    }
+                } else {
+                    console.log('📝 Unexpected data format, using empty array');
+                    allArticles = [];
+                }
+                
+                console.log(`📰 Loaded ${allArticles.length} articles`);
+                
+                // Update debug info with article count
+                $('#debugContent').append(`<div>Articles loaded: ${allArticles.length}</div>`);
+                
+                if (allArticles.length > 0) {
+                    console.log('📋 Sample article:', allArticles[0]);
+                }
+                
                 initializeFilters(allArticles);
                 displayNews(allArticles);
                 
             } catch (error) {
-                console.error('Error loading news:', error);
+                console.error('❌ Error loading news:', error);
                 showError('Failed to load news: ' + error.message);
             }
         }
 
         function initializeFilters(articles) {
-            // Extract unique topics
-            const topics = [...new Set(articles.map(article => article.keyword).filter(Boolean))];
+            console.log('🔧 Initializing filters with', articles.length, 'articles');
+            
+            // Extract unique topics from articles
+            const topics = [...new Set(articles
+                .map(article => {
+                    // Handle different possible property names
+                    return article.keyword || article.topic || article.category || '';
+                })
+                .filter(Boolean))];
+            
+            console.log('📌 Found topics:', topics);
+            
             const topicFilter = $('#topicFilter');
             
             // Clear existing options except the first one
@@ -234,25 +348,44 @@
             updateActiveFilters();
             
             const filteredArticles = allArticles.filter(article => {
+                // Get article properties (handle different possible names)
+                const title = (article.title || '').toLowerCase();
+                const description = (article.description || article.summary || '').toLowerCase();
+                const keyword = article.keyword || article.topic || article.category || '';
+                const articleDate = article.date || article.publishedAt || '';
+                
                 // Topic filter
-                if (topicFilter && article.keyword !== topicFilter) {
+                if (topicFilter && keyword !== topicFilter) {
                     return false;
                 }
                 
                 // Date filter
-                if (dateFilter) {
-                    const articleDate = new Date(article.date.split('-').reverse().join('-'));
-                    const filterDate = new Date(dateFilter);
-                    if (articleDate.toDateString() !== filterDate.toDateString()) {
-                        return false;
+                if (dateFilter && articleDate) {
+                    try {
+                        // Try different date formats
+                        let articleDateObj;
+                        if (articleDate.includes('-')) {
+                            // Handle DD-MM-YYYY format
+                            const [day, month, year] = articleDate.split('-');
+                            articleDateObj = new Date(`${year}-${month}-${day}`);
+                        } else {
+                            articleDateObj = new Date(articleDate);
+                        }
+                        
+                        const filterDate = new Date(dateFilter);
+                        
+                        if (articleDateObj.toDateString() !== filterDate.toDateString()) {
+                            return false;
+                        }
+                    } catch (e) {
+                        console.log('Date parsing error for article:', articleDate);
                     }
                 }
                 
                 // Search filter
                 if (searchFilter) {
-                    const searchText = searchFilter.toLowerCase();
-                    const titleMatch = article.title.toLowerCase().includes(searchText);
-                    const descMatch = article.description.toLowerCase().includes(searchText);
+                    const titleMatch = title.includes(searchFilter);
+                    const descMatch = description.includes(searchFilter);
                     if (!titleMatch && !descMatch) {
                         return false;
                     }
@@ -261,6 +394,7 @@
                 return true;
             });
             
+            console.log(`🔍 Filtered to ${filteredArticles.length} articles`);
             displayNews(filteredArticles);
         }
 
@@ -328,6 +462,8 @@
         }
 
         function displayNews(articles) {
+            console.log('🎨 Displaying', articles.length, 'articles');
+            
             // Hide loading spinner
             $('#loading').hide();
             
@@ -351,14 +487,15 @@
             const newsGrid = $('#newsGrid');
             newsGrid.empty();
             
-            articles.forEach(article => {
+            articles.forEach((article, index) => {
+                // Safely get article properties with fallbacks
                 const title = article.title || 'No title available';
-                const url = article.url || '#';
-                const source = article.source || 'Unknown Source';
-                const date = article.date || 'Unknown date';
-                const description = article.description || 'No description available.';
-                const imageUrl = article.imageUrl || '';
-                const keyword = article.keyword || '';
+                const url = article.url || article.link || '#';
+                const source = article.source || (article.source && article.source.name) || 'Unknown Source';
+                const date = article.date || article.publishedAt || 'Unknown date';
+                const description = article.description || article.summary || 'No description available.';
+                const imageUrl = article.imageUrl || article.urlToImage || '';
+                const keyword = article.keyword || article.topic || article.category || '';
                 
                 const newsCard = `
                     <div class="col-lg-4 col-md-6">
@@ -375,11 +512,11 @@
                                     <small class="text-muted">${date}</small>
                                 </div>
                                 <h5 class="card-title">${title}</h5>
-                                <p class="card-text flex-grow-1">${description}</p>
+                                <p class="card-text flex-grow-1">${description.substring(0, 150)}${description.length > 150 ? '...' : ''}</p>
                                 ${keyword ? `
                                 <div class="mb-3">
                                     <span class="badge topic-badge bg-info" onclick="filterByTopic('${keyword}')" 
-                                          title="Click to filter by this topic">
+                                          title="Click to filter by this topic" style="cursor: pointer;">
                                         Topic: ${keyword}
                                     </span>
                                 </div>
@@ -394,15 +531,24 @@
                 
                 newsGrid.append(newsCard);
             });
+            
+            console.log('✅ News display completed');
         }
 
         function showError(message) {
+            console.error('🚨 Showing error:', message);
+            
             $('#loading').hide();
-            alert('Error: ' + message);
+            $('#newsGrid').hide();
+            $('#noResults').hide();
+            
+            $('#errorText').text(message);
+            $('#errorMessage').show();
         }
 
         // Load news when page loads
         $(document).ready(function() {
+            console.log('🚀 Page loaded, starting news load...');
             loadNews();
         });
     </script>
