@@ -1,505 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sustainability News Hub</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+    }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+    .header {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: white;
+    }
 
-        .header {
-            text-align: center;
-            margin-bottom: 3rem;
-            color: white;
-        }
+    .header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
 
-        .header h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+    .header p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        max-width: 600px;
+        margin: 0 auto;
+    }
 
-        .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            max-width: 600px;
-            margin: 0 auto;
-        }
+    .news-container {
+        background: white;
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
 
-        .news-container {
-            background: white;
-            border-radius: 15px;
-            padding: 2rem;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
+    .stats-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background: #f8f9fa;
+        border-radius: 10px;
+        border-left: 4px solid #667eea;
+    }
 
-        .stats-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-        }
+    .last-updated {
+        color: #666;
+        font-size: 0.9rem;
+    }
 
-        .last-updated {
-            color: #666;
-            font-size: 0.9rem;
-        }
+    .article-count {
+        background: #667eea;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: bold;
+    }
 
-        .article-count {
-            background: #667eea;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-weight: bold;
-        }
+    .loading {
+        text-align: center;
+        padding: 3rem;
+        color: #666;
+    }
 
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: #666;
-        }
+    .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #667eea;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 1rem;
+    }
 
-        .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+    .news-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
 
+    .news-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        border: 1px solid #e8e8e8;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .news-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .news-image {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background: #f8f9fa;
+    }
+
+    .news-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .news-card:hover .news-image img {
+        transform: scale(1.05);
+    }
+
+    .news-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .news-source {
+        background: #667eea;
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .news-date {
+        color: #888;
+        font-size: 0.9rem;
+    }
+
+    .news-title {
+        color: #2c5530;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+        flex-grow: 1;
+    }
+
+    .news-description {
+        color: #555;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+        flex-grow: 1;
+    }
+
+    .news-keyword {
+        margin-bottom: 1.5rem;
+    }
+
+    .news-keyword span {
+        background: #f0f7f0;
+        color: #2c5530;
+        padding: 0.25rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        border: 1px solid #d4e6d4;
+    }
+
+    .read-more-btn {
+        display: inline-block;
+        background: #667eea;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    .read-more-btn:hover {
+        background: #5a6fd8;
+    }
+
+    .no-news {
+        text-align: center;
+        padding: 3rem;
+        grid-column: 1 / -1;
+        color: #666;
+    }
+
+    .no-news h3 {
+        margin-bottom: 1rem;
+    }
+
+    .error-message {
+        background: #ffeaa7;
+        color: #e17055;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
         .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+            grid-template-columns: 1fr;
         }
-
-        .news-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            border: 1px solid #e8e8e8;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .news-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-        }
-
-        .news-image {
-            width: 100%;
-            height: 200px;
-            overflow: hidden;
-            background: #f8f9fa;
-        }
-
-        .news-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .news-card:hover .news-image img {
-            transform: scale(1.05);
-        }
-
-        .news-content {
-            padding: 1.5rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .news-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .news-source {
-            background: #667eea;
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-
-        .news-date {
-            color: #888;
-            font-size: 0.9rem;
-        }
-
-        .news-title {
-            color: #2c5530;
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-            line-height: 1.4;
-            flex-grow: 1;
-        }
-
-        .news-description {
-            color: #555;
-            margin-bottom: 1.5rem;
-            line-height: 1.5;
-            flex-grow: 1;
-        }
-
-        .news-keyword {
-            margin-bottom: 1.5rem;
-        }
-
-        .news-keyword span {
-            background: #f0f7f0;
-            color: #2c5530;
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            border: 1px solid #d4e6d4;
-        }
-
-        .read-more-btn {
-            display: inline-block;
-            background: #667eea;
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s ease;
-            text-align: center;
-            margin-top: auto;
-        }
-
-        .read-more-btn:hover {
-            background: #5a6fd8;
-        }
-
-        .no-news {
-            text-align: center;
-            padding: 3rem;
-            grid-column: 1 / -1;
-            color: #666;
-        }
-
-        .no-news h3 {
-            margin-bottom: 1rem;
-        }
-
-        .error-message {
-            background: #ffeaa7;
-            color: #e17055;
+        
+        .container {
             padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+        }
+        
+        .stats-bar {
+            flex-direction: column;
+            gap: 1rem;
             text-align: center;
         }
-
-        @media (max-width: 768px) {
-            .news-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .stats-bar {
-                flex-direction: column;
-                gap: 1rem;
-                text-align: center;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>🌱 Sustainability News Hub</h1>
-            <p>Latest updates on ESG, circular economy, and sustainable business practices</p>
-        </div>
-
-        <div class="news-container">
-            <div id="errorMessage" class="error-message" style="display: none;"></div>
-            
-            <div class="stats-bar">
-                <div id="lastUpdated" class="last-updated">Last updated: Loading...</div>
-                <div id="articleCount" class="article-count">Loading articles...</div>
-            </div>
-
-            <div id="loading" class="loading">
-                <div class="spinner"></div>
-                <p>Loading latest sustainability news...</p>
-            </div>
-
-            <div id="newsGrid" class="news-grid" style="display: none;">
-                <!-- News cards will be inserted here by JavaScript -->
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Load news data with robust error handling
-        async function loadNews() {
-            try {
-                console.log('Starting to load news...');
-                
-                const response = await fetch('./news.json');
-                console.log('Response status:', response.status);
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                
-                const text = await response.text();
-                console.log('Raw response text length:', text.length);
-                console.log('First 500 chars:', text.substring(0, 500));
-                
-                let data;
-                try {
-                    data = JSON.parse(text);
-                    console.log('✅ Direct JSON parsing successful');
-                } catch (jsonError) {
-                    console.error('JSON parse error:', jsonError);
-                    console.log('Attempting to fix JSON...');
-                    
-                    // Try to fix common JSON issues
-                    const fixedText = text
-                        .replace(/[\u0000-\u001F\u007F-\u009F]/g, '') // Remove control characters
-                        .replace(/,\s*}/g, '}') // Remove trailing commas before }
-                        .replace(/,\s*]/g, ']') // Remove trailing commas before ]
-                        .replace(/([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)/g, '$1"$2"$3') // Add quotes to unquoted keys
-                        .replace(/'/g, '"') // Replace single quotes with double quotes
-                        .trim();
-                    
-                    console.log('Fixed text length:', fixedText.length);
-                    console.log('First 500 chars of fixed text:', fixedText.substring(0, 500));
-                    
-                    try {
-                        data = JSON.parse(fixedText);
-                        console.log('✅ Fixed JSON parsing successful');
-                    } catch (secondError) {
-                        console.error('Could not fix JSON:', secondError);
-                        // Create fallback data
-                        data = {
-                            lastUpdated: new Date().toISOString(),
-                            totalArticles: 0,
-                            articles: [],
-                            error: 'Invalid JSON format: ' + secondError.message
-                        };
-                    }
-                }
-                
-                console.log('Parsed data structure:', {
-                    lastUpdated: data.lastUpdated,
-                    totalArticles: data.totalArticles,
-                    articlesCount: data.articles ? data.articles.length : 0,
-                    hasArticles: !!(data.articles && data.articles.length > 0)
-                });
-                
-                displayNews(data);
-                
-            } catch (error) {
-                console.error('Error loading news:', error);
-                showError('Failed to load news: ' + error.message);
-            }
-        }
-
-        function displayNews(data) {
-            // Hide loading spinner
-            const loadingElement = document.getElementById('loading');
-            if (loadingElement) {
-                loadingElement.style.display = 'none';
-            }
-            
-            // Update last updated time
-            const lastUpdated = document.getElementById('lastUpdated');
-            if (lastUpdated && data.lastUpdated) {
-                try {
-                    const date = new Date(data.lastUpdated);
-                    lastUpdated.textContent = `Last updated: ${date.toLocaleString()}`;
-                } catch (dateError) {
-                    lastUpdated.textContent = `Last updated: ${data.lastUpdated}`;
-                }
-            }
-            
-            // Update article count
-            const articleCount = document.getElementById('articleCount');
-            if (articleCount) {
-                const count = data.articles ? data.articles.length : 0;
-                articleCount.textContent = `${count} articles`;
-            }
-            
-            // Display news articles
-            const newsGrid = document.getElementById('newsGrid');
-            if (!newsGrid) {
-                console.error('News grid element not found');
-                return;
-            }
-            
-            newsGrid.style.display = 'grid';
-            
-            if (!data.articles || data.articles.length === 0) {
-                let message = 'No news articles available.';
-                if (data.error) {
-                    message += ` Error: ${data.error}`;
-                } else {
-                    message += ' News are automatically fetched daily. Check back soon!';
-                }
-                
-                newsGrid.innerHTML = `
-                    <div class="no-news">
-                        <h3>${message}</h3>
-                        <p><small>Last fetch: ${data.lastUpdated ? new Date(data.lastUpdated).toLocaleString() : 'Unknown'}</small></p>
-                        <button onclick="loadNews()" class="read-more-btn" style="margin-top: 1rem;">
-                            Try Again
-                        </button>
-                    </div>
-                `;
-                return;
-            }
-            
-            // Create news cards
-            try {
-                newsGrid.innerHTML = data.articles.map((article, index) => {
-                    // Safely handle each article property
-                    const title = article.title || 'No title available';
-                    const url = article.url || '#';
-                    const source = article.source || 'Unknown Source';
-                    const date = article.date || 'Unknown date';
-                    const description = article.description || 'No description available.';
-                    const imageUrl = article.imageUrl || '';
-                    const keyword = article.keyword || '';
-                    
-                    return `
-                        <div class="news-card">
-                            ${imageUrl ? `
-                                <div class="news-image">
-                                    <img src="${imageUrl}" alt="${title}" onerror="this.parentElement.innerHTML = '<div style=\"display: flex; align-items: center; justify-content: center; height: 100%; background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 2rem;\">🌱</div>';">
-                                </div>
-                            ` : '<div class="news-image" style="display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #667eea, #764ba2); color: white; font-size: 2rem;">🌱</div>'}
-                            <div class="news-content">
-                                <div class="news-meta">
-                                    <span class="news-source">${source}</span>
-                                    <span class="news-date">${date}</span>
-                                </div>
-                                <h3 class="news-title">${title}</h3>
-                                <p class="news-description">${description}</p>
-                                ${keyword ? `
-                                <div class="news-keyword">
-                                    <span>Topic: ${keyword}</span>
-                                </div>
-                                ` : ''}
-                                <a href="${url}" target="_blank" rel="noopener noreferrer" class="read-more-btn" onclick="trackClick('${title}')">
-                                    Read Full Article →
-                                </a>
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-                
-                console.log(`✅ Displayed ${data.articles.length} articles`);
-            } catch (renderError) {
-                console.error('Error rendering articles:', renderError);
-                newsGrid.innerHTML = `
-                    <div class="no-news">
-                        <h3>Error displaying articles</h3>
-                        <p>There was a problem rendering the news content.</p>
-                        <button onclick="loadNews()" class="read-more-btn" style="margin-top: 1rem;">
-                            Try Again
-                        </button>
-                    </div>
-                `;
-            }
-        }
-
-        function showError(message) {
-            console.error('Showing error:', message);
-            
-            const loadingElement = document.getElementById('loading');
-            if (loadingElement) {
-                loadingElement.style.display = 'none';
-            }
-            
-            const errorDiv = document.getElementById('errorMessage');
-            if (errorDiv) {
-                errorDiv.textContent = message;
-                errorDiv.style.display = 'block';
-            }
-            
-            const newsGrid = document.getElementById('newsGrid');
-            if (newsGrid) {
-                newsGrid.style.display = 'block';
-                newsGrid.innerHTML = `
-                    <div class="no-news">
-                        <h3>Unable to load news</h3>
-                        <p>${message}</p>
-                        <p><small>Check the browser console for detailed error information.</small></p>
-                        <button onclick="loadNews()" class="read-more-btn" style="margin-top: 1rem;">
-                            Try Again
-                        </button>
-                    </div>
-                `;
-            }
-        }
-
-        function trackClick(articleTitle) {
-            console.log('Article clicked:', articleTitle);
-            // You can add analytics tracking here
-        }
-
-        // Load news when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('DOM loaded, starting news load...');
-            console.log('Current URL:', window.location.href);
-            console.log('News JSON URL:', new URL('./news.json', window.location.href).href);
-            loadNews();
-        });
-
-        // Global error handler
-        window.addEventListener('error', function(e) {
-            console.error('Global error:', e);
-        });
-    </script>
-</body>
-</html>
+    }
+</style>
