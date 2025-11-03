@@ -1,114 +1,168 @@
 {
-  "lastUpdated": "2025-11-03T07:04:07.048042",
-  "totalArticles": 75,
+  "lastUpdated": "2025-11-03T22:22:36.497645",
+  "totalArticles": 30,
   "articles": [
     {
-      "title": "NS United Kaiun Kaisha (TSE:9110) Earnings Growth Outpaces Expectations, But One-Off Gains Cloud Quality",
-      "url": "https://finance.yahoo.com/news/ns-united-kaiun-kaisha-tse-061113509.html",
-      "source": "Yahoo Entertainment",
+      "title": "Fashion Designer Anita Dongre Expands Global Footprint With West Coast Store",
+      "url": "https://www.forbes.com/sites/yolarobert1/2025/11/02/fashion--designer-anita-dongre-expands-global-footprint-with-west-coast-store/",
+      "source": "Forbes",
       "date": "02-11-2025",
-      "description": "NS United Kaiun Kaisha (TSE:9110) delivered robust earnings growth this year, reporting a 27% increase that easily outpaced its 5-year average annual growth ...",
-      "imageUrl": "https://media.zenfs.com/en/simply_wall_st__316/81b504139a1f8533532068eb78985d92",
-      "keyword": "sustainability business"
+      "description": "Anita Dongre, who made history as the first Indian designer to open a flagship store in New York City, and Dubai Mall, will also be the first Indian designer to unveil a flagship store in Beverly Hills, Los Angeles.",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6907d7703fee868d6af70294/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "theme": "sustainable_fashion"
     },
     {
-      "title": "Identifying Life-Changing Books with LLMs",
-      "url": "https://blog.joellehman.com/identifying-life-changing-books-with-llms.html",
-      "source": "Joellehman.com",
+      "title": "Woman Thrifts 'Stinky' Blankets, Shock at What She Does With Them Next",
+      "url": "https://biztoc.com/x/ba89ef921f905103",
+      "source": "Biztoc.com",
       "date": "02-11-2025",
-      "description": "No description available.",
+      "description": "It’s no secret that thrifting has seen a surge in popularity, especially among Generation Zers who are keen to prioritize sustainability over fast fashion. Indeed, there’s over 2.8 million TikTok posts with the tag, #thrifting, as social media users want to s…",
+      "imageUrl": "https://biztoc.com/cdn/ba89ef921f905103_s.webp",
+      "theme": "sustainable_fashion"
+    },
+    {
+      "title": "Famed Fashion Designer Anita Dongre Expands Global Footprint With Fourth International Store Opening in Beverly Hills, Los Angeles on November 1, 2025",
+      "url": "https://www.globenewswire.com/news-release/2025/11/02/3178802/0/en/Famed-Fashion-Designer-Anita-Dongre-Expands-Global-Footprint-With-Fourth-International-Store-Opening-in-Beverly-Hills-Los-Angeles-on-November-1-2025.html",
+      "source": "GlobeNewswire",
+      "date": "02-11-2025",
+      "description": "Anita Dongre, who made history as the first Indian designer to open a flagship store in New York City, and Dubai Mall, will also be the first Indian designer to unveil a flagship store in Beverly Hills, Los Angeles leading the way of taking India to the world…",
       "imageUrl": null,
-      "keyword": "sustainability business"
+      "theme": "sustainable_fashion"
     },
     {
-      "title": "Over 1,00,000 job cuts rattle tech industry in 2025: Amazon, Meta, Google, Intel lay off thousands of employees. Check full list of companies",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-news-over-100000-job-cuts-rattle-tech-industry-in-2025-amazon-meta-google-intel-lay-off-thousands-of-employees-check-full-list-of-companies/articleshow/125029264.cms",
+      "title": "SSCP Exam Dump and Braindumps for ICS2 Systems Security Practitioner Certification",
+      "url": "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/SSCP-Exam-Dump-and-Braindumps-for-ICS2-Systems-Security-Practitioner-Certification",
+      "source": "Theserverside.com",
+      "date": "02-11-2025",
+      "description": "Don't waste your time with SSCP Exam Dumps and Braindumps. Pass ICS2's Systems Security Practitioner Certification honestly with these expertly crafted SSCP sample questions and answers.",
+      "imageUrl": null,
+      "theme": "circular_economy"
+    },
+    {
+      "title": "Can Community-Led Initiatives Transform Sanitation in Tamil Nadu?",
+      "url": "https://timesofindia.indiatimes.com/city/chennai/can-community-led-initiatives-transform-sanitation-in-tamil-nadu/articleshow/125038397.cms",
       "source": "The Times of India",
       "date": "02-11-2025",
-      "description": "Tech layoffs 2025: Major technology companies worldwide are cutting costs, resulting in massive job losses. Firms like Amazon, Intel, and TCS are reducing their workforces significantly. These layoffs are driven by evolving technology, particularly AI, and sl…",
-      "imageUrl": "https://img.etimg.com/thumb/msid-125029354,width-1200,height-630,imgsize-65664,overlay-economictimes/articleshow.jpg",
-      "keyword": "sustainability business"
+      "description": "Tamil Nadu is witnessing a significant shift towards cleanliness, driven by community-led initiatives and government programs like Swachh Bharat Mission. Bio-mining of landfills and decentralized waste management are transforming dumping sites into public spa…",
+      "imageUrl": "https://static.toiimg.com/thumb/msid-125038434,width-1070,height-580,imgsize-2227561,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "theme": "circular_economy"
     },
     {
-      "title": "FPIs Return To Indian Equities With Rs 14,610 Crore Inflow In October, Ending 3-Month Exit Streak",
-      "url": "https://www.ndtvprofit.com/markets/fpis-return-to-indian-equities-with-rs-14610-crore-inflow-in-october-ending-3-month-exit-streak",
-      "source": "Ndtvprofit.com",
+      "title": "The New Road Culture Overland Oasis Is Building",
+      "url": "https://www.forbes.com/sites/danielscheffler/2025/11/02/the-new-road-culture-overland-oasis-is-building/",
+      "source": "Forbes",
       "date": "02-11-2025",
-      "description": "After three consecutive months of heavy outflows, foreign portfolio investors (FPIs) made a comeback to Indian equities in October, injecting Rs 14,610 crore into the market. The turnaround, driven by resilient corporate earnings, a rate cut by the US Federal…",
-      "imageUrl": "https://media.assettype.com/bloombergquint%2F2024-11-18%2Ftp9g2p14%2Fcolorful-abstract-background-made-of-different-met-2023-11-27-05-09-58-utc.jpg?w=1200&auto=format%2Ccompress&ogImage=true",
-      "keyword": "corporate sustainability"
+      "description": "Overland Oasis is designing resupply stations that blend function, community, and sustainability — places to recharge both batteries and people, reshaping the future of how we travel.",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/69078f11d37d3109145a5aab/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "theme": "circular_economy"
     },
     {
-      "title": "Nation's largest fleet of police Cybertrucks to patrol Las Vegas",
-      "url": "https://abcnews.go.com/US/wireStory/nations-largest-fleet-police-cybertrucks-patrol-las-vegas-127102391",
-      "source": "ABC News",
+      "title": "Locals remove obstruction to garbage dumping at Bancharedanda",
+      "url": "https://mypeoplesreview.com/2025/11/02/locals-remove-obstruction-to-garbage-dumping-at-bancharedanda/",
+      "source": "Mypeoplesreview.com",
       "date": "02-11-2025",
-      "description": "The nation’s largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November",
-      "imageUrl": "https://i.abcnewsfe.com/a/3a377173-577e-4c05-83fd-0d3377d76089/wirestory_f8294c00635009a78fa8a86741eec2ca_16x9.jpg?w=1600",
-      "keyword": "corporate sustainability"
+      "description": "Kathmandu, November 2: The obstruction that had prevented waste disposal at the Banchare Danda landfill site in the Kathmandu Valley […] The post Locals remove obstruction to garbage dumping at Bancharedanda appeared first on Peoples' Review.",
+      "imageUrl": "https://mypeoplesreview.com/wp-content/uploads/2025/11/Banchare_Dada_Dumping_Side_1_Rajesh_Dhungana.jpg",
+      "theme": "circular_economy"
     },
     {
-      "title": "John Malone owns Irish hotels, TV stations and a telco, so what happens to them now that he’s stepping down?",
-      "url": "https://www.irishtimes.com/business/2025/11/02/john-malone-owns-irish-hotels-tv-stations-and-a-telco-so-what-happens-to-them-now-that-hes-stepping-down/",
-      "source": "The Irish Times",
+      "title": "Why the Global Methane Pledge Is Falling Short",
+      "url": "https://oilprice.com/The-Environment/Global-Warming/Why-the-Global-Methane-Pledge-Is-Falling-Short.html",
+      "source": "OilPrice.com",
       "date": "02-11-2025",
-      "description": "‘Cable cowboy’ also owns two large estates, at Humewood in Wicklow and Castlemartin in Kildare, and regularly stays at both",
-      "imageUrl": "https://www.irishtimes.com/resizer/v2/XAC62675UFCRHG55URKVEO4KA4.tif?smart=true&auth=484e3cfa424526d8bd60e333142dbd3a87bcf72d9aec77e4057790dfcee3912e&width=1200&height=630",
-      "keyword": "green business"
+      "description": "The Global Methane Pledge was launched at the COP26 climate summit to accelerate the reduction of carbon emissions worldwide. However, since joining the pledge, many countries have failed to cut their methane emissions at the rate needed to meet global warmin…",
+      "imageUrl": "https://d32r1sh890xpii.cloudfront.net/article/718x300/2025-10-31_sqh5kynylg.jpg",
+      "theme": "carbon_supply_chain"
     },
     {
-      "title": "Winning bets: 10 smallcaps surged up to 55% in a week. Do you own any?",
-      "url": "https://m.economictimes.com/markets/stocks/news/winning-bets-10-smallcaps-surged-up-to-55-in-a-week-do-you-own-any/smallcap-run/slideshow/125029312.cms",
-      "source": "Economictimes.com",
+      "title": "Bill Gates’ New Priorities May Trigger a Seismic Shift in Climate Activism",
+      "url": "https://www.dailysignal.com/2025/11/02/bill-gates-new-priorities-may-trigger-seismic-shift-climate-activism/",
+      "source": "Daily Signal",
       "date": "02-11-2025",
-      "description": "Smallcap stocks witnessed a mixed week, with several counters rallying sharply on sector rotation and retail participation. Lancer Container Lines led with a 55% gain, followed by Chennai Petroleum and Hatsun Agro. Momentum was seen across finance, infrastruc…",
-      "imageUrl": "https://img.etimg.com/thumb/msid-125029312,width-1070,height-580,overlay-etmarkets/slideshow.jpg",
-      "keyword": "green business"
+      "description": "The world of climate realism just won a massive victory thanks to Bill Gates, and the long-term results are likely to be seismic. Gates isn’t... Read More The post Bill Gates’ New Priorities May Trigger a Seismic Shift in Climate Activism appeared first on Th…",
+      "imageUrl": "https://www.dailysignal.com/wp-content/uploads/2025/10/Bill-Gates-blue.jpg",
+      "theme": "carbon_supply_chain"
     },
     {
-      "title": "Is An Electric Bus A Fire Risk",
-      "url": "https://cleantechnica.com/2025/11/01/is-an-electric-bus-a-fire-risk/",
-      "source": "CleanTechnica",
+      "title": "Dumping net zero is a political adventure fraught with danger",
+      "url": "https://www.abc.net.au/news/2025-11-03/net-zero-nationals-coalition-climate-change/105962434",
+      "source": "ABC News (AU)",
       "date": "02-11-2025",
-      "description": "Recent news from New Zealand has ignited a harsh and misinformed commentary on electric buses. It appears that a petrol Subaru crashed head on into a passenger bus. Sadly, the bus driver died and the occupants of the car were injured. The callous comments on …",
-      "imageUrl": "https://cleantechnica.com/wp-content/uploads/2025/03/DALL·E-2025-03-03-16.19.55-A-futuristic-electric-transit-bus-covered-in-glowing-circuitry-patterns-travels-through-the-streets-of-Vancouver.-The-cityscape-includes-modern-glass--800x457.png",
-      "keyword": "sustainable chemicals"
+      "description": "To borrow the words of former prime minister Tony Abbott, the net zero emissions by 2050 policy for the Coalition is now dead, buried and cremated.",
+      "imageUrl": "https://live-production.wcms.abc-cdn.net.au/0775b483398e963c1c9739013c8c0340?impolicy=wcms_watermark_news&cropH=1364&cropW=2424&xPos=146&yPos=470&width=862&height=485&imformat=generic",
+      "theme": "carbon_supply_chain"
     },
     {
-      "title": "Safaricom unveils a Sh30 billion education initiative",
-      "url": "https://www.standardmedia.co.ke/business/business/article/2001533198/safaricom-unveils-a-sh30-billion-education-initiative",
-      "source": "Standard Digital",
+      "title": "Rachel Reeves’s 5% VAT cut on electricity bills will backfire, experts say",
+      "url": "https://biztoc.com/x/a373fc8d29bb561f",
+      "source": "Biztoc.com",
       "date": "02-11-2025",
-      "description": "Safaricom, through the M-Pesa Foundation, has unveiled a Sh30 billion education initiative that will provide 10,000 scholarships and upgrade more than 600 schools across the country.",
-      "imageUrl": "https://cdn.standardmedia.co.ke/images/articles/thumbnails/JpyddZAX5iHPzIe6yTL5miXz13vYSXT68u3jx8UM.jpg",
-      "keyword": "sustainable innovation"
+      "description": "Critics believe cut would mostly benefit better-off people with larger homes and increase carbon emissions Proposals being considered by Rachel Reeves to cut tax on electricity bills will backfire, experts have warned, resulting in a giveaway to richer homeow…",
+      "imageUrl": "https://biztoc.com/cdn/a373fc8d29bb561f_s.webp",
+      "theme": "carbon_supply_chain"
     },
     {
-      "title": "How your fitness app may be fueling failure, not health",
-      "url": "https://www.naturalnews.com/2025-11-02-how-fitness-app-fuels-failure-not-health.html",
-      "source": "Naturalnews.com",
+      "title": "US said to use 'bully' tactics against climate deal",
+      "url": "https://biztoc.com/x/fe421795d3a07541",
+      "source": "Biztoc.com",
       "date": "02-11-2025",
-      "description": "A study analyzing social media posts found that calorie-counting and fitness apps, instead of empowering users, often leave them feeling defeated, ashamed and ready to abandon their health goals. The core problem is automated algorithms that set rigid, unatta…",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2025/11/Fitness-Trackers.png",
-      "keyword": "sustainable innovation"
+      "description": "United States officials have been accused of using 'bully-boy tactics' against other countries in an effort to scrap the International Maritime Organization's (IMO) Net-Zero Framework, the Financial T...",
+      "imageUrl": "https://biztoc.com/cdn/fe421795d3a07541_s.webp",
+      "theme": "carbon_supply_chain"
     },
     {
-      "title": "Impactive Capital sees a structural shift creating upside for this wastewater company",
-      "url": "https://www.cnbc.com/2025/11/01/impactive-capital-sees-a-structural-shift-creating-upside-for-this-wastewater-company-.html",
-      "source": "CNBC",
-      "date": "01-11-2025",
-      "description": "Impactive Capital recently took a stake in Advanced Drainage Systems and sees earnings growth ahead that is under appreciated.",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108220032-1761921555804-gettyimages-2008254880-img_5607--exmr24-018.jpeg?v=1761921587&w=1920&h=1080",
-      "keyword": "ESG strategy"
+      "title": "US accused of ‘bully-boy’ tactics to sink climate deal",
+      "url": "https://biztoc.com/x/32bf6fb9ecdefd4c",
+      "source": "Biztoc.com",
+      "date": "02-11-2025",
+      "description": "Officials say ‘threats used to derail net zero deal for shipping industry ripped up rules of global diplomacy",
+      "imageUrl": "https://biztoc.com/cdn/32bf6fb9ecdefd4c_s.webp",
+      "theme": "carbon_supply_chain"
     },
     {
-      "title": "Aldi celebrates game-changing new policy for customers: 'I'm delighted'",
-      "url": "https://www.yahoo.com/news/articles/aldi-celebrates-game-changing-policy-234500328.html",
-      "source": "Yahoo Entertainment",
-      "date": "01-11-2025",
-      "description": "'We have significantly invested in the scheme since it launched.'",
-      "imageUrl": "https://s.yimg.com/ny/api/res/1.2/iV87__6QCBzF2n0v6sumqA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/8666058940d443a4af4f99d64351beea",
-      "keyword": "circular economy"
+      "title": "With Hurricane Melissa, Capitalism and Climate Chaos Bring Devastation to Jamaica",
+      "url": "https://www.commondreams.org/opinion/hurricane-melissa-climate-jamaica",
+      "source": "Common Dreams",
+      "date": "02-11-2025",
+      "description": "Kingston buzzed with feverish preparations and anxious alerts in the days before Melissa, a powerful Category 5 hurricane, made landfall earlier this week on the island of Jamaica. Supermarkets and hardware stores endured the crush of customers scrambling to …",
+      "imageUrl": "https://www.commondreams.org/media-library/image.jpg?id=62002486&width=1200&height=600&coordinates=0%2C344%2C0%2C344",
+      "theme": "carbon_supply_chain"
+    },
+    {
+      "title": "The ethical drinker: Insights from new book 'Rooted in Change'",
+      "url": "https://www.decanter.com/wine/the-ethical-drinker-insights-from-new-book-rooted-in-change-567521/",
+      "source": "decanter.com",
+      "date": "02-11-2025",
+      "description": "Andrew Neather and Jane Masters MW  Natalie Earl meets the authors of a new book on sustainability... The post The ethical drinker: Insights from new book 'Rooted in Change' appeared first on Decanter.",
+      "imageUrl": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/34/2025/10/Andrew-Neather-and-Jane-Masters-MW.jpg",
+      "theme": "carbon_supply_chain"
+    },
+    {
+      "title": "EU climate chief says US absence from COP30 is ‘watershed moment’",
+      "url": "https://www.politico.eu/article/eu-climate-chief-wopke-hoekstra-says-us-absence-from-cop30-watershed-moment/",
+      "source": "POLITICO.eu",
+      "date": "02-11-2025",
+      "description": "'Clearly that does damage,” EU Climate Commissioner Wopke Hoekstra tells Bloomberg.",
+      "imageUrl": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2025/11/02/GettyImages-1702166970-scaled.jpg",
+      "theme": "carbon_supply_chain"
+    },
+    {
+      "title": "2025 SkS Weekly Climate Change & Global Warming News Roundup #44",
+      "url": "https://skepticalscience.com/2025-SkS-Weekly-News-Roundup_44.html",
+      "source": "Skepticalscience.com",
+      "date": "02-11-2025",
+      "description": "A listing of 28 news and opinion articles we found interesting and shared on social media during the past week: Sun, October 26, 2025 thru Sat, November 1, 2025. Stories we promoted this week, by category: Climate Law and Justice (4 articles) <ul> <li>Trump a…",
+      "imageUrl": "https://skepticalscience.com/public/assets/images/og/button_sks_200.jpg",
+      "theme": "carbon_supply_chain"
+    },
+    {
+      "title": "View from The Hill: Nationals dump net zero – say Australia shouldn’t cut emissions faster than comparable countries",
+      "url": "https://theconversation.com/view-from-the-hill-nationals-dump-net-zero-say-australia-shouldnt-cut-emissions-faster-than-comparable-countries-268100",
+      "source": "The Conversation Africa",
+      "date": "02-11-2025",
+      "description": "the Nationals have got out in front of the Liberals and agreed to scrap their Netzero commitments.",
+      "imageUrl": "https://images.theconversation.com/files/699856/original/file-20251102-56-vfuhu2.jpg?ixlib=rb-4.1.0&rect=0%2C106%2C2646%2C1323&q=45&auto=format&w=1356&h=668&fit=crop",
+      "theme": "carbon_supply_chain"
     },
     {
       "title": "Only 7% of Materials Get Recycled – These 5 Products Were Designed to Fix That",
@@ -117,160 +171,106 @@
       "date": "01-11-2025",
       "description": "Only 7% of Materials Get Recycled – These 5 Products Were Designed to Fix ThatThe circular economy is a sustainable model of production and consumption that aims to reduce waste and extend the life of resources. Unlike the traditional...",
       "imageUrl": "https://www.yankodesign.com/images/design_news/2025/11/only-7-of-materials-get-recycled-these-5-products-were-designed-to-fix-that/Circular-Design_Recycled_9.jpg",
-      "keyword": "circular economy"
+      "theme": "sustainable_fashion"
     },
     {
-      "title": "Food scraps could power future airplanes",
-      "url": "http://www.popsci.com/technology/food-scraps-airplane-fuel/",
-      "source": "Popular Science",
+      "title": "Regenerative agriculture: How soil health can strengthen India’s textile supply chains",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/regenerative-agriculture-how-soil-health-can-strengthen-indias-textile-supply-chains/article70226702.ece",
+      "source": "BusinessLine",
       "date": "01-11-2025",
-      "description": "Scientists are turning last night’s leftovers into tomorrow’s takeoff. The post Food scraps could power future airplanes appeared first on Popular Science.",
-      "imageUrl": "https://www.popsci.com/wp-content/uploads/2025/10/food-scraps.png?quality=85&w=1200",
-      "keyword": "circular economy"
+      "description": "As world consumers shift from valuing price to purpose, regenerative fibres will provide India with a unique opportunity: ecological restoration and economic vibrancy",
+      "imageUrl": "https://bl-i.thgim.com/public/incoming/xo20sw/article70216829.ece/alternates/LANDSCAPE_1200/11073_17_11_2023_23_25_28_2_18TVAL2_STARTUP.JPG",
+      "theme": "sustainable_fashion"
     },
     {
-      "title": "Five Star AWS AI Practitioner Book ★ ★ ★ ★ ★",
-      "url": "https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Five-Star-AWS-AI-Practitioner-Book",
-      "source": "Theserverside.com",
-      "date": "01-11-2025",
-      "description": "The AWS Certified AI Practitioner Book of Exam Questions & Answers by Cameron McKenzie is a clear and complete resource for passing the AWS Certified AI Practitioner exam (AIF-C01). It fits ...",
+      "title": "Green Chemicals Market Size | Companies Analysis 2025- 2034",
+      "url": "https://www.globenewswire.com/news-release/2025/10/31/3178589/0/en/Green-Chemicals-Market-Size-Companies-Analysis-2025-2034.html",
+      "source": "GlobeNewswire",
+      "date": "31-10-2025",
+      "description": "According to Towards Chemical and Materials, the global green chemicals market size is calculated at USD 14.94 billion in 2025 and is expected to be worth around USD 29.49 billion by 2034, growing at a compound annual growth rate (CAGR) of 7.85% over the fore…",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd",
+      "theme": "sustainable_fashion"
+    },
+    {
+      "title": "Thermore Updates Freedom Padding With Full Circularity Credentials",
+      "url": "http://wwd.com/sustainability/materials/thermore-fully-circularity-padding-freedom-1238331744/",
+      "source": "WWD",
+      "date": "31-10-2025",
+      "description": "Thermore's new iteration of the signature Freedom padding is 100 percent derived from recycled materials making it a fully circular product.",
+      "imageUrl": "https://wwd.com/wp-content/uploads/2025/10/Thermores-Freedom-hyper-stretch-fully-circular-padding.jpg?w=1000&h=563&crop=1",
+      "theme": "sustainable_fashion"
+    },
+    {
+      "title": "The World’s Biggest Consumers of Electricity Are Hidden in Plain Sight",
+      "url": "https://financialpost.com/pmn/business-pmn/the-worlds-biggest-consumers-of-electricity-are-hidden-in-plain-sight",
+      "source": "Financial Post",
+      "date": "30-10-2025",
+      "description": "Producers of industrial gases use as much power as the biggest oil and tech companies, with only a fraction of it coming from renewables.",
+      "imageUrl": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/10/electricity-giants-companies-that-produce-industrial-gases.jpg",
+      "theme": "esg_reporting"
+    },
+    {
+      "title": "Acid Metal Complex Dyes Market 2025-2034: Global and Regional Analysis with Focus on Product Type, Application, and End-Use Industry",
+      "url": "https://www.globenewswire.com/news-release/2025/10/29/3176757/28124/en/Acid-Metal-Complex-Dyes-Market-2025-2034-Global-and-Regional-Analysis-with-Focus-on-Product-Type-Application-and-End-Use-Industry.html",
+      "source": "GlobeNewswire",
+      "date": "29-10-2025",
+      "description": "The market's expansion is propelled by investments in sustainable chemistry, digital textile printing, and Asia-Pacific's robust textile demand The market's expansion is propelled by investments in sustainable chemistry, digital textile printing, and Asia-Pac…",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
+      "theme": "green_chemistry"
+    },
+    {
+      "title": "Plastic Waste Management Market Size to Surpass USD 54.66 Bn by 2034",
+      "url": "https://www.globenewswire.com/news-release/2025/10/29/3176795/0/en/Plastic-Waste-Management-Market-Size-to-Surpass-USD-54-66-Bn-by-2034.html",
+      "source": "GlobeNewswire",
+      "date": "29-10-2025",
+      "description": "According to Towards Chemical and Materials, the global plastic waste management market size is calculated at USD 39.58 billion in 2025 and is expected to surpass around USD 54.66 billion by 2034, growing at a compound annual growth rate (CAGR) of 3.65% over …",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd",
+      "theme": "esg_reporting"
+    },
+    {
+      "title": "Star Bulk Carriers Corp. Announces Publication of 2024 Environmental, Social and Governance (ESG) Report",
+      "url": "https://www.globenewswire.com/news-release/2025/10/29/3176690/0/en/Star-Bulk-Carriers-Corp-Announces-Publication-of-2024-Environmental-Social-and-Governance-ESG-Report.html",
+      "source": "GlobeNewswire",
+      "date": "29-10-2025",
+      "description": "ATHENS, Greece, Oct. 29, 2025 (GLOBE NEWSWIRE) -- Star Bulk Carriers Corp. (the 'Company' or 'Star Bulk') (Nasdaq: SBLK), a global leader in dry bulk shipping, today announced the publication of its 2024 Environmental, Social and Governance (ESG) Report.",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/f8007803-6b56-4186-8124-8c4d59c188e7",
+      "theme": "esg_reporting"
+    },
+    {
+      "title": "Tandem offsets 100% of 2024 operational emissions",
+      "url": "https://www.finextra.com/pressarticle/107737/tandem-offsets-100-of-2024-operational-emissions",
+      "source": "Finextra",
+      "date": "29-10-2025",
+      "description": "Tandem, which is building the UK’s greener digital bank, has again taken climate action into its own hands, partnering with Climate Impact Partners (CIP) to offset 100% of its operational emissions for last year – purchasing over 3,300 tonnes of high-quality …",
+      "imageUrl": "https://www.finextra.com/about/finextra-logo.png",
+      "theme": "esg_reporting"
+    },
+    {
+      "title": "Tereos, LVMH Gaïa to scale plant-based polymer with Avantium technology",
+      "url": "https://www.just-style.com/news/avantium-tereos-lvmh-partnership/",
+      "source": "just-style.com",
+      "date": "28-10-2025",
+      "description": "Avantium, a company specialising in renewable and circular polymer materials, has entered into a Memorandum of Understanding (MoU) with Tereos, a producer of...",
+      "imageUrl": "https://s.yimg.com/ny/api/res/1.2/uxEJ23lTHR0nh8avhl6cTw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/just_style_482/8017d117d56f9206010f49341d2c160d",
+      "theme": "green_chemistry"
+    },
+    {
+      "title": "Carbon Black Market Size to Cross USD 44.77 Billion by 2034",
+      "url": "https://www.globenewswire.com/news-release/2025/10/27/3174660/0/en/Carbon-Black-Market-Size-to-Cross-USD-44-77-Billion-by-2034.html",
+      "source": "GlobeNewswire",
+      "date": "27-10-2025",
+      "description": "According to Towards Chemical and Materials, the global carbon black market valuation is estimated to reach USD 29.23 billion in 2025 and is anticipated to grow to USD 44.77 billion by 2034, growing at a compound annual growth rate (CAGR) of 4.85% over the fo…",
+      "imageUrl": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd",
+      "theme": "green_chemistry"
+    },
+    {
+      "title": "Towards Sustainable Plastics: A Sustainable Chemistry Assessment",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc03504j",
+      "source": "Royal Society of Chemistry",
+      "date": "27-10-2025",
+      "description": "Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC03504J, PaperJiazhe Chen, Zhichun Zhang, Qiaonan Jing, Shaoxuan Zhang, Rongjing Lu, Jianguo LiuThe expansion of plastic production and consumption has exacerbated the triple planetary crisis of climate ch…",
       "imageUrl": null,
-      "keyword": "reuse materials"
-    },
-    {
-      "title": "plastic marble display shelf turns upcycled materials into reconfigurable furniture",
-      "url": "https://www.designboom.com/design/plastic-marble-display-shelf-upcycled-materials-reconfigurable-furniture-11-01-2025/",
-      "source": "Designboom",
-      "date": "01-11-2025",
-      "description": "the composite material forms a marbled surface with distinct visual character. The post plastic marble display shelf turns upcycled materials into reconfigurable furniture appeared first on designboom | architecture & design magazine.",
-      "imageUrl": "https://www.designboom.com/twitterimages/uploads/2025/10/plastic-marble-display-shelf-modular-furniture-dls-world-official-would-you-love-seoul-wyl-designboom-1200.jpg",
-      "keyword": "reuse materials"
-    },
-    {
-      "title": "The giant basket case countries",
-      "url": "https://www.noahpinion.blog/p/the-giant-basket-case-countries",
-      "source": "Noahpinion.blog",
-      "date": "01-11-2025",
-      "description": "Article URL: https://www.noahpinion.blog/p/the-giant-basket-case-countries Comments URL: https://news.ycombinator.com/item?id=45783465 Points: 3 # Comments: 0",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DWa9!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1685b2f-9df7-4f39-93e3-a2bb656d3cdf_720x893.jpeg",
-      "keyword": "sustainable textiles"
-    },
-    {
-      "title": "Drinking tequila and mezcal sustainably on The Day of the Dead",
-      "url": "https://phys.org/news/2025-10-tequila-mezcal-sustainably-day-dead.html",
-      "source": "Phys.Org",
-      "date": "01-11-2025",
-      "description": "People in Mexico and elsewhere will soon be marking the annual Día de Muertos (Day of the Dead) on Nov. 2. Many will celebrate the day with the quintessential Mexican beverage, tequila; perhaps in the form of a slushy margarita or a shot.",
-      "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2025/day-of-the-dead.jpg",
-      "keyword": "sustainable textiles"
-    },
-    {
-      "title": "designboom radar: exhibitions to see around the world this november",
-      "url": "https://www.designboom.com/design/designboom-radar-exhibitions-around-world-november-11-01-2025/",
-      "source": "Designboom",
-      "date": "01-11-2025",
-      "description": "designboom radar rounds up a list of must-see exhibitions around the world to check out during the month of november. The post designboom radar: exhibitions to see around the world this november appeared first on designboom | architecture & design magazine.",
-      "imageUrl": "https://www.designboom.com/twitterimages/uploads/2025/11/november-radar-exhibitions-2025-designboom-FB.jpg",
-      "keyword": "sustainable textiles"
-    },
-    {
-      "title": "The No. 1 Reason New Businesses Fail, According to a Shark Tank Investor",
-      "url": "https://finance.yahoo.com/news/no-1-reason-businesses-fail-134219697.html",
-      "source": "Yahoo Entertainment",
-      "date": "01-11-2025",
-      "description": "FUBU founder Daymond John reveals why many startups fail and shares his top advice for staying honest, focused, and financially disciplined.",
-      "imageUrl": "https://s.yimg.com/ny/api/res/1.2/pwwgy5aBnPS0caQlvRmCTA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gobankingrates_644/1d8cb6cdecd541a786e08bab87635062",
-      "keyword": "fashion sustainability"
-    },
-    {
-      "title": "‘It’s the flea market of the internet’: How platforms like Vinted made second-hand clothes shopping cool again",
-      "url": "https://www.independent.ie/style/fashion/its-the-flea-market-of-the-internet-how-platforms-like-vinted-made-second-hand-clothes-shopping-cool-again/a1828831574.html",
-      "source": "Independent.ie",
-      "date": "01-11-2025",
-      "description": "Sarah Magliocco has been an enthusiastic customer of Vinted – the second-hand online clothes marketplace – since its Irish launch a year ago, and of all her purchases, one stands out.",
-      "imageUrl": "https://focus.independent.ie/thumbor/j2VSS3csorE76J-b-ivgjTstR_c=/629x460/smart/prod-mh-ireland/ff92390b-89ce-498b-a2d8-911f01941d1b/d9d830e3-78f6-4af9-a627-0e8c506a2fc2/IR%20HAPPY%20DAYS%201SH.jpg",
-      "keyword": "fashion sustainability"
-    },
-    {
-      "title": "Expedia Finds Experience-Driven Journeys On The Rise",
-      "url": "https://www.forbes.com/sites/jefffromm/2025/11/01/expedia-finds-experience-driven-journeys-on-the-rise/",
-      "source": "Forbes",
-      "date": "01-11-2025",
-      "description": "Expedia research shows the experience economy is strong.",
-      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6903677a49ee70c205a8152d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "keyword": "water stewardship"
-    },
-    {
-      "title": "What camping teaches us about commercial real estate",
-      "url": "https://www.ocregister.com/2025/11/01/what-camping-teaches-us-about-commercial-real-estate/",
-      "source": "OCRegister",
-      "date": "01-11-2025",
-      "description": "An overnight Cub Scout campout at Oso Lake brings to mind three things about commercial spaces.",
-      "imageUrl": "https://www.ocregister.com/wp-content/uploads/2025/10/OCR-L-BUCHANAN-1102.jpg?w=1024&h=667",
-      "keyword": "water stewardship"
-    },
-    {
-      "title": "What India Should Consider to Revitalize Ties for Nepal’s Credibility",
-      "url": "https://english.khabarhub.com/2025/01/503412/",
-      "source": "Khabarhub.com",
-      "date": "01-11-2025",
-      "description": "Introduction: A relationship at the crossroads: Few bilateral relationships in South Asia are as intertwined and deeply rooted as that between Nepal and India — bound by open borders, the weight of history, geography, shared culture, emotions, and a history o…",
-      "imageUrl": "https://english.khabarhub.com/wp-content/uploads/2025/10/Khabar-Hub-Article_Binoj-Basnyat_1200px-630X-px-Final_2025.10.30-Upload.jpg",
-      "keyword": "water stewardship"
-    },
-    {
-      "title": "Jade Fighter by D.A. Xiaolin Spires",
-      "url": "https://clarkesworldmagazine.com/spires_11_25/",
-      "source": "Clarkesworldmagazine.com",
-      "date": "01-11-2025",
-      "description": "It was a strange place, full of lights and fluorescence, for a space that was supposed to look like a temple in winter. Synthetic polymers gathered into fake snow fell […]",
-      "imageUrl": "https://clarkesworldmagazine.com/covers/cw_230_800.jpg?3",
-      "keyword": "clean water in fashion"
-    },
-    {
-      "title": "The Apologists by Tade Thompson",
-      "url": "https://clarkesworldmagazine.com/thompson_11_25/",
-      "source": "Clarkesworldmagazine.com",
-      "date": "01-11-2025",
-      "description": "1. THE MURDER CHAPTER ONE A dual-carriage road descends from a flyover bridge in Thamesmead, bearing sluggish traffic on both sides. From inside bus number 229, a woman looks out […]",
-      "imageUrl": "https://clarkesworldmagazine.com/covers/cw_230_800.jpg?3",
-      "keyword": "clean water in fashion"
-    },
-    {
-      "title": "11/01/2025",
-      "url": "http://www.bay12games.com/dwarves/index.html#2025-11-01",
-      "source": "Bay12games.com",
-      "date": "01-11-2025",
-      "description": "(Toady One) Ah, last month was quiet since I was a bit absorbed in the work and testing - siege update is in two days, on November 3rd! Here is   a monthly report.   Here also is   a Future of the Fortress reply.",
-      "imageUrl": null,
-      "keyword": "clean water in fashion"
-    },
-    {
-      "title": "Your November Horoscope Is Here—How to Make the Most of It",
-      "url": "https://www.womansworld.com/life/horoscopes/november-horoscope",
-      "source": "Womansworld.com",
-      "date": "01-11-2025",
-      "description": "Every year, November bridges the gap between spooky season and one of the most festive, buoyant seasons of the year, thanks to the sun moving through dynamic...",
-      "imageUrl": "https://media.zenfs.com/en/woman_s_world_418/a5e1d9f0c66bb1b653a3155fc6ef7b91",
-      "keyword": "green chemistry"
-    },
-    {
-      "title": "The World’s Best Whiskey Blenders—According To The Top Spirits Competitions",
-      "url": "https://www.forbes.com/sites/bradjaphe/2025/11/01/the-worlds-best-whiskey-blenders-according-to-the-top-spirits-competitions/",
-      "source": "Forbes",
-      "date": "01-11-2025",
-      "description": "Blending isn’t merely an important step in whiskey production, it’s what lifts the endeavor into the realm of art form. Here are the talented artists who exemplify this truth better than the rest.",
-      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/68f69db2a78adbccafbc1a08/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "keyword": "green chemistry"
-    },
-    {
-      "title": "Space Clouds Are Chemical Factories Making the Building Blocks of Life",
-      "url": "https://www.universetoday.com/articles/space-clouds-are-chemical-factories-making-the-building-blocks-of-life",
-      "source": "Universe Today",
-      "date": "01-11-2025",
-      "description": "Scientists at MIT have discovered over 100 different molecules in a stellar nursery called the Taurus Molecular Cloud-1, making it the most chemically diverse interstellar cloud ever observed. Using over 1,400 hours of telescope time, the team found mostly hy…",
-      "imageUrl": "https://www.universetoday.com/article_images/1280px-Herschels_view_of_the_Taurus_molecular_cloud_ESA384012_20251101_003456.jpg",
-      "keyword": "green chemistry"
+      "theme": "green_chemistry"
     }
   ]
 }
