@@ -47,14 +47,20 @@ def clean_text(text):
     )
 
 def format_date(date_string):
+    """Format publishedAt date from API into DD-MM-YYYY; fallback to today if invalid."""
+    if not date_string:
+        return datetime.now().strftime("%d-%m-%Y")
     try:
-        if date_string:
+        # handle ISO timestamps
+        parsed_date = datetime.fromisoformat(date_string.replace("Z", "+00:00"))
+        return parsed_date.strftime("%d-%m-%Y")
+    except Exception:
+        try:
             date_part = date_string.split("T")[0]
             year, month, day = date_part.split("-")
             return f"{day}-{month}-{year}"
-    except Exception:
-        pass
-    return datetime.now().strftime("%d-%m-%Y")
+        except Exception:
+            return datetime.now().strftime("%d-%m-%Y")
 
 def hash_query(query):
     return hashlib.md5(query.encode()).hexdigest()
@@ -112,13 +118,16 @@ def fetch_news_from_api():
                 for article in articles:
                     title = clean_text(article.get("title", ""))
                     desc = clean_text(article.get("description", ""))
+                    published_at = format_date(article.get("publishedAt", ""))
+
                     if not title or not article.get("url"):
                         continue
+
                     formatted.append({
                         "title": title,
                         "url": article.get("url"),
                         "source": clean_text(article.get("source", {}).get("name", "Unknown Source")),
-                        "date": format_date(article.get("publishedAt", "")),
+                        "date": published_at,
                         "description": desc or "No description available.",
                         "imageUrl": article.get("urlToImage", ""),
                         "theme": theme
