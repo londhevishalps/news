@@ -11,71 +11,93 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 
   <style>
-    body {
-      background-color: #f7f9f8;
-      color: #333;
-      font-family: "Inter", system-ui, -apple-system, sans-serif;
-    }
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: #f5f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
 
-    .hero-section {
-      background: linear-gradient(135deg, #0f5132 0%, #198754 100%);
-      color: #fff;
-      padding: 3rem 1rem;
-      text-align: center;
-    }
+  header {
+    background: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
 
-    .hero-section h1 {
-      font-weight: 600;
-    }
+  .news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
 
-    .news-card {
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      border: none;
-      border-radius: 0.75rem;
-      background: #fff;
-    }
+  .news-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
 
-    .news-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-    }
+  .news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
 
-    .source-badge {
-      background-color: #e9f5ee;
-      color: #198754;
-      font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
-      border-radius: 0.5rem;
-      padding: 0.25rem 0.6rem;
-    }
+  .source {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #1b4332;
+    margin-bottom: 8px;
+  }
 
-    .btn-sustain {
-      background-color: #198754;
-      color: white;
-      border: none;
-      transition: background-color 0.2s ease;
-    }
+  .source img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
 
-    .btn-sustain:hover {
-      background-color: #146c43;
-      color: #fff;
-    }
+  h2 {
+    font-size: 1.1rem;
+    color: #222;
+    margin: 8px 0;
+  }
 
-    footer {
-      background: #0f5132;
-      color: #fff;
-      padding: 2rem 1rem;
-      margin-top: 3rem;
-    }
+  p {
+    font-size: 0.95rem;
+    color: #555;
+  }
 
-    @media (max-width: 768px) {
-      .hero-section h1 {
-        font-size: 1.75rem;
-      }
-    }
-  </style>
+  .read-button {
+    background: linear-gradient(90deg, #2d6a4f, #40916c);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+
+  .read-button:hover {
+    background: linear-gradient(90deg, #1b4332, #2d6a4f);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #777;
+  }
+</style>
 </head>
 <body>
   <!-- Hero Section -->
