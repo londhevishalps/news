@@ -1,191 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sustainability News</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background-color: #EDE8E5; /* Off-White */
-      color: #003249; /* Deep Navy */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sustainability News Hub</title>
 
-    header {
-      background-color: #003249; /* Deep Navy */
-      color: #EDE8E5;
-      width: 100%;
-      text-align: center;
-      padding: 1.2rem 0;
-      font-size: 1.8rem;
-      font-weight: bold;
-      letter-spacing: 0.5px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
-    main {
-      width: 95%;
-      max-width: 1100px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      padding: 1.5rem 0;
-    }
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
-    .card {
-      background-color: #fff;
-      border: 1px solid #79C0BC; /* Soft Teal border */
-      border-radius: 12px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+    <style>
+        /* --- Ocean & Coastal Hues palette --- */
+        :root{
+          --off-white: #EDE8E5;
+          --deep-navy: #003249;
+          --soft-teal: #79C0BC;
+          --medium-blue: #428CA9;
+          --muted-text: #334b52;
+        }
 
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
+        body {
+            background-color: var(--off-white);
+            color: var(--deep-navy);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+        }
 
-    .source {
-      display: flex;
-      align-items: center;
-      padding: 0.6rem 1rem;
-      background-color: #EDE8E5; /* Light background */
-      border-bottom: 1px solid #79C0BC;
-    }
+        .hero-section {
+            background: var(--deep-navy);
+            color: var(--off-white);
+            padding: 2.5rem 0;
+            text-align: center;
+        }
 
-    .source img {
-      width: 20px;
-      height: 20px;
-      margin-right: 8px;
-      border-radius: 4px;
-      object-fit: cover;
-    }
+        .hero-section h1 { margin: 0; font-size: 1.9rem; font-weight:600; }
+        .hero-section p.lead { color: rgba(237,232,229,0.95); margin-top:.4rem; }
 
-    .source span {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: #003249;
-    }
+        .container-main { max-width: 1200px; margin: 1.75rem auto; padding: 0 1rem; }
 
-    .card-content {
-      padding: 1rem;
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-    }
+        /* Card layout */
+        .news-card {
+            border: 1px solid rgba(121,192,188,0.18);
+            border-radius: 12px;
+            background: #fff;
+            transition: transform .18s ease, box-shadow .18s ease;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .news-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+        }
 
-    .card h3 {
-      color: #003249;
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem;
-    }
+        /* Header area inside card: source left, date right */
+        .card-top {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding: 12px 14px;
+            background: linear-gradient(0deg, rgba(121,192,188,0.03), rgba(121,192,188,0.02));
+            border-bottom: 1px solid rgba(121,192,188,0.08);
+        }
+        .source-left {
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+        .source-logo {
+            width:26px;
+            height:26px;
+            object-fit:cover;
+            border-radius:6px;
+            background:#f2f2f2;
+            flex-shrink:0;
+        }
+        .source-name {
+            font-weight:600;
+            color: var(--deep-navy);
+            font-size:0.92rem;
+        }
+        .article-date {
+            font-size:0.85rem;
+            color: #6b7f84;
+        }
 
-    .card p {
-      color: #003249;
-      font-size: 0.9rem;
-      flex-grow: 1;
-      line-height: 1.4;
-    }
+        .card-body {
+            padding: 16px;
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+            flex:1 1 auto;
+        }
 
-    .card a {
-      display: inline-block;
-      margin-top: 0.8rem;
-      text-align: center;
-      background-color: #79C0BC; /* Soft Teal */
-      color: #003249;
-      padding: 0.6rem 0.9rem;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 600;
-      transition: background-color 0.2s ease;
-    }
+        .card-title {
+            margin:0;
+            font-size:1.05rem;
+            color: var(--deep-navy);
+            line-height:1.35;
+            font-weight:600;
+        }
 
-    .card a:hover {
-      background-color: #428CA9; /* Medium Blue hover */
-      color: #EDE8E5;
-    }
+        .card-desc {
+            margin:0;
+            color: var(--muted-text);
+            font-size:0.93rem;
+            line-height:1.45;
+            flex:1 1 auto;
+        }
 
-    footer {
-      margin-top: auto;
-      padding: 1rem 0;
-      text-align: center;
-      font-size: 0.85rem;
-      color: #003249;
-    }
+        .card-footer {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding: 12px 14px 18px 14px;
+            gap:10px;
+        }
 
-    @media (max-width: 600px) {
-      header {
-        font-size: 1.5rem;
-      }
-    }
-  </style>
+        .keyword-badge {
+            background: #e7f6f5;
+            color: var(--deep-navy);
+            border-radius: 10px;
+            padding:6px 10px;
+            font-size:0.82rem;
+            font-weight:600;
+        }
+
+        /* Read button in soft teal with medium blue hover */
+        .btn-read {
+            background: var(--soft-teal);
+            color: var(--deep-navy);
+            border: none;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-weight:600;
+            text-decoration:none;
+            display:inline-flex;
+            align-items:center;
+            gap:8px;
+            transition: background .15s ease, color .15s ease;
+        }
+        .btn-read:hover {
+            background: var(--medium-blue);
+            color: #fff;
+        }
+
+        /* Responsive grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.25rem;
+        }
+        @media (max-width: 992px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 576px) { .grid { grid-template-columns: 1fr; } }
+
+        /* Loading / error */
+        #loading { text-align:center; padding:2.2rem 0; color:#6b7f84; }
+        #errorMessage { margin-top:1rem; }
+
+        /* Footer stays as before but with color match */
+        .footer {
+            background: var(--deep-navy);
+            color: var(--off-white);
+            padding: 1.75rem 0;
+            margin-top: 2.5rem;
+        }
+
+    </style>
 </head>
 <body>
-  <header>Sustainability News</header>
+    <!-- Hero -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>🌿 Sustainability News Hub</h1>
+            <p class="lead">Latest updates on ESG, circular economy, and sustainable business practices</p>
+            <p style="margin:0;"><small>curated by Vishal Londhe</small></p>
+        </div>
+    </section>
 
-  <main id="news-container">Loading news...</main>
+    <!-- Main -->
+    <main class="container-main">
+        <div id="loading">
+            <div class="spinner-border" role="status" style="color:var(--soft-teal);">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div style="margin-top:10px;color:#6b7f84;">Loading latest sustainability news...</div>
+        </div>
 
-  <footer>© 2025 Sustainability News. Built for awareness, not noise.</footer>
+        <div id="newsGrid" class="grid" style="display:none;"></div>
 
-  <script>
-    async function loadNews() {
-      try {
-        const response = await fetch('news.json');
-        const data = await response.json();
-        const container = document.getElementById('news-container');
-        container.innerHTML = '';
+        <div id="errorMessage" class="alert alert-danger text-center" style="display:none;">
+            <h5>Unable to Load News</h5>
+            <p id="errorText">There was a problem loading the news articles.</p>
+            <button onclick="loadNews()" class="btn btn-danger btn-sm">Try Again</button>
+        </div>
+    </main>
 
-        data.forEach(article => {
-          const card = document.createElement('div');
-          card.className = 'card';
-          
-          const sourceDiv = document.createElement('div');
-          sourceDiv.className = 'source';
-          if (article.source_logo) {
-            const img = document.createElement('img');
-            img.src = article.source_logo;
-            img.alt = article.source_name;
-            sourceDiv.appendChild(img);
-          }
-          const span = document.createElement('span');
-          span.textContent = article.source_name || 'Source';
-          sourceDiv.appendChild(span);
-          
-          const contentDiv = document.createElement('div');
-          contentDiv.className = 'card-content';
-          
-          const title = document.createElement('h3');
-          title.textContent = article.title;
-          contentDiv.appendChild(title);
-          
-          const summary = document.createElement('p');
-          summary.textContent = article.summary || 'No summary available.';
-          contentDiv.appendChild(summary);
-          
-          const link = document.createElement('a');
-          link.href = article.url;
-          link.target = '_blank';
-          link.textContent = 'Read Article';
-          contentDiv.appendChild(link);
-          
-          card.appendChild(sourceDiv);
-          card.appendChild(contentDiv);
-          container.appendChild(card);
-        });
-      } catch (error) {
-        document.getElementById('news-container').textContent = 'Failed to load news.';
-        console.error(error);
-      }
-    }
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <a href="https://www.linkedin.com/in/vishallondhe" target="_blank" class="btn btn-outline-light btn-sm">
+                <i class="fab fa-linkedin me-2"></i>
+                Follow me on LinkedIn
+            </a>
+            <p class="mt-3 mb-0">&copy; 2025 Sustainability News Hub</p>
+        </div>
+    </footer>
 
-    loadNews();
-  </script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        async function loadNews(){
+            try {
+                $('#loading').show();
+                $('#newsGrid').hide();
+                $('#errorMessage').hide();
+
+                const resp = await fetch('./news.json');
+                if (!resp.ok) throw new Error('Failed to load news file');
+
+                const data = await resp.json();
+
+                // support both array or { articles: [...] } shapes
+                let articles = [];
+                if (Array.isArray(data)) articles = data;
+                else if (data.articles && Array.isArray(data.articles)) articles = data.articles;
+                else throw new Error('Unexpected data format in news.json');
+
+                renderArticles(articles);
+            } catch (err) {
+                $('#loading').hide();
+                $('#errorText').text(err.message);
+                $('#errorMessage').show();
+                console.error(err);
+            }
+        }
+
+        function renderArticles(articles){
+            $('#loading').hide();
+            const grid = $('#newsGrid');
+            grid.empty();
+
+            if (!articles || articles.length === 0){
+                $('#errorText').text('No news articles available. Please check back later.');
+                $('#errorMessage').show();
+                return;
+            }
+
+            // Build cards
+            articles.forEach(article => {
+                const sourceName = (article.source && article.source.name) ? article.source.name : (article.source || 'Unknown');
+                const sourceDomain = article.url ? new URL(article.url).hostname : '';
+                const sourceLogo = `https://www.google.com/s2/favicons?domain=${sourceDomain}&sz=64`;
+
+                // tracked URL (add UTM only if not present)
+                let trackedUrl = article.url || '#';
+                if (article.url && !article.url.includes('utm_source=')) {
+                    trackedUrl = `${article.url}${article.url.includes('?') ? '&' : '?'}utm_source=londhevishalps.github.io`;
+                }
+
+                const keywordBadge = article.keyword ? `<span class="keyword-badge">${escapeHtml(article.keyword)}</span>` : '';
+
+                // remove the duplicate top-left badge: we display source at top-left inside .card-top
+                const cardHtml = `
+                    <div class="news-card card">
+                        <div class="card-top">
+                            <div class="source-left">
+                                <img src="${sourceLogo}" alt="${escapeHtml(sourceName)}" class="source-logo" onerror="this.style.display='none'">
+                                <div class="source-name">${escapeHtml(sourceName)}</div>
+                            </div>
+                            <div class="article-date">${escapeHtml(article.date || '')}</div>
+                        </div>
+
+                        <div class="card-body">
+                            <div>
+                                <h3 class="card-title">${escapeHtml(article.title || 'No title')}</h3>
+                                <p class="card-desc">${escapeHtml(article.description || 'No description available.')}</p>
+                            </div>
+
+                            <div class="card-footer">
+                                <div>${keywordBadge}</div>
+                                <a class="btn-read" href="${escapeAttr(trackedUrl)}" target="_blank" rel="noopener noreferrer">
+                                    Read Article <i class="fas fa-arrow-right" style="margin-left:6px;font-size:0.85rem;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                grid.append(cardHtml);
+            });
+
+            $('#newsGrid').show();
+        }
+
+        // small helpers to reduce XSS risk when injecting strings
+        function escapeHtml(str){
+            if (!str && str !== 0) return '';
+            return String(str)
+                .replaceAll('&','&amp;')
+                .replaceAll('<','&lt;')
+                .replaceAll('>','&gt;')
+                .replaceAll('"','&quot;')
+                .replaceAll("'",'&#39;');
+        }
+        function escapeAttr(s){ return escapeHtml(s).replaceAll('"','&quot;'); }
+
+        $(document).ready(function(){ loadNews(); });
+    </script>
 </body>
 </html>
