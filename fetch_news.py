@@ -1,5 +1,5 @@
 # Author: Vishal L
-# Purpose: Fetch sustainability-related news articles and save filtered results
+# Purpose: Fetch sustainability-related news and retain the past 14 days of results
 # Date: 2025-11-04
 
 import requests
@@ -7,10 +7,10 @@ import json
 from datetime import datetime, timedelta
 import os
 
-# --- Configuration ---
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 OUTPUT_FILE = "news.json"
 RAW_FILE = "news_raw.json"
+
 KEYWORDS = [
     "sustainability", "climate", "carbon", "greenhouse", "emissions", "renewable",
     "wastewater", "pollution", "circular", "biodiversity", "chemical management",
@@ -23,8 +23,7 @@ DOMAINS = [
     "sourcingjournal.com", "fashionunited.com", "yahoo.com", "wsj.com"
 ]
 
-# --- Fetch news from News API ---
-print("--- 1. Fetching news articles ---")
+print("--- 1. Fetching fresh articles ---")
 
 params = {
     "apiKey": NEWS_API_KEY,
@@ -37,45 +36,41 @@ params = {
 
 response = requests.get("https://newsapi.org/v2/everything", params=params)
 data = response.json()
+articles = data.get("articles", [])
+print(f"Fetched {len(articles)} from API.")
 
-if "articles" not in data:
-    print("No articles found or API error.")
-    exit()
-
-articles = data["articles"]
-print(f"Fetched {len(articles)} articles from API.")
-
-# --- Save raw results ---
-raw_data = {
-    "timestamp": datetime.utcnow().isoformat(),
-    "total_articles": len(articles),
-    "data": articles
-}
-
+# Save raw data
 with open(RAW_FILE, "w", encoding="utf-8") as f:
-    json.dump(raw_data, f, indent=2, ensure_ascii=False)
+    json.dump({"timestamp": datetime.utcnow().isoformat(), "data": articles}, f, indent=2)
 
-# --- Filter articles for the past ~36 hours ---
-print("--- 2. Filtering relevant articles ---")
+# --- Load existing cache (previous news.json) ---
+existing = []
+if os.path.exists(OUTPUT_FILE):
+    try:
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+            existing = json.load(f).get("articles", [])
+        print(f"Loaded {len(existing)} cached articles.")
+    except Exception as e:
+        print(f"Warning: could not read existing cache ({e})")
 
-filtered_articles = []
+# --- Filter new articles ---
+filtered = []
 today = datetime.utcnow().date()
 yesterday = today - timedelta(days=1)
 
 for art in articles:
-    published_str = art.get("publishedAt", "")
+    pub_str = art.get("publishedAt", "")
     try:
-        published_dt = datetime.fromisoformat(published_str.replace("Z", "+00:00"))
-        art_date = published_dt.date()
+        pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+        art_date = pub_dt.date()
     except Exception:
         continue
 
     if art_date in [today, yesterday]:
         title = art.get("title", "").lower()
-        desc = art.get("description", "").lower() if art.get("description") else ""
-
+        desc = (art.get("description") or "").lower()
         if any(kw in title or kw in desc for kw in KEYWORDS):
-            filtered_articles.append({
+            filtered.append({
                 "title": art.get("title"),
                 "source": art.get("source", {}).get("name"),
                 "url": art.get("url"),
@@ -84,16 +79,36 @@ for art in articles:
                 "image": art.get("urlToImage"),
             })
 
-print(f"{len(filtered_articles)} articles remain after filtering.")
+print(f"Filtered {len(filtered)} new relevant articles.")
 
-# --- Save final filtered data ---
+# --- Merge + deduplicate by URL ---
+combined = filtered + existing
+unique = []
+seen_urls = set()
+
+for a in combined:
+    if not a.get("url") or a["url"] in seen_urls:
+        continue
+    seen_urls.add(a["url"])
+    unique.append(a)
+
+# --- Keep only the past 14 days ---
+cutoff = today - timedelta(days=14)
+final_articles = [
+    a for a in unique
+    if datetime.strptime(a["date"], "%d-%m-%Y").date() >= cutoff
+]
+
+print(f"{len(final_articles)} articles kept after 14-day filter.")
+
+# --- Save final output ---
 final_data = {
     "lastUpdated": datetime.utcnow().isoformat(),
-    "count": len(filtered_articles),
-    "articles": filtered_articles
+    "count": len(final_articles),
+    "articles": final_articles
 }
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(final_data, f, indent=2, ensure_ascii=False)
 
-print("--- ✅ News fetch complete ---")
+print("--- ✅ News fetch and merge complete ---")
