@@ -1,7 +1,39 @@
 {
-  "lastUpdated": "2025-11-04T12:34:36.931112",
-  "count": 6,
+  "lastUpdated": "2025-11-04T14:25:36.890992",
+  "count": 10,
   "articles": [
+    {
+      "title": "The Perfect Storm: Why freight brokerages face a wave of failures in 2026",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/perfect-storm-why-freight-brokerages-142408168.html",
+      "date": "03-11-2025",
+      "description": "If the current freight climate continues, a number of freight brokerages—many of them large—will likely fail over the next year. The current market presents ...",
+      "image": "https://s.yimg.com/ny/api/res/1.2/TPWCUGn8.atLF1faPWZGOg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/freightwaves_373/a34eca17867f19dd244b6f8e2d5a7c9e"
+    },
+    {
+      "title": "Analyst Says She’s ‘Suspicious’ About ‘Sustainability’ of Apple (AAPL) Stock Uptrend – Here’s Why",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/analyst-says-she-suspicious-sustainability-132140754.html",
+      "date": "03-11-2025",
+      "description": "We recently published 10 Stocks Everyone’s Discussing Amid Latest Earnings Season. Apple Inc. (NASDAQ:AAPL) is one of the stocks everyone’s discussing. Katie...",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/800a4343076e9c4b98cab9e38e3b2b07"
+    },
+    {
+      "title": "The Unsustainable Strain Of AI’s Insatiable Power Needs",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/current-climate/2025/11/03/the-unsustainable-strain-of-ais-insatiable-power-needs/",
+      "date": "03-11-2025",
+      "description": "This week’s Current Climate newsletter also looks at how electric cars could get much cheaper and Rivian’s RJ Scaringe on China’s EV price advantage",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6907f1349e9b02b87c384dd4/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+    },
+    {
+      "title": "Exclusive-QatarEnergy, Exxon executives warn of Europe exit over climate law",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/exclusive-qatarenergy-exxon-executives-warn-125156010.html",
+      "date": "03-11-2025",
+      "description": "ABU DHABI (Reuters) -Executives at two of Europe's top gas suppliers, ExxonMobil and QatarEnergy, on Monday warned they could stop doing business with the...",
+      "image": "https://media.zenfs.com/en/reuters.com/22b1adff7231c15dc1873c8e8a58d37e"
+    },
     {
       "title": "India’s Power Generation Suffers Sharpest Drop Since 2020",
       "source": "Yahoo Entertainment",
