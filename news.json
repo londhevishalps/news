@@ -1,7 +1,31 @@
 {
-  "lastUpdated": "2025-11-04T14:25:36.890992",
-  "count": 10,
+  "lastUpdated": "2025-11-05T06:56:36.335593",
+  "count": 13,
   "articles": [
+    {
+      "title": "China blames Netherlands for disrupting chip supply with Nexperia move",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/china-blames-netherlands-disrupting-chip-061151815.html",
+      "date": "04-11-2025",
+      "description": "China has blamed the Netherlands for \"turmoil and chaos\" in the global semiconductor production and supply chain after the latter seized computer chipmaker...",
+      "image": "https://media.zenfs.com/en/reuters-finance.com/719478b21daf33f600563848330d52f2"
+    },
+    {
+      "title": "Wildfires and floods cost emergency services £11m",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cdrzzjmy73eo",
+      "date": "04-11-2025",
+      "description": "Calls are being made by London Fire Brigade for more investment in climate change resilience.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/bb2e/live/de10e480-b685-11f0-b027-61021c9d4006.jpg"
+    },
+    {
+      "title": "EU scrambles to seal climate deal ahead of COP30",
+      "source": "Yahoo Entertainment",
+      "url": "https://www.yahoo.com/news/articles/eu-scrambles-seal-climate-deal-020455349.html",
+      "date": "04-11-2025",
+      "description": "EU environment ministers will Tuesday make a last-ditch attempt to reassert the bloc's climate ambitions by nailing down key emissions targets in the run-up ...",
+      "image": "https://media.zenfs.com/en/afp.com/7a83710b7aa491d181b62d5215d136fe"
+    },
     {
       "title": "The Perfect Storm: Why freight brokerages face a wave of failures in 2026",
       "source": "Yahoo Entertainment",
