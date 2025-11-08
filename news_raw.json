@@ -1,278 +1,70 @@
 {
-  "timestamp": "2025-11-07T06:56:51.533848",
+  "timestamp": "2025-11-08T06:51:31.282818",
   "data": [
     {
       "source": {
         "id": null,
         "name": "BBC News"
       },
-      "author": null,
-      "title": "Players stranded, hotels unpaid - how a Kashmir cricket league turned into a fiasco",
-      "description": "The tournament which brought international stars to the region has left local cricketers disappointed.",
-      "url": "https://www.bbc.com/news/articles/cz7pygzn5gpo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e456/live/2e716220-ba09-11f0-89aa-f945863ccfce.jpg",
-      "publishedAt": "2025-11-06T05:09:24Z",
-      "content": "A controversy has erupted over a private cricket league in Indian-administered Kashmir after its organisers allegedly left the tournament mid-way, without paying the players, support staff and hotel \u2026 [+4012 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "How caffeine can help you manage headaches and three other tips",
-      "description": "If you're getting a pattern of milder, recurring headaches here are four things you can do to help manage it.",
-      "url": "https://www.bbc.com/news/articles/cgr44j201rzo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8c33/live/26185cc0-b8a9-11f0-9418-d155a3381a50.jpg",
-      "publishedAt": "2025-11-06T02:45:03Z",
-      "content": "Headaches are something almost all of us deal with at some point.\r\nThey can last from a couple of minutes to days and the pain can be sharp, dull, throbbing or stabbing and sometimes spread beyond yo\u2026 [+4241 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "'Vibe coding' named word of the year by Collins Dictionary",
-      "description": "The art of making an app by describing it to artificial intelligence (AI) tops 10 new terms on the shortlist.",
-      "url": "https://www.bbc.com/news/articles/cpd2y053nleo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8c14/live/066ce0a0-ba64-11f0-816b-0d9abffc79a0.jpg",
-      "publishedAt": "2025-11-06T02:22:22Z",
-      "content": "Laura CressTechnology reporter\r\nIf you've ever wanted to create your own computer program but never learnt how to code, you might try \"vibe coding\".\r\nCollins Dictionary's word of the year - which is \u2026 [+2747 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Great Barrier Reef may partially recover from 'grim future' if global warming stays below 2C",
-      "description": "A new study has found certain corals are more resilient in warmer waters, giving hope to the world-famous reef.",
-      "url": "https://www.bbc.com/news/articles/cx274lj661lo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/bfe1/live/c43925f0-bab2-11f0-8453-93084b1f136d.jpg",
-      "publishedAt": "2025-11-06T02:11:49Z",
-      "content": "The Great Barrier Reef has suffered mass bleaching events in recent years\r\nThe Great Barrier Reef is headed for a \"grim future\" and will suffer a \"rapid coral decline\" by 2050 but parts may recover i\u2026 [+3039 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "William announces Earthshot Prize 2025 winners in Rio",
-      "description": "Winners include a project for making the Atlantic Forest financially viable and a global ocean treaty initiative",
-      "url": "https://www.bbc.com/news/articles/cy0y50457y9o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/67ae/live/6c4e5a10-bab0-11f0-a803-e99c5f3bd127.jpg",
-      "publishedAt": "2025-11-06T01:35:05Z",
-      "content": "Prince William with Kylie Minogue at the awards ceremony \r\nThe Prince of Wales has revealed the five winners of this year's environmental Earthshot Prize, calling them an \"inspiration that gives us c\u2026 [+4268 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Veronica Booth",
-      "title": "Driver captures video of frightening incident with massive wild animal on roadway: 'Crying shame'",
-      "description": "\"Give them space.\"",
-      "url": "https://www.yahoo.com/news/articles/driver-captures-video-frightening-incident-013000545.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/f82JhVF65vYBwv2LLXmlXQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTM7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/40e6cb2d041a52393eb68ef80b94338b",
-      "publishedAt": "2025-11-06T01:30:00Z",
-      "content": "A video of a pickup truck stopping just in time to let an elk safely cross the road has made a lot of people angry.\r\nThe clip was posted by the Instagram account Good Bull Guided Tours (@goodbullguid\u2026 [+2311 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Antonio Peque\u00f1o IV, Forbes Staff, \n Antonio Peque\u00f1o IV, Forbes Staff\n https://www.forbes.com/sites/antoniopequenoiv/",
-      "title": "Northern Lights Forecast: 15 States Could See Aurora Borealis Wednesday",
-      "description": "Wednesday night\u2019s curved viewing line stretches to the northern edge of Iowa",
-      "url": "https://www.forbes.com/sites/antoniopequenoiv/2025/11/05/northern-lights-forecast-15-states-could-see-aurora-borealis-wednesday/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690bf2292f8d780d65c9c416/0x0.jpg?format=jpg&crop=1914,1276,x0,y0,safe&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-06T01:00:23Z",
-      "content": "A considerable number of northern U.S. states have a shot at seeing the northern lights Wednesday night, according to an upgraded forecast from the National Oceanic and Atmospheric Administration, wh\u2026 [+2382 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "From gas to groceries, has Trump kept his promise to tackle rising prices?",
-      "description": "President Trump promised to bring down inflation. One year on from his victory, BBC Verify revisits some of his claims.",
-      "url": "https://www.bbc.com/news/articles/ckgkl25734go",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f5e3/live/b05d3a60-ba82-11f0-98a7-ed301ba6f979.png",
-      "publishedAt": "2025-11-06T00:51:45Z",
-      "content": "Tom EdgingtonBBC Verify, Washington DC\r\nPresident Donald Trump was swept to power for a second time on the back of a central campaign promise to tackle inflation.\r\nThe steep rise in the cost of livin\u2026 [+6187 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Erik Kain, Senior Contributor, \n Erik Kain, Senior Contributor\n https://www.forbes.com/sites/erikkain/",
-      "title": "Today\u2019s Wordle #1601 Hints And Answer For Thursday, November 6",
-      "description": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
-      "url": "https://www.forbes.com/sites/erikkain/2025/11/05/wordle-1601-hints-answer-thursday-november-6/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-06T00:30:40Z",
-      "content": "How to solve today's Wordle.\r\nSOPA Images/LightRocket via Getty Images\r\nIts Thursday, November 6 and we have a Wordle to solve. I have a hint and a clue and the answer all below, but before we get to\u2026 [+3604 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Charles McDonald",
-      "title": "Four Verts: NFL midseason superlatives, from J.J. McCarthy (most to prove) and Cam Ward (hang in there) to awards",
-      "description": "It's time for the Four Verts column to recognize some ... well, some truths about this NFL season so far, as well as hand out hardware for the year's best performers.",
-      "url": "https://sports.yahoo.com/nfl/article/four-verts-nfl-midseason-superlatives-from-jj-mccarthy-most-to-prove-and-cam-ward-hang-in-there-to-awards-003033175.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/GHYOnLgCcYnOrytGn9Dsaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://d29szjachogqwa.cloudfront.net/images/2025-11/4bf9589f-e597-4567-8d12-77d53d860040",
-      "publishedAt": "2025-11-06T00:30:33Z",
-      "content": "Its NFL midseason week here at Yahoo Sports, and to celebrate, this weeks Four Verts column will delve into some superlatives as well as awards at the halfway point.\r\nAs the importance of quarterback\u2026 [+10707 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Will quantum be bigger than AI?",
-      "description": "The highly-complex technology is increasingly being tipped to transform computing.",
-      "url": "https://www.bbc.com/news/articles/c04gvx7egw5o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/722c/live/1a05c920-b8ba-11f0-b0a9-658d692df91a.jpg",
-      "publishedAt": "2025-11-06T00:10:59Z",
-      "content": "Zoe KleinmanTechnology editor\r\nTech firms such as Microsoft, whose Majorana chip is pictured here, are racing to embrace quantum\r\nThere's an old adage among tech journalists like me - you can either \u2026 [+9438 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Matthew Swigonski",
-      "title": "Government officials make extraordinary change to fishing laws: 'The hardest decision'",
-      "description": "\"The hardest journey that we've had in the history of commercial fishing.\"",
-      "url": "https://www.yahoo.com/news/articles/government-officials-extraordinary-change-fishing-001000356.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/C5oRYNP5uw8hCpdMDciKEw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/6fa6d9c855f81e4f9e7405cb54b62dfa",
-      "publishedAt": "2025-11-06T00:10:00Z",
-      "content": "South Australian officials are taking drastic measures to protect a number of vulnerable marine species off the state's coast.\r\nAs reported by ABC News, the South Australian government announced the \u2026 [+2730 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Vitas Carosella, Contributor, \n Vitas Carosella, Contributor\n https://www.forbes.com/sites/vitascarosella/",
-      "title": "MLR And ESPN Launch Sunday Night Rugby Despite Utah Warriors Departure",
-      "description": "Major League Rugby and ESPN are launching Sunday Night Rugby to amplify rugby viewership in the U.S. Meanwhile, the league has lost another team, the Utah Warriors.",
-      "url": "https://www.forbes.com/sites/vitascarosella/2025/11/05/mlr-and-espn-launch-sunday-night-rugby-despite-utah-warriors-departure/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b9558313cd71e3d9071a1/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-06T00:00:19Z",
-      "content": "The Utah Warriors are the latest Major League Rugby franchise to leave the competition. The Houston Sabrecats, the NOLA Gold, and the Miami Sharks all folded this summer.\r\nGetty Images\r\nMajor League \u2026 [+7460 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Kelly Phillips Erb, Forbes Staff, \n Kelly Phillips Erb, Forbes Staff\n https://www.forbes.com/sites/kellyphillipserb/",
-      "title": "IRS Gives Employers A Breather On No Tax On Tips, Overtime Reporting For 2025",
-      "description": "The new \u201cno tax on tips\u201d and \u201cno tax on overtime\u201d deductions require additional reporting by employers and payers. To help, the IRS is offering penalty relief in 2025.",
-      "url": "https://www.forbes.com/sites/kellyphillipserb/2025/11/05/irs-gives-employers-a-breather-on-no-tax-on-tips-overtime-reporting-for-2025/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690bd43a1823abfc07979cb5/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T23:28:27Z",
-      "content": "Employers will get some relief in 2025 on reporting requirements for tips (and overtime).\r\ngetty\r\nThe IRS has released new guidance to help employers and other payers navigate reporting requirements \u2026 [+8131 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "By Joe Cash, Ella Cao and Ethan Wang",
-      "title": "Beijing lifts some tariffs on US farm goods but soybeans stay costly",
-      "description": "BEIJING (Reuters) -China will suspend retaliatory tariffs on U. imports, including duties on farm goods, after last week's meeting of the two countries...",
-      "url": "https://finance.yahoo.com/news/beijing-lifts-tariffs-us-farm-231732289.html",
-      "urlToImage": "https://media.zenfs.com/en/reuters.com/6ff024f12f722402fb632ba09eb11f86",
-      "publishedAt": "2025-11-05T23:17:32Z",
-      "content": "By Joe Cash, Ella Cao and Ethan Wang\r\nBEIJING (Reuters) -China will suspend retaliatory tariffs on U.S. imports, including duties on farm goods, after last week's meeting of the two countries' leader\u2026 [+4487 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "STEPHEN WHYNO",
-      "title": "Leading the NFL in sacks, Brian Burns has been a rare bright spot for the last-place Giants",
-      "description": "There is not exactly a lot to get excited about around the New York Giants right now, after three consecutive losses dropped them to 2-7. One of the few bright spots has been edge rusher Brian Burns, who was noticeably the best player on the field from the st\u2026",
-      "url": "https://sports.yahoo.com/article/leading-nfl-sacks-brian-burns-230738811.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/_uU_ibGpop.ttOQSh65T6Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/063396b46aa3a87a524ca267b4042017",
-      "publishedAt": "2025-11-05T23:07:38Z",
-      "content": "EAST RUTHERFORD, N.J. (AP) There is not exactly a lot to get excited about around the New York Giants right now, after three consecutive losses dropped them to 2-7.\r\nRookie Jaxson Dart is the quarter\u2026 [+3667 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "'Scotland's oldest bakery' up for sale after 200 years",
-      "description": "Barry and Claire Taylor are the sixth generation to run Scotland's oldest bakery in Strathaven, South Lanarkshire.",
-      "url": "https://www.bbc.com/news/articles/c5ydq6r0e73o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5f01/live/710959a0-ba7a-11f0-b2a1-6f537f66f9aa.jpg",
-      "publishedAt": "2025-11-05T23:02:49Z",
-      "content": "Claire ThomsonBBC Scotland\r\nClaire and Barry Taylor took over the bakery in 1997\r\nTwenty-eight years ago, Barry and Claire Taylor became the sixth generation of their family to take over what is beli\u2026 [+5000 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Dead basking shark found with plastic in its stomach",
-      "description": "The more than 4m long shark had washed up on a beach near Buckie in Moray.",
-      "url": "https://www.bbc.com/news/articles/c8x19zxdq8lo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/dba3/live/26325800-ba57-11f0-995c-3bd371294616.jpg",
-      "publishedAt": "2025-11-05T23:02:42Z",
-      "content": "The basking shark was examined on Saturday\r\nA basking shark found dead on a Moray beach had eaten plastic, according to experts who examined it.\r\nThe fish, which was more than 4m (13ft) long, washed \u2026 [+3247 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Why the battle still rages over land ownership in Scotland",
-      "description": "The reaction to the Scottish government's wide-ranging new laws show the divided opinions on the issue.",
-      "url": "https://www.bbc.com/news/articles/cvg45y51lr2o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/eda4/live/abd57d40-ba5f-11f0-995c-3bd371294616.jpg",
-      "publishedAt": "2025-11-05T23:02:19Z",
-      "content": "James CookScotland editor \r\nNew land reform legislation has been approved by the Scottish Parliament\r\nThe question \"who owns Scotland?\" stirs up strong emotions.\r\nThis is not just about land. It deal\u2026 [+6223 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Water under capital city's streets could heat every home",
-      "description": "Traffic and people on Cardiff's streets causes what has been called \"thermal pollution\".",
-      "url": "https://www.bbc.com/news/articles/cy5q9e1e4zpo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5b77/live/bfbb2210-ba69-11f0-ba8c-5f7067df6bdc.jpg",
-      "publishedAt": "2025-11-05T22:51:43Z",
-      "content": "There could be an untapped resource under everyone's feet in Wales' capital that could lead to cheaper heating bills \r\nEvery home in Wales' capital could be heated using water that lies below the cit\u2026 [+6390 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
       "author": "BBC Sport",
-      "title": "Okonkwo praised as Parkinson rues 'great chance'",
-      "description": "Phil Parkinson feels Arthur Okonkwo is improving on a weekly basis after he kept a clean sheet to earn Wrexham a point at Portsmouth. The goalkeeper has been a mainstay in the Championship for the Red Dragons since summer signing Danny Ward suffered an elbow \u2026",
-      "url": "https://www.bbc.com/sport/football/articles/cr5elm4deygo",
-      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/fb93/live/0f4399a0-ba94-11f0-ba75-093eca1ac29b.jpg",
-      "publishedAt": "2025-11-05T22:36:03Z",
-      "content": "Phil Parkinson feels Arthur Okonkwo is improving on a weekly basis after he kept a clean sheet to earn Wrexham a point at Portsmouth.\r\nThe goalkeeper has been a mainstay in the Championship for the R\u2026 [+1492 chars]"
+      "title": "Should you triple up on Arsenal defenders? The FPL talking point",
+      "description": "Expert FPL Holly Shand and the guys from the FPL Podcast by BBC Sport debate this week's FPL talking point.",
+      "url": "https://www.bbc.com/sport/football/articles/cy9pg5jpwgro",
+      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6673/live/84698b70-bb2c-11f0-aa13-0b0479f6f42a.jpg",
+      "publishedAt": "2025-11-07T06:41:53Z",
+      "content": "Holly Shand: There's a solid case for having multiple investments into Arsenal's defence this season, given that they have kept seven clean sheets in 10 games. They've conceded just three goals, with\u2026 [+1863 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Hannah Slusher",
+      "title": "Officials issue warning after wild predator is spotted in concerning location: 'Back away slowly if you encounter one'",
+      "description": "\"Stay calm, make yourself look larger.\"",
+      "url": "https://www.yahoo.com/news/articles/officials-issue-warning-wild-predator-063000520.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/l9WfI3qpOL65Sg0feceSfg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTM7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/0a7c6df2a64eda1051ac6a6e4d4ec1c4",
+      "publishedAt": "2025-11-07T06:30:00Z",
+      "content": "Visitors at Larrabee State Park near Bellingham, Washington, are being urged to stay alert after a bobcat mother and her kittens were spotted on the trails in late September.\r\nAccording to a KomoNews\u2026 [+2363 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Elf movie costume could fetch \u00a3200,000 at auction",
+      "description": "The outfit worn by Will Ferrell in a scene where he presses every button in a lift is up for sale.",
+      "url": "https://www.bbc.com/news/articles/c201l9kq3wqo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/80f9/live/19369770-bb19-11f0-bd8f-95105d31e9c2.jpg",
+      "publishedAt": "2025-11-07T06:11:42Z",
+      "content": "Danny FullbrookBedfordshire, Hertfordshire and Buckinghamshire\r\nThe costume was worn by Will Ferrell in the 2003 festive favourite\r\nA costume worn by Will Ferrell in the film Elf is predicted to sell\u2026 [+1811 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Jack Baer",
+      "title": "Prince Harry apologizes for wearing Dodgers cap during World Series vs. Blue Jays: 'I was under duress'",
+      "description": "The 2025 World Series had everything, including a faux pas involving the British royal family.",
+      "url": "https://sports.yahoo.com/mlb/breaking-news/article/prince-harry-apologizes-for-wearing-dodgers-cap-during-world-series-vs-blue-jays-i-was-under-duress-052103160.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/gP1kbQQzUJC1olQ3b.sPNw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDE7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/6ca0e700-bb99-11f0-bffe-3d1c08a4b3c2",
+      "publishedAt": "2025-11-07T05:21:03Z",
+      "content": "The 2025 World Series had everything, including an 18-inning game, a brawl and a pinch-hit grand slam. Plus a faux pas involving the British royal family.\r\nPrince Harry, Duke of Sussex, apologized Th\u2026 [+2516 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "DAVID RISING",
+      "title": "China seeks to project power far beyond its coast with the new Fujian aircraft carrier",
+      "description": "China has commissioned its latest aircraft carrier after extensive sea trials, state media reported Friday, adding a ship that experts say will help what is ...",
+      "url": "https://www.yahoo.com/news/articles/china-commissions-aircraft-carrier-seeks-051605823.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/_1E5m8U_mBe5JgCquNzLgA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/d9b89da2a63d0a2310eb3906e5054758",
+      "publishedAt": "2025-11-07T05:16:05Z",
+      "content": "BANGKOK (AP) China has commissioned its latest aircraft carrier after extensive sea trials, state media reported Friday, adding a ship that experts say will help what is already the worlds largest na\u2026 [+8859 chars]"
     },
     {
       "source": {
@@ -280,25 +72,25 @@
         "name": "Yahoo Entertainment"
       },
       "author": "AFP",
-      "title": "Barca rescue draw at Club Brugge in six-goal thriller",
-      "description": "Spanish giants Barcelona needed to come from behind three times to earn a 3-3 draw at Club Brugge in the Champions League on Wednesday.Brugges thought they had won it in stoppage time when veteran goalkeeper Szczesny tried to turn in his area but lost the bal\u2026",
-      "url": "https://sports.yahoo.com/article/barca-rescue-draw-club-brugge-220745729.html",
-      "urlToImage": "https://media.zenfs.com/en/afp.com/20e36b1dabdeb622b4ed676054f91ba6",
-      "publishedAt": "2025-11-05T22:07:45Z",
-      "content": "Spanish giants Barcelona needed to come from behind three times to earn a 3-3 draw at Club Brugge in the Champions League on Wednesday.\r\nTeenage winger Lamine Yamal was back to his best for Hansi Fli\u2026 [+3062 chars]"
+      "title": "Green shines as Suns thump Clippers 115-102",
+      "description": "Jalen Green made a triumphant season debut for the Phoenix Suns on Thursday, scoring 29 points in a dominant 115-102 NBA victory over the short-handed Los Angeles Clippers.The Clippers will get another shot at the Suns on Saturday when they clash in Los Angel\u2026",
+      "url": "https://sports.yahoo.com/article/green-shines-suns-thump-clippers-045642857.html",
+      "urlToImage": "https://media.zenfs.com/en/afp.com/fe5ed8fd20e8696d7f6571a3ac2f6184",
+      "publishedAt": "2025-11-07T04:56:42Z",
+      "content": "Jalen Green made a triumphant season debut for the Phoenix Suns on Thursday, scoring 29 points in a dominant 115-102 NBA victory over the short-handed Los Angeles Clippers.\r\nGreen, a former number tw\u2026 [+2105 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Forbes"
+        "name": "Yahoo Entertainment"
       },
-      "author": "Joshua P. Cohen, Senior Contributor, \n Joshua P. Cohen, Senior Contributor\n https://www.forbes.com/sites/joshuacohen/",
-      "title": "States\u2019 Pursuit Of Independent Public Health Policy Reflects Longstanding Tradition",
-      "description": "Now that national public health authority appears to be eroding, there's a revival of state autonomy, in the form of coalitions of states establishing their own policy.",
-      "url": "https://www.forbes.com/sites/joshuacohen/2025/11/05/states-pursuit-of-independent-public-health-policy-reflects-longstanding-tradition/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/68f13235d7679622d3d8c84f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T22:01:36Z",
-      "content": "Multi-state alliances on public health to pursue policies independent of the federal government.\r\ngetty\r\nFifteen states formed a new nonpartisan public health network last month called the Governors \u2026 [+5054 chars]"
+      "author": "Timothy McGill",
+      "title": "Officials issue warnings as powerful storm is set to make landfall: 'Not encountering anything to weaken it'",
+      "description": "Forecasters expect the storm\u2019s maximum sustained winds to increase to near 132 mph.",
+      "url": "https://www.yahoo.com/news/articles/officials-issue-warnings-powerful-storm-043500807.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/UskBnLuVTbVY2mTA_QqfgA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/dfa716797f262efddbde028d8b99aafb",
+      "publishedAt": "2025-11-07T04:35:00Z",
+      "content": "Another tropical cyclone has the potential to become a super typhoon before striking the northern Philippines by the end of this weekend. This comes just after the central area of the country was sla\u2026 [+2835 chars]"
     },
     {
       "source": {
@@ -306,25 +98,402 @@
         "name": "BBC News"
       },
       "author": null,
-      "title": "Arsenal thrash Slavia Prague to match club record",
-      "description": "Watch highlights as Mikel Merino nets twice to help Arsenal get a comfortable win over Slavia Prague in the Champions League and match a 122-year club record of an eight consecutive clean sheets.",
-      "url": "https://www.bbc.com/sport/football/videos/cjd0j25zv95o",
-      "urlToImage": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/92a7/live/3bde4ce0-b9bc-11f0-aa13-0b0479f6f42a.jpg",
-      "publishedAt": "2025-11-05T21:56:22Z",
-      "content": "Watch highlights as Mikel Merino nets twice to help Arsenal get a comfortable win over Slavia Prague in the Champions League and match a 122-year club record of an eight consecutive clean sheets.\r\nMA\u2026 [+65 chars]"
+      "title": "US Democrats still face big questions, despite election wins",
+      "description": "A year after a painful election defeat, the Democratic Party stands at a fork in the road.",
+      "url": "https://www.bbc.com/news/articles/cvgk8rr8e20o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1ed4/live/c4e396b0-bb76-11f0-aa13-0b0479f6f42a.jpg",
+      "publishedAt": "2025-11-07T02:42:36Z",
+      "content": "Courtney Subramanianin Washington\r\nDemocrat Mikie Sherrill won big in New Jersey\r\nA year after the Democrats found themselves out of power and without a leader, the party is standing at a crossroads.\u2026 [+11430 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Forbes"
+        "name": "Yahoo Entertainment"
       },
-      "author": "Alan Ohnsman, Forbes Staff, \n Alan Ohnsman, Forbes Staff\n https://www.forbes.com/sites/alanohnsman/",
-      "title": "Elon Musk\u2019s $1 Trillion Pay Plan: The Case For Magical Thinking",
-      "description": "Big funds, advisory firms and the Pope oppose the exorbitant plan. Approval means shareholders think the polarizing, distracted CEO can top past successes with an AI-powered strategy.",
-      "url": "https://www.forbes.com/sites/alanohnsman/2025/11/05/elon-musks-1-trillion-pay-plan-the-case-for-magical-thinking/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690bc1fb1823abfc07979cb3/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T21:45:28Z",
-      "content": "Tesla CEO Elon Musk is line to for a $1 trillion compensation package.\r\nAFP via Getty Images\r\nThe only thing more outlandish than Elon Musks demand for a $1 trillion pay package is the idea that Tesl\u2026 [+9368 chars]"
+      "author": "John WEAVER",
+      "title": "Liverpool and Man City renew rivalry as they try to narrow Arsenal gap",
+      "description": "Manchester City host Liverpool this weekend in the latest chapter of a compelling rivalry that has dominated the Premier League for nearly a decade -- but this time both clubs are playing catch-up.Two more on Sunday would take him to a century of Premier Leag\u2026",
+      "url": "https://sports.yahoo.com/article/liverpool-man-city-renew-rivalry-014257679.html",
+      "urlToImage": "https://media.zenfs.com/en/afp.com/ac35cbf471bbd4fffb4194b779d4cf3d",
+      "publishedAt": "2025-11-07T01:42:57Z",
+      "content": "Manchester City host Liverpool this weekend in the latest chapter of a compelling rivalry that has dominated the Premier League for nearly a decade -- but this time both clubs are playing catch-up.\r\n\u2026 [+3964 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Sayantani Ghosh",
+      "title": "Musk plans Tesla mega AI chip fab, mulls potential Intel partnership",
+      "description": "SAN FRANCISCO (Reuters) -CEO Elon Musk on Thursday said Tesla probably will have to build \"a gigantic chip fab\" to make artificial intelligence chips and...",
+      "url": "https://finance.yahoo.com/news/musk-plans-tesla-mega-ai-012601113.html",
+      "urlToImage": "https://media.zenfs.com/en/reuters-finance.com/473c9e31f4a5f830ee6cbab30e3f6580",
+      "publishedAt": "2025-11-07T01:26:01Z",
+      "content": "SAN FRANCISCO (Reuters) -CEO Elon Musk on Thursday said Tesla (TSLA) probably will have to build \"a gigantic chip fab\" to make artificial intelligence chips and publicly mused the EV maker could work\u2026 [+2385 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "CHARLIE GOLDSMITH",
+      "title": "Coach Zac Taylor believes in-house options can improve the Bengals' defense",
+      "description": "While the Cincinnati Bengals enter their bye week with the worst defense in the NFL, coach Zac Taylor is sticking with the coaching staff the Bengals have in place on that side of the ball. \u201cI trust those guys,\u201d Taylor said. \u201cI\u2019m thankful that in 2020 that th\u2026",
+      "url": "https://sports.yahoo.com/article/coach-zac-taylor-believes-house-011319000.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Db8pDlYswKei7BUNICWLAw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/65f9c6bc0f39d936d57e8db20eef581d",
+      "publishedAt": "2025-11-07T01:13:19Z",
+      "content": "CINCINNATI (AP) While the Cincinnati Bengals enter their bye week with the worst defense in the NFL, coach Zac Taylor is sticking with the coaching staff the Bengals have in place on that side of the\u2026 [+3396 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Small-town India to cricket World champions: The women who made history",
+      "description": "Many women in India's cricket World Cup winning team come from small towns and humble beginnings.",
+      "url": "https://www.bbc.com/news/articles/cr7mj287vkxo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4851/live/0793e3f0-baf2-11f0-b2a1-6f537f66f9aa.jpg",
+      "publishedAt": "2025-11-07T01:06:32Z",
+      "content": "Annesha GhoshSports Writer\r\nAfter her father's death, Renuka Singh Thakur's mother worked to support her dreams \r\nEarlier this week, the Indian women's cricket team made history by winning its first \u2026 [+5993 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Radical and riveting: Is Rosal\u00eda's Lux the year's best album?",
+      "description": "In an audacious move, the Barcelona-born star has recorded a symphonic album in 14 languages.",
+      "url": "https://www.bbc.com/news/articles/cd9kgy853zvo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/cb11/live/237b4f70-bb35-11f0-a9c7-018c8fe15fae.jpg",
+      "publishedAt": "2025-11-07T01:05:58Z",
+      "content": "Mark SavageMusic correspondent\r\nRosal\u00eda emerged in 2018 and has become one of the biggest Latin stars in music\r\nOver her brief discography, Rosal\u00eda has never met a convention she couldn't break.\r\nBor\u2026 [+5645 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "'Our job is only killing' - how Sudan's brutal militia carried out a massacre",
+      "description": "BBC Verify tracks how the RSF killed unarmed people in a massacre that humanitarian officials believe left 2,000 dead.",
+      "url": "https://www.bbc.com/news/articles/c8dr5e30m5ro",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3e14/live/e0843aa0-bb08-11f0-ba75-093eca1ac29b.png",
+      "publishedAt": "2025-11-07T00:30:58Z",
+      "content": "Merlyn Thomas, Matt Murphy &amp; Peter MwaiBBC Verify \r\nWarning: This story contains graphic descriptions of executions.\r\nFighters laugh as they ride on the back of a pick-up truck, speeding past a r\u2026 [+8578 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Fire-blocking chemicals promise safer buildings",
+      "description": "New treatments promise to make buildings fire-resistant without using older, toxic chemicals.",
+      "url": "https://www.bbc.com/news/articles/ckgkee0pw4ko",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/63cc/live/da3d2ae0-b01c-11f0-ba75-093eca1ac29b.jpg",
+      "publishedAt": "2025-11-07T00:13:36Z",
+      "content": "Chris BaraniukTechnology Reporter\r\nFire resistant materials can buy time for fire fighters\r\nI'm peering into a large vat containing a perfectly clear liquid a special kind of flame retardant for wood\u2026 [+6197 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rian Howlett",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures falter in bid to recover from tech-led sell-off",
+      "description": "Markets are muted after a steep sell-off in stocks with Musk's $1T pay package and layoffs in focus.",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-falter-in-bid-to-recover-from-tech-led-sell-off-000747991.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/HxW7Uthb5DhMhXsy8HO_pg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/7312aa10-b7fc-11f0-9ffc-4d7844c1fde9",
+      "publishedAt": "2025-11-07T00:07:47Z",
+      "content": "US stock futures faltered in their rebound bid on Friday, set to resume a tech-led sell-off as investors weighed signals on the jobs market and the odds that the AI investment boom will pay off.\r\nFut\u2026 [+6488 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rian Howlett",
+      "title": "Stock market today: Nasdaq, S&P 500, Dow falter in bid to recover from tech-led sell-off",
+      "description": "Markets fell after a steep sell-off in stocks with Musk's $1T pay package and layoffs in focus.",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-dow-falter-in-bid-to-recover-from-tech-led-sell-off-000747762.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/HxW7Uthb5DhMhXsy8HO_pg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/7312aa10-b7fc-11f0-9ffc-4d7844c1fde9",
+      "publishedAt": "2025-11-07T00:07:47Z",
+      "content": "US stocks faltered in their rebound bid on Friday, resuming a tech-led sell-off as investors weighed signals on the jobs market and the odds that the AI investment boom will pay off.\r\nThe tech-heavy \u2026 [+12182 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rian Howlett",
+      "title": "Stock market today: Nasdaq, S&P 500, Dow sink as another tech sell-off has stocks on track for brutal week",
+      "description": "Markets fell after a steep sell-off in stocks with Musk's $1T pay package and layoffs in focus.",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-sp-500-dow-sink-as-another-tech-sell-off-has-stocks-on-track-for-brutal-week-000747395.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/HxW7Uthb5DhMhXsy8HO_pg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/7312aa10-b7fc-11f0-9ffc-4d7844c1fde9",
+      "publishedAt": "2025-11-07T00:07:47Z",
+      "content": "US stocks faltered in their rebound bid on Friday, resuming a tech-led sell-off as investors weighed bearish consumer sentiment data and the odds that the AI investment boom will pay off.\r\nThe tech-h\u2026 [+13466 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Catherine Wilkins",
+      "title": "Scientist issues warning about dangerous species spreading through Florida: 'They'll just go wherever you take them'",
+      "description": "\"Going to be biting other species.\"",
+      "url": "https://www.yahoo.com/news/articles/scientist-issues-warning-dangerous-species-000500267.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/dRNbJSiHhL9o54AfeOHSDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/09d88db1f7edefd42258d0bb796bb757",
+      "publishedAt": "2025-11-07T00:05:00Z",
+      "content": "An expert has raised concerns after more confirmed sightings of an invasive lizard species in Florida.\r\nWhat's happening?\r\nThere have been 27 sightings of the Peter's rock agama lizard in Duval Count\u2026 [+2975 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "McDonald's to introduce sexual harassment training after BBC uncovered abuse of staff",
+      "description": "The announcement by the equality watchdog comes after a BBC investigation into abuse at the restaurant chain.",
+      "url": "https://www.bbc.com/news/articles/cpwv01r2wj5o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2844/live/11334fe0-bb3d-11f0-9494-47f20ee206c1.jpg",
+      "publishedAt": "2025-11-07T00:01:13Z",
+      "content": "Noor Nanji &amp; Zoe ConwayBBC News\r\nMcDonald's will bring in new sexual harassment training for managers in strengthened measures agreed with the equality watchdog to protect its staff from abuse.\r\n\u2026 [+7200 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Robert Crow",
+      "title": "Energy giant hit with major lawsuit after allegedly deceiving customers for years: 'It is neither credible nor legally safe'",
+      "description": "\"It sends a signal globally.\"",
+      "url": "https://www.yahoo.com/news/articles/energy-giant-hit-major-lawsuit-000000800.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/TYvck..glA_O4H_sja72lg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02Nzg7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/cabf47db13d0d6e34547e6cd0ea0d099",
+      "publishedAt": "2025-11-07T00:00:00Z",
+      "content": "One of Europe's biggest oil companies has had to make major changes to its public messaging after a court found it misled consumers about its supposedly eco-friendly practices.\r\nWhat's happening?\r\nOn\u2026 [+3020 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Civitas Resources (CIVI) Beats Q3 Earnings Estimates",
+      "description": "Civitas (CIVI) delivered earnings and revenue surprises of +44.03% and -1.09%, respectively, for the quarter ended September 2025. Do the numbers hold clues ...",
+      "url": "https://finance.yahoo.com/news/civitas-resources-civi-beats-q3-234002129.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+      "publishedAt": "2025-11-06T23:40:02Z",
+      "content": "Civitas Resources (CIVI) came out with quarterly earnings of $1.93 per share, beating the Zacks Consensus Estimate of $1.34 per share. This compares to earnings of $1.99 per share a year ago. These f\u2026 [+3930 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Ready Capital (RC) Reports Q3 Loss, Lags Revenue Estimates",
+      "description": "Ready Capital (RC) delivered earnings and revenue surprises of -4,800.00% and -76.13%, respectively, for the quarter ended September 2025. Do the numbers...",
+      "url": "https://finance.yahoo.com/news/ready-capital-rc-reports-q3-234002745.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/gZA5XMnsr1RRZw6lGNAcdA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05NDA-/https://media.zenfs.com/en/zacks.com/c65fb4556b91b6c9dc83e4eff25fede0",
+      "publishedAt": "2025-11-06T23:40:02Z",
+      "content": "Ready Capital (RC) came out with a quarterly loss of $0.94 per share versus the Zacks Consensus Estimate of $0.02. This compares to earnings of $0.25 per share a year ago. These figures are adjusted \u2026 [+3809 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Universal Electronics (UEIC) Surpasses Q3 Earnings Estimates",
+      "description": "Universal Electronics (UEIC) delivered earnings and revenue surprises of +366.67% and -3.39%, respectively, for the quarter ended September 2025. Do the...",
+      "url": "https://finance.yahoo.com/news/universal-electronics-ueic-surpasses-q3-234002071.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/a7cdcede0bb5a646be035f4a7e678781",
+      "publishedAt": "2025-11-06T23:40:02Z",
+      "content": "Universal Electronics (UEIC) came out with quarterly earnings of $0.08 per share, beating the Zacks Consensus Estimate of a loss of $0.03 per share. This compares to earnings of $0.1 per share a year\u2026 [+3828 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Evertec (EVTC) Q3 Earnings and Revenues Beat Estimates",
+      "description": "Evertec (EVTC) delivered earnings and revenue surprises of +3.37% and +2.04%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/evertec-evtc-q3-earnings-revenues-233503574.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/0c6f98f4bf655bec3b199bc1a71b8b85",
+      "publishedAt": "2025-11-06T23:35:03Z",
+      "content": "Evertec (EVTC) came out with quarterly earnings of $0.92 per share, beating the Zacks Consensus Estimate of $0.89 per share. This compares to earnings of $0.86 per share a year ago. These figures are\u2026 [+3836 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Evolent Health (EVH) Misses Q3 Earnings Estimates",
+      "description": "Evolent Health (EVH) delivered earnings and revenue surprises of -50.00% and +2.81%, respectively, for the quarter ended September 2025. Do the numbers hold ...",
+      "url": "https://finance.yahoo.com/news/evolent-health-evh-misses-q3-233503727.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/5ecaf2a9bf082a5f3a554e6526b34be0",
+      "publishedAt": "2025-11-06T23:35:03Z",
+      "content": "Evolent Health (EVH) came out with quarterly earnings of $0.05 per share, missing the Zacks Consensus Estimate of $0.1 per share. This compares to earnings of $0.04 per share a year ago. These figure\u2026 [+3869 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Eventbrite (EB) Reports Break-Even Earnings for Q3",
+      "description": "Eventbrite (EB) delivered earnings and revenue surprises of +100.00% and +0.06%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/eventbrite-eb-reports-break-even-233502862.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/737ffb82e07dc8bffb77e72d153c91f2",
+      "publishedAt": "2025-11-06T23:35:02Z",
+      "content": "Eventbrite (EB) reported break-even quarterly earnings per share versus the Zacks Consensus Estimate of a loss of $0.05. This compares to a loss of $0.04 per share a year ago. These figures are adjus\u2026 [+3862 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "EverCommerce (EVCM) Q3 Earnings Meet Estimates",
+      "description": "EverCommerce (EVCM) delivered earnings and revenue surprises of 0.00% and -0.39%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/evercommerce-evcm-q3-earnings-meet-233502727.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/4f1a8d86cead9f96536efb147945dcc9",
+      "publishedAt": "2025-11-06T23:35:02Z",
+      "content": "EverCommerce (EVCM) came out with quarterly earnings of $0.03 per share, in line with the Zacks Consensus Estimate . This compares to a loss of $0.05 per share a year ago. These figures are adjusted \u2026 [+3726 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Chesapeake Utilities (CPK) Q3 Earnings Miss Estimates",
+      "description": "Chesapeake Utilities (CPK) delivered earnings and revenue surprises of -8.89% and +4.48%, respectively, for the quarter ended September 2025. Do the numbers ...",
+      "url": "https://finance.yahoo.com/news/chesapeake-utilities-cpk-q3-earnings-233502676.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/ace7df31c7fcb10255abe7c990ea373a",
+      "publishedAt": "2025-11-06T23:35:02Z",
+      "content": "Chesapeake Utilities (CPK) came out with quarterly earnings of $0.82 per share, missing the Zacks Consensus Estimate of $0.9 per share. This compares to earnings of $0.8 per share a year ago. These f\u2026 [+3879 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "HA Sustainable Infrastructure Capital (HASI) Q3 Earnings and Revenues Top Estimates",
+      "description": "HA Sustainable Infrastructure Capital (HASI) delivered earnings and revenue surprises of +15.94% and +51.90%, respectively, for the quarter ended September...",
+      "url": "https://finance.yahoo.com/news/sustainable-infrastructure-capital-hasi-q3-233002363.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee",
+      "publishedAt": "2025-11-06T23:30:02Z",
+      "content": "HA Sustainable Infrastructure Capital (HASI) came out with quarterly earnings of $0.8 per share, beating the Zacks Consensus Estimate of $0.69 per share. This compares to earnings of $0.52 per share \u2026 [+3968 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "AFP",
+      "title": "NFL Colts add Sauce to recipe while Patriots confront Baker",
+      "description": "NFL star cornerback Sauce Gardner will join the Indianapolis Colts in Berlin on Sunday to face Atlanta while the New England Patriots test Baker Mayfield's Tampa Bay Buccaneers.Indianapolis made a move with the New York Jets at the NFL trade deadline for Gard\u2026",
+      "url": "https://sports.yahoo.com/article/nfl-colts-add-sauce-recipe-232356738.html",
+      "urlToImage": "https://media.zenfs.com/en/afp.com/aa7b877570f3fbd426cec990bc16eb96",
+      "publishedAt": "2025-11-06T23:23:56Z",
+      "content": "NFL star cornerback Sauce Gardner will join the Indianapolis Colts in Berlin on Sunday to face Atlanta while the New England Patriots test Baker Mayfield's Tampa Bay Buccaneers.\r\nThe Colts and Patrio\u2026 [+2549 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Direct Digital Holdings, Inc. (DRCT) Reports Q3 Loss, Misses Revenue Estimates",
+      "description": "Direct Digital (DRCT) delivered earnings and revenue surprises of -50.00% and -44.94%, respectively, for the quarter ended September 2025. Do the numbers...",
+      "url": "https://finance.yahoo.com/news/direct-digital-holdings-inc-drct-232002008.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/3cb5117fc22f5e37890d1860dcd61f9f",
+      "publishedAt": "2025-11-06T23:20:02Z",
+      "content": "Direct Digital Holdings, Inc. (DRCT) came out with a quarterly loss of $0.24 per share versus the Zacks Consensus Estimate of a loss of $0.16. This compares to a loss of $0.71 per share a year ago. T\u2026 [+2541 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Yelp (YELP) Q3 Earnings and Revenues Top Estimates",
+      "description": "Yelp (YELP) delivered earnings and revenue surprises of +29.79% and +2.29%, respectively, for the quarter ended September 2025. Do the numbers hold clues to ...",
+      "url": "https://finance.yahoo.com/news/yelp-yelp-q3-earnings-revenues-231505402.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/d2f7ed3d1940141716bfd200f5c94c6b",
+      "publishedAt": "2025-11-06T23:15:05Z",
+      "content": "Yelp (YELP) came out with quarterly earnings of $0.61 per share, beating the Zacks Consensus Estimate of $0.47 per share. This compares to earnings of $0.56 per share a year ago. These figures are ad\u2026 [+3784 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "QXO, Inc. (QXO) Q3 Earnings and Revenues Surpass Estimates",
+      "description": "QXO INC (QXO) delivered earnings and revenue surprises of +16.67% and +0.39%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/qxo-inc-qxo-q3-earnings-231505606.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/e8e4b0344809eaac6d73c9fd25fd180a",
+      "publishedAt": "2025-11-06T23:15:05Z",
+      "content": "QXO, Inc. (QXO) came out with quarterly earnings of $0.14 per share, beating the Zacks Consensus Estimate of $0.12 per share. This compares to a loss of $0.01 per share a year ago. These figures are \u2026 [+3752 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Northern Oil and Gas (NOG) Q3 Earnings Top Estimates",
+      "description": "Northern Oil and Gas (NOG) delivered earnings and revenue surprises of +25.61% and -4.76%, respectively, for the quarter ended September 2025. Do the numbers...",
+      "url": "https://finance.yahoo.com/news/northern-oil-gas-nog-q3-231504289.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/d7dcbe11345e3f8e5e71e6827fe3c4c9",
+      "publishedAt": "2025-11-06T23:15:04Z",
+      "content": "Northern Oil and Gas (NOG) came out with quarterly earnings of $1.03 per share, beating the Zacks Consensus Estimate of $0.82 per share. This compares to earnings of $1.4 per share a year ago. These \u2026 [+4047 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "MidCap Financial Investment (MFIC) Q3 Earnings Match Estimates",
+      "description": "MidCap Financial (MFIC) delivered earnings and revenue surprises of 0.00% and -0.79%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/midcap-financial-investment-mfic-q3-231504274.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
+      "publishedAt": "2025-11-06T23:15:04Z",
+      "content": "MidCap Financial Investment (MFIC) came out with quarterly earnings of $0.38 per share, in line with the Zacks Consensus Estimate . This compares to earnings of $0.44 per share a year ago. These figu\u2026 [+3834 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Innodata Inc. (INOD) Beats Q3 Earnings and Revenue Estimates",
+      "description": "Innodata (INOD) delivered earnings and revenue surprises of +71.43% and +4.63%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/innodata-inc-inod-beats-q3-231503728.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/105b2acef7bf0873f24b78932b1fdc3c",
+      "publishedAt": "2025-11-06T23:15:03Z",
+      "content": "Innodata Inc. (INOD) came out with quarterly earnings of $0.24 per share, beating the Zacks Consensus Estimate of $0.14 per share. This compares to earnings of $0.35 per share a year ago. These figur\u2026 [+3768 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rachel Phua",
+      "title": "Texas Roadhouse Drops as It Sees Even More Commodity Costs",
+      "description": "The Louisville, Kentucky-based chain now expects its commodity prices, driven by high beef prices, to rise about 6% in 2025, up from roughly 5% projected...",
+      "url": "https://finance.yahoo.com/news/texas-roadhouse-drops-sees-even-231458602.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wbv_XqM9134igcZIU2dElw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/8e0e59c5a099932a042820d754a84e13",
+      "publishedAt": "2025-11-06T23:14:58Z",
+      "content": "(Bloomberg) -- Texas Roadhouse Inc. shares fell in postmarket trading Thursday after the company lifted its forecast for commodity inflation for this year and predicted an acceleration next year.\r\nTh\u2026 [+1469 chars]"
     },
     {
       "source": {
@@ -332,103 +501,285 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Petr Hu\u0159\u0165\u00e1k",
-      "title": "Fastly (NYSE:FSLY) Delivers Strong Q3 Numbers, Stock Jumps 12.8%",
-      "description": "Edge cloud platform Fastly (NYSE:FSLY) announced better-than-expected revenue in Q3 CY2025, with sales up 15.3% year on year to $158.2 million. On top of...",
-      "url": "https://finance.yahoo.com/news/fastly-nyse-fsly-delivers-strong-214016188.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/mx4oScXKtviiuhBR6hU4Fw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/2877fce943881a954e884365e8a2ccc1",
-      "publishedAt": "2025-11-05T21:40:16Z",
-      "content": "Edge cloud platform Fastly (NYSE:FSLY) announced better-than-expected revenue in Q3 CY2025, with sales up 15.3% year on year to $158.2 million. On top of that, next quarters revenue guidance ($161 mi\u2026 [+4324 chars]"
+      "title": "Mettler-Toledo\u2019s (NYSE:MTD) Q3 Sales Beat Estimates",
+      "description": "Precision measurement company Mettler-Toledo (NYSE:MTD) reported Q3 CY2025 results topping the market\u2019s revenue expectations, with sales up 7.9% year on year...",
+      "url": "https://finance.yahoo.com/news/mettler-toledo-nyse-mtd-q3-231302685.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/r7hjf15GCoFokef_RSuUQQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/dc8e68c257670573274d8bb73e854cf2",
+      "publishedAt": "2025-11-06T23:13:02Z",
+      "content": "Precision measurement company Mettler-Toledo (NYSE:MTD) reported Q3 CY2025 results topping the markets revenue expectations , with sales up 7.9% year on year to $1.03 billion. On the other hand, next\u2026 [+6616 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Jabin Bastian",
+      "title": "StepStone Group (NASDAQ:STEP) Delivers Strong Q3 Numbers",
+      "description": "Private markets investment firm StepStone Group (NASDAQ:STEP) beat Wall Street\u2019s revenue expectations in Q3 CY2025, with sales up 118% year on year to $454.2...",
+      "url": "https://finance.yahoo.com/news/stepstone-group-nasdaq-step-delivers-231009387.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/sGls68hjgmVhpUkhdYSZAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/0200c578ee7ab16cbcf3d4a8857dc103",
+      "publishedAt": "2025-11-06T23:10:09Z",
+      "content": "Private markets investment firm StepStone Group (NASDAQ:STEP) beat Wall Streets revenue expectations in Q3 CY2025, with sales up 118% year on year to $454.2 million. Its non-GAAP profit of $0.54 per \u2026 [+2732 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Forbes"
       },
-      "author": "Zinnia Lee, Forbes Staff, \n Zinnia Lee, Forbes Staff\n https://www.forbes.com/sites/zinnialee/",
-      "title": "World\u2019s Largest Bubble Tea Chain Mixue Mints Two Newcomers To China\u2019s 100 Richest List",
-      "description": "Zhang Hongchao and Zhang Hongfu, the brothers behind Chinese bubble tea giant Mixue Group, debut on this year\u2019s ranks with a net worth of $8.5 billion each.",
-      "url": "https://www.forbes.com/sites/zinnialee/2025/11/05/worlds-largest-bubble-tea-chain-mixue-mints-two-newcomers-to-chinas-100-richest-list/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6902d4b26aa4314b49598453/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T21:40:02Z",
-      "content": "May James/SOPA Images/LightRocket via Getty Images\r\nThis story is part of Forbes coverage of Chinas Richest 2025. See the full list here.\r\nZhang Hongchao and Zhang Hongfu, the brothers behind Chinese\u2026 [+962 chars]"
+      "author": "Vitas Carosella, Contributor, \n Vitas Carosella, Contributor\n https://www.forbes.com/sites/vitascarosella/",
+      "title": "Javier Tebas Bets On Agentic AI To Improve La Liga Fan Experience",
+      "description": "La Liga and Globant have announced a partnership to use Agentic AI to power Spanish soccer. AI will now be used to improve broadcasts and streamline league work flows.",
+      "url": "https://www.forbes.com/sites/vitascarosella/2025/11/06/javier-tebas-bets-on-agentic-ai-to-improve-la-liga-fan-experience/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690d1c9f8198e67b9add8f36/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-11-06T23:00:51Z",
+      "content": "Kylian Mbappe and Lamine Yamal are La Liga's stars of today, but President Javier Tebas is betting on AI to secure the league's future.\r\nGetty Images\r\nLa Liga is turning to AI in an effort to drive e\u2026 [+6323 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Hal Bundrick, CFP\u00ae",
-      "title": "What is a 'K-shaped' economy, and what\u2019s causing the divide?",
-      "description": "Signs of a \"K-shaped\" economy are emerging as recent earnings and consumer data indicate a deepening divide among the highest earners and lower-income...",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-a-k-shaped-economy-and-whats-causing-the-divide-213458866.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/7Ke6ATYFtP31aitgTabStg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/1ce595f0-ba7a-11f0-be3f-4306e85028a4",
-      "publishedAt": "2025-11-05T21:34:58Z",
-      "content": "The K-shaped economy, widely touted in the financial press, is the latest expression of wealth inequality. The U.S. economy is experiencing a growing gap between the highest earners and the richest c\u2026 [+6637 chars]"
+      "author": "Zacks Equity Research",
+      "title": "Texas Roadhouse (TXRH) Misses Q3 Earnings Estimates",
+      "description": "Texas Roadhouse (TXRH) delivered earnings and revenue surprises of -2.34% and +0.57%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/texas-roadhouse-txrh-misses-q3-230004145.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/3496571a811465d910e99bd171c71a94",
+      "publishedAt": "2025-11-06T23:00:04Z",
+      "content": "Texas Roadhouse (TXRH) came out with quarterly earnings of $1.25 per share, missing the Zacks Consensus Estimate of $1.28 per share. This compares to earnings of $1.26 per share a year ago. These fig\u2026 [+3845 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Kristen Lawrence",
-      "title": "Farmer makes surprising discovery after letting sheep graze under solar panels: 'It's such a blessing'",
-      "description": "\"This is a tremendous opportunity for rural communities.\"",
-      "url": "https://www.yahoo.com/news/articles/farmer-makes-surprising-discovery-letting-213000899.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Oyp.vvyXVQ7i4PgORNmjFg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/ee2e5480378eee01239e379eac780ea7",
-      "publishedAt": "2025-11-05T21:30:00Z",
-      "content": "Farmers like Jess Gray, the CEO of Gray's LAMBscaping, are turning to agrivoltaics for agricultural and energy-generating benefits.\r\nGray's sheep farming business has come a long way since she and he\u2026 [+2827 chars]"
+      "author": "Zacks Equity Research",
+      "title": "Trinseo (TSE) Reports Q3 Loss, Lags Revenue Estimates",
+      "description": "Trinseo (TSE) delivered earnings and revenue surprises of -22.96% and -6.16%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/trinseo-tse-reports-q3-loss-230004373.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/71afbbc0512eb3c471136d93f39079c9",
+      "publishedAt": "2025-11-06T23:00:04Z",
+      "content": "Trinseo (TSE) came out with a quarterly loss of $2.41 per share versus the Zacks Consensus Estimate of a loss of $1.96. This compares to a loss of $1.62 per share a year ago. These figures are adjust\u2026 [+3784 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Camden (CPT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "description": "Although the revenue and EPS for Camden (CPT) give a sense of how its business performed in the quarter ended September 2025, it might be worth considering...",
+      "url": "https://finance.yahoo.com/news/camden-cpt-q3-earnings-taking-230003121.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/ace7df31c7fcb10255abe7c990ea373a",
+      "publishedAt": "2025-11-06T23:00:03Z",
+      "content": "Camden (CPT) reported $395.68 million in revenue for the quarter ended September 2025, representing a year-over-year increase of 2.2%. EPS of $1.70 for the same period compares to -$0.04 a year ago.\r\u2026 [+2307 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Onestream (OS) Q3 Earnings and Revenues Surpass Estimates",
+      "description": "Onestream (OS) delivered earnings and revenue surprises of +300.00% and +4.26%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/onestream-os-q3-earnings-revenues-230003206.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+      "publishedAt": "2025-11-06T23:00:03Z",
+      "content": "Onestream (OS) came out with quarterly earnings of $0.08 per share, beating the Zacks Consensus Estimate of $0.02 per share. This compares to a loss of $1.06 per share a year ago. These figures are a\u2026 [+3781 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "loanDepot (LDI) Reports Q3 Loss, Beats Revenue Estimates",
+      "description": "loanDepot (LDI) delivered earnings and revenue surprises of +75.00% and +13.61%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/loandepot-ldi-reports-q3-loss-230003503.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/21b1f011539d3e31c28282071d344177",
+      "publishedAt": "2025-11-06T23:00:03Z",
+      "content": "loanDepot (LDI) came out with a quarterly loss of $0.01 per share versus the Zacks Consensus Estimate of a loss of $0.04. This compares to earnings of $0.03 per share a year ago. These figures are ad\u2026 [+3805 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Cash prize to boost new art talent in Jack Vettriano's memory",
+      "description": "An award of \u00a37,500 will boost the career of a new talent following in his footsteps.\nThe \u00a37,500 prize will be given to an artist without any formal training through the Royal Scottish Academy",
+      "url": "https://www.bbc.com/news/articles/cqx3dq5j5nyo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4533/live/76e002b0-bb52-11f0-a601-e323b3b84836.jpg",
+      "publishedAt": "2025-11-06T22:59:19Z",
+      "content": "Jack Vettriano beside his best-known painting The Singing Butler\r\nA new award in memory of the late artist Jack Vettriano has been announced to boost the career of new talent following in his footste\u2026 [+1812 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "How Scottish parties will try to maximise election votes in six months",
+      "description": "Opinion polls point to a fifth SNP victory - but a lot could change in six months with parties working flat out for votes.",
+      "url": "https://www.bbc.com/news/articles/c0kp1znp0v3o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/66a6/live/cac1ef50-bb3a-11f0-a086-55f9ff82c252.jpg",
+      "publishedAt": "2025-11-06T22:59:02Z",
+      "content": "Glenn CampbellBBC Scotland political editor\r\nIf the next Holyrood election was tomorrow, it would be widely expected that the SNP would win a fifth term in office.\r\nBy \"win\" I mean finishing as the l\u2026 [+12104 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Forbes"
       },
-      "author": "Antonio Peque\u00f1o IV, Forbes Staff, \n Antonio Peque\u00f1o IV, Forbes Staff\n https://www.forbes.com/sites/antoniopequenoiv/",
-      "title": "Trump Falsely Says Gas Prices Have Reached A 20-Year Low\u2014Here\u2019s The Real Data",
-      "description": "The national average price of gas is around $3.10, just above the level it was at one year ago.",
-      "url": "https://www.forbes.com/sites/antoniopequenoiv/2025/11/05/trump-falsely-says-gas-prices-have-reached-a-20-year-low-heres-the-real-data/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690bbaec183a3af4c9343238/0x0.jpg?format=jpg&crop=4559,3042,x1,y0,safe&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T21:24:09Z",
-      "content": "President Donald Trump falsely claimed Wednesday that gasoline prices have fallen to their lowest point in 20 years, contradicting data from multiplesources showing current costs are above what they \u2026 [+2479 chars]"
+      "author": "Joshua P. Cohen, Senior Contributor, \n Joshua P. Cohen, Senior Contributor\n https://www.forbes.com/sites/joshuacohen/",
+      "title": "Trump Administration\u2019s Price Cuts For Obesity Drugs Raise More Questions Than Answers",
+      "description": "How much impact the obesity drug price cuts will have on patients remains to be seen. What's been publicly released raises more questions than answers.",
+      "url": "https://www.forbes.com/sites/joshuacohen/2025/11/06/trump-administrations-price-cuts-for-obesity-drugs-raise-more-questions-than-answers/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690ce79909ccc2fbe3ce1fb0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-11-06T22:58:10Z",
+      "content": "WASHINGTON, DC - NOVEMBER 6: U.S. President Donald Trump, joined by members of the pharmaceutical industry and administration officials, delivers remarks on lowering drug prices in the Oval Office at\u2026 [+7239 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "JENNIFER McDERMOTT",
-      "title": "Judge allows Trump administration to reconsider approval for a Massachusetts offshore wind farm",
-      "description": "A federal court judge is allowing the Trump administration to reconsider a major federal permit that was granted to a Massachusetts offshore wind farm days...",
-      "url": "https://www.yahoo.com/news/articles/judge-allows-trump-administration-reconsider-212349789.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/5OhI7CxP0RipbMKodz_tbA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/78bf5801a5bbf83f3894f4088dde98d2",
-      "publishedAt": "2025-11-05T21:23:49Z",
-      "content": "A federal court judge is allowing the Trump administration to reconsider a major federal permit that was granted to a Massachusetts offshore wind farm days before the president's inauguration.\r\nDevel\u2026 [+3836 chars]"
+      "author": "Zacks Equity Research",
+      "title": "Take-Two Interactive (TTWO) Q2 Earnings and Revenues Beat Estimates",
+      "description": "Take-Two (TTWO) delivered earnings and revenue surprises of +60.44% and +12.93%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/two-interactive-ttwo-q2-earnings-225504849.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/48ad4265c55e3ba7a1fb9148d6e717d9",
+      "publishedAt": "2025-11-06T22:55:04Z",
+      "content": "Take-Two Interactive (TTWO) came out with quarterly earnings of $1.46 per share, beating the Zacks Consensus Estimate of $0.91 per share. This compares to earnings of $0.66 per share a year ago. Thes\u2026 [+3861 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Jeff Lagerquist",
-      "title": "Suncor CEO: 'I honestly don't think we have a true Canadian peer'",
-      "description": "Upstream production and refinery throughput snapped records in the third quarter.",
-      "url": "https://ca.finance.yahoo.com/news/suncor-ceo-i-honestly-dont-think-we-have-a-true-canadian-peer-172531010.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lt1xJ0JNjs4NMRKswdvR4w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NDg-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/48c6cf10-ba64-11f0-86ff-011ad0acf612",
-      "publishedAt": "2025-11-05T21:07:29Z",
-      "content": "Suncor Energy Inc. president and CEO Rich Kruger waits to appear before the House of Commons Standing Committee on Natural Resources in Ottawa, Monday, Oct. 16, 2023. THE CANADIAN PRESS/ Patrick Doyl\u2026 [+2787 chars]"
+      "author": "Zacks Equity Research",
+      "title": "10x Genomics (TXG) Reports Q3 Loss, Beats Revenue Estimates",
+      "description": "10x Genomics (TXG) delivered earnings and revenue surprises of +18.52% and +4.64%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/10x-genomics-txg-reports-q3-225504043.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/090f58c1efbe3555b861102525e50b39",
+      "publishedAt": "2025-11-06T22:55:04Z",
+      "content": "10x Genomics (TXG) came out with a quarterly loss of $0.22 per share versus the Zacks Consensus Estimate of a loss of $0.27. This compares to a loss of $0.3 per share a year ago. These figures are ad\u2026 [+3809 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Forbes"
+        "name": "Yahoo Entertainment"
       },
-      "author": "John Koetsier, Senior Contributor, \n John Koetsier, Senior Contributor\n https://www.forbes.com/sites/johnkoetsier/",
-      "title": "Amazon Vs. Perplexity: Welcome To The Battle For The Future Of Commerce",
-      "description": "Can your AI agents act as you, or do they need to identify themselves as non-human agents acting on your behalf? Amazon thinks they need a digital ID.",
-      "url": "https://www.forbes.com/sites/johnkoetsier/2025/11/05/amazon-vs-perplexity-welcome-to-the-battle-for-the-future-of-commerce/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690bb9ffed5967852e1c3c39/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T21:01:08Z",
-      "content": "Amazon has sent Perplexity a cease and desist letter, requesting it stop allowing people to use its AI agents to buy things.\r\ngetty\r\nAmazon has fired warning shots across the bow of AI agents. Specif\u2026 [+5062 chars]"
+      "author": "Zacks Equity Research",
+      "title": "Universal Display Corp. (OLED) Lags Q3 Earnings and Revenue Estimates",
+      "description": "Universal Display (OLED) delivered earnings and revenue surprises of -22.69% and -14.09%, respectively, for the quarter ended September 2025. Do the numbers ...",
+      "url": "https://finance.yahoo.com/news/universal-display-corp-oled-lags-225503799.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9",
+      "publishedAt": "2025-11-06T22:55:03Z",
+      "content": "Universal Display Corp. (OLED) came out with quarterly earnings of $0.92 per share, missing the Zacks Consensus Estimate of $1.19 per share. This compares to earnings of $1.4 per share a year ago. Th\u2026 [+3947 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "JFrog Ltd. (FROG) Surpasses Q3 Earnings and Revenue Estimates",
+      "description": "JFrog (FROG) delivered earnings and revenue surprises of +37.50% and +6.63%, respectively, for the quarter ended September 2025. Do the numbers hold clues to...",
+      "url": "https://finance.yahoo.com/news/jfrog-ltd-frog-surpasses-q3-225502048.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+      "publishedAt": "2025-11-06T22:55:02Z",
+      "content": "JFrog Ltd. (FROG) came out with quarterly earnings of $0.22 per share, beating the Zacks Consensus Estimate of $0.16 per share. This compares to earnings of $0.15 per share a year ago. These figures \u2026 [+3773 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Amphastar Pharmaceuticals (AMPH) Q3 Earnings and Revenues Top Estimates",
+      "description": "Amphastar (AMPH) delivered earnings and revenue surprises of +20.78% and +3.96%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/amphastar-pharmaceuticals-amph-q3-earnings-225502544.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/670d1917693293f70179651625deb88f",
+      "publishedAt": "2025-11-06T22:55:02Z",
+      "content": "Amphastar Pharmaceuticals (AMPH) came out with quarterly earnings of $0.93 per share, beating the Zacks Consensus Estimate of $0.77 per share. This compares to earnings of $0.96 per share a year ago.\u2026 [+3825 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Astrana Health, Inc. (ASTH) Misses Q3 Earnings Estimates",
+      "description": "Astrana Health, Inc. (ASTH) delivered earnings and revenue surprises of -97.87% and +0.61%, respectively, for the quarter ended September 2025. Do the...",
+      "url": "https://finance.yahoo.com/news/astrana-health-inc-asth-misses-225502641.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/105b2acef7bf0873f24b78932b1fdc3c",
+      "publishedAt": "2025-11-06T22:55:02Z",
+      "content": "Astrana Health, Inc. (ASTH) came out with quarterly earnings of $0.01 per share, missing the Zacks Consensus Estimate of $0.47 per share. This compares to earnings of $0.33 per share a year ago. Thes\u2026 [+3886 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Affirm Holdings (AFRM) Surpasses Q1 Earnings and Revenue Estimates",
+      "description": "Affirm Holdings (AFRM) delivered earnings and revenue surprises of +109.09% and +5.46%, respectively, for the quarter ended September 2025. Do the numbers...",
+      "url": "https://finance.yahoo.com/news/affirm-holdings-afrm-surpasses-q1-225501873.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/46ebfcbff417ac1bbde85ad33fa0d4be",
+      "publishedAt": "2025-11-06T22:55:01Z",
+      "content": "Affirm Holdings (AFRM) came out with quarterly earnings of $0.23 per share, beating the Zacks Consensus Estimate of $0.11 per share. This compares to a loss of $0.31 per share a year ago. These figur\u2026 [+3837 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Caroline Petrow-Cohen",
+      "title": "Tesla shareholders approve $1-trillion pay package for Elon Musk",
+      "description": "More than 75% of Tesla shareholders voted to approve a staggering pay package for Chief Executive Elon Musk that could award him $1 trillion.",
+      "url": "https://finance.yahoo.com/news/tesla-shareholders-approve-1-trillion-225351123.html",
+      "urlToImage": "https://media.zenfs.com/en/la_times_articles_853/1a0779cc9fba046afd1e4d5ca78a8ee3",
+      "publishedAt": "2025-11-06T22:53:51Z",
+      "content": "Tesla CEO Elon Musk speaks during the unveiling of the new Tesla Model Y in Hawthorne in 2019. (Frederic J. Brown / AFP via Getty Images)\r\nTesla shareholders voted to approve a $1-trillion compensati\u2026 [+5365 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Botox was like going for coffee - I had no idea what went into my body",
+      "description": "Rules about administering drugs such as Botox and Mounjaro have not kept up, says Wales' regulator.",
+      "url": "https://www.bbc.com/news/articles/c797vq95zzyo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9dd1/live/20809160-bb06-11f0-80a0-8fc2ef516106.jpg",
+      "publishedAt": "2025-11-06T22:52:18Z",
+      "content": "Jenny ReesWales health correspondent\r\nLizzie Day says it is easy to fall for the buzz around the latest treatment being talked about on TikTok or Instagram\r\nFor Lizzie Day, having Botox was as much a\u2026 [+7473 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "Amy Canavan",
+      "title": "'Teacher' O'Neill with work to do as Celtic taught another lesson",
+      "description": "Interim Celtic manager cut an exasperated figure in Denmark as he watched a magnificent Midtjylland teach the Scottish champions a lesson.",
+      "url": "https://www.bbc.com/sport/football/articles/cp3x2lzd9g6o",
+      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/cac5/live/618e1e80-bb5a-11f0-a486-e7999a8968e1.jpg",
+      "publishedAt": "2025-11-06T22:49:41Z",
+      "content": "The overriding questions remains, though. How long will O'Neill have to improve Celtic?\r\nHis return, alongside assistant Shaun Maloney, has brought back a feelgood factor but that was only going to l\u2026 [+1054 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Petr Hu\u0159\u0165\u00e1k",
+      "title": "Universal Display (NASDAQ:OLED) Misses Q3 Analysts\u2019 Revenue Estimates, Stock Drops 14.4%",
+      "description": "OLED provider Universal Display (NASDAQ:OLED) fell short of the markets revenue expectations in Q3 CY2025, with sales falling 13.6% year on year to $139.6...",
+      "url": "https://finance.yahoo.com/news/universal-display-nasdaq-oled-misses-224803099.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/q8jTf9HjjtHozsuteEDGHg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/aa1a6ea75dde858daee139b62eb54df4",
+      "publishedAt": "2025-11-06T22:48:03Z",
+      "content": "OLED provider Universal Display (NASDAQ:OLED) fell short of the markets revenue expectations in Q3 CY2025, with sales falling 13.6% year on year to $139.6 million. On the other hand, the companys out\u2026 [+3984 chars]"
     },
     {
       "source": {
@@ -436,25 +787,116 @@
         "name": "Forbes"
       },
       "author": "Rachel Elspeth Gross, Contributor, \n Rachel Elspeth Gross, Contributor\n https://www.forbes.com/sites/rachelelspethgross/",
-      "title": "As If - Mona May\u2019s New Book Celebrates \u2018The Fashion Of Clueless\u2019",
-      "description": "The costume designer of \u2018Clueless\u2019 on the magic of the first real film about teenage girls, a movie that changed Hollywood forever.",
-      "url": "https://www.forbes.com/sites/rachelelspethgross/2025/11/05/as-ifmona-mays-new-book-celebrates-the-fashion-of-clueless/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690bb6270f188f140098b57d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T21:00:25Z",
-      "content": "LOS ANGELES - JULY 21: The movie \"Clueless\", written and directed by Amy Heckerling. Seen here from left, Stacey Dash (as Dionne Davenport), and Alicia Silverstone (as Cher Horowitz). Theatrical wide\u2026 [+16996 chars]"
+      "title": "Indigo Threads Run Through E. Lockhart\u2019s New Novel, \u2018We Fell Apart\u2019",
+      "description": "\u2018We Fell Apart,\u2019 the new novel by the bestselling author of \u2018We Were Liars\u2019, is an excellent novel, on its own or as the latest installment in a beloved series.",
+      "url": "https://www.forbes.com/sites/rachelelspethgross/2025/11/06/indigo-threads-run-through-e-lockharts-new-novel-we-fell-apart/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690d1cc340e622e9b0086082/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-11-06T22:45:34Z",
+      "content": "Cover of E. Lockhart's latest novel, 'We Fell Apart'.\r\nCourtesy of E. Lockhart / Penguin Random House\r\nWhen I sat down to talk with E. Lockhart, the author of We Fell Apart and the mind responsible f\u2026 [+14658 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Matthew Smith",
-      "title": "The $30 Barrel Break-Even Project Driving Exxon's Success",
-      "description": "ExxonMobil's strong third quarter 2025 earnings are significantly driven by rapidly growing, highly profitable production from its world-class Stabroek Block...",
-      "url": "https://finance.yahoo.com/news/30-barrel-break-even-project-210000956.html",
-      "urlToImage": "https://media.zenfs.com/en/oilprice.com/114f579c2e88b45c4c526f58849e96b7",
-      "publishedAt": "2025-11-05T21:00:00Z",
-      "content": "Global energy giant ExxonMobil reported third-quarter 2025 earnings last week. Those results delivered some eye-popping numbers for all the right reasons. The global energy supermajor announced a sol\u2026 [+6308 chars]"
+      "author": "Zacks Equity Research",
+      "title": "Prothena (PRTA) Reports Q3 Loss, Lags Revenue Estimates",
+      "description": "Prothena (PRTA) delivered earnings and revenue surprises of -11.67% and -90.26%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/prothena-prta-reports-q3-loss-224504084.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/21b1f011539d3e31c28282071d344177",
+      "publishedAt": "2025-11-06T22:45:04Z",
+      "content": "Prothena (PRTA) came out with a quarterly loss of $0.67 per share versus the Zacks Consensus Estimate of a loss of $0.6. This compares to a loss of $1.1 per share a year ago. These figures are adjust\u2026 [+3774 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Protagonist Therapeutics (PTGX) Reports Q3 Loss, Lags Revenue Estimates",
+      "description": "Protagonist Therapeutics (PTGX) delivered earnings and revenue surprises of -5.08% and -52.88%, respectively, for the quarter ended September 2025. Do the...",
+      "url": "https://finance.yahoo.com/news/protagonist-therapeutics-ptgx-reports-q3-224504686.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/62d8c8e05376a18ba1420a1733ffdda4",
+      "publishedAt": "2025-11-06T22:45:04Z",
+      "content": "Protagonist Therapeutics (PTGX) came out with a quarterly loss of $0.62 per share versus the Zacks Consensus Estimate of a loss of $0.59. This compares to a loss of $0.54 per share a year ago. These \u2026 [+3935 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Mettler-Toledo (MTD) Beats Q3 Earnings and Revenue Estimates",
+      "description": "Mettler-Toledo (MTD) delivered earnings and revenue surprises of +4.99% and +3.84%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/mettler-toledo-mtd-beats-q3-224504799.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/2f0d6efdd8740952a371c97ddea6e926",
+      "publishedAt": "2025-11-06T22:45:04Z",
+      "content": "Mettler-Toledo (MTD) came out with quarterly earnings of $11.15 per share, beating the Zacks Consensus Estimate of $10.62 per share. This compares to earnings of $10.21 per share a year ago. These fi\u2026 [+3842 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "HireQuest, Inc. (HQI) Surpasses Q3 Earnings and Revenue Estimates",
+      "description": "HireQuest (HQI) delivered earnings and revenue surprises of +71.43% and +11.42%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/hirequest-inc-hqi-surpasses-q3-224503413.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/023168c7ea091c342492be3899b280af",
+      "publishedAt": "2025-11-06T22:45:03Z",
+      "content": "HireQuest, Inc. (HQI) came out with quarterly earnings of $0.24 per share, beating the Zacks Consensus Estimate of $0.14 per share. This compares to earnings of $0.2 per share a year ago. These figur\u2026 [+3775 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "IREN Limited (IREN) Reports Q1 Loss, Beats Revenue Estimates",
+      "description": "IREN Limited (IREN) delivered earnings and revenue surprises of -342.86% and +8.83%, respectively, for the quarter ended September 2025. Do the numbers hold ...",
+      "url": "https://finance.yahoo.com/news/iren-limited-iren-reports-q1-224503953.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/b95cfdd8768bc3c4620e666dbcb0b248",
+      "publishedAt": "2025-11-06T22:45:03Z",
+      "content": "IREN Limited (IREN) came out with a quarterly loss of $0.34 per share versus the Zacks Consensus Estimate of $0.14. This compares to a loss of $0.22 per share a year ago. These figures are adjusted f\u2026 [+3771 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Fidelity National Financial (FNF) Q3 Earnings and Revenues Top Estimates",
+      "description": "Fidelity National Financial (FNF) delivered earnings and revenue surprises of +13.99% and +13.54%, respectively, for the quarter ended September 2025. Do the...",
+      "url": "https://finance.yahoo.com/news/fidelity-national-financial-fnf-q3-224503735.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/17a4db66bb13bdabcbf848550a6ea15a",
+      "publishedAt": "2025-11-06T22:45:03Z",
+      "content": "Fidelity National Financial (FNF) came out with quarterly earnings of $1.63 per share, beating the Zacks Consensus Estimate of $1.43 per share. This compares to earnings of $1.3 per share a year ago.\u2026 [+3909 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Drilling Tools International Corp. (DTI) Tops Q3 Earnings and Revenue Estimates",
+      "description": "Drilling Tools International Corp. (DTI) delivered earnings and revenue surprises of +300.00% and +9.44%, respectively, for the quarter ended September 2025....",
+      "url": "https://finance.yahoo.com/news/drilling-tools-international-corp-dti-224503222.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/f889276f4a638f3c7a79c0e3e6b768c1",
+      "publishedAt": "2025-11-06T22:45:03Z",
+      "content": "Drilling Tools International Corp. (DTI) came out with quarterly earnings of $0.02 per share, beating the Zacks Consensus Estimate of a loss of $0.01 per share. This compares to earnings of $0.14 per\u2026 [+4004 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "AerSale Corporation (ASLE) Misses Q3 Earnings and Revenue Estimates",
+      "description": "AerSale (ASLE) delivered earnings and revenue surprises of -60.00% and -16.96%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/aersale-corporation-asle-misses-q3-224502876.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/0c6f98f4bf655bec3b199bc1a71b8b85",
+      "publishedAt": "2025-11-06T22:45:02Z",
+      "content": "AerSale Corporation (ASLE) came out with quarterly earnings of $0.04 per share, missing the Zacks Consensus Estimate of $0.1 per share. This compares to earnings of $0.04 per share a year ago. These \u2026 [+3764 chars]"
     },
     {
       "source": {
@@ -462,181 +904,38 @@
         "name": "BBC News"
       },
       "author": null,
-      "title": "The justice system is failing - the buck stops with Lammy",
-      "description": "Problems in the prisons and the courts are not new but they are growing and the government doesn't have a grip on them.",
-      "url": "https://www.bbc.com/news/articles/crmx82ng9gyo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9a87/live/92ac6bd0-ba87-11f0-930d-3718a7e31379.jpg",
-      "publishedAt": "2025-11-05T20:49:59Z",
-      "content": "Chris MasonPolitical editor\r\nIt is always perilous for a government when it clearly lacks grip on an issue voters would reasonably expect it to be in control of.\r\nThe stand out example of this in rec\u2026 [+4147 chars]"
+      "title": "Government recovers \u00a374m from asylum hotel firms",
+      "description": "The amount recouped remains a small percentage of the overall cost of asylum accommodation.",
+      "url": "https://www.bbc.com/news/articles/c709k1zx0ljo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/c7c7/live/006355e0-bb3b-11f0-a086-55f9ff82c252.jpg",
+      "publishedAt": "2025-11-06T22:44:44Z",
+      "content": "The government has recovered \u00a374m from excessive profits made by companies running asylum accommodation, the BBC can reveal.\r\nThe Home Office said it had recouped the money following a review of cont\u2026 [+3211 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Justin Boone",
-      "title": "Fantasy Football Trade Analyzer: 8 players you should buy or sell in Week 10",
-      "description": "Fantasy football analyst Justin Boone provides his players to buy or sell in a trade this week.",
-      "url": "https://sports.yahoo.com/fantasy/article/fantasy-football-trade-analyzer-8-players-you-should-buy-or-sell-in-week-10-203402488.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/4i2nkIK9OfgJdHqP9h6HRQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MzU7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/2d353f90-ba80-11f0-add9-5650057f655e",
-      "publishedAt": "2025-11-05T20:34:02Z",
-      "content": "Creating realistic trade offers that lead to a deal being accepted is always challenging. Throughout the season, Justin Boone will be publishing his rest-of-season trade value charts, which you can u\u2026 [+7844 chars]"
+      "author": "Petr Hu\u0159\u0165\u00e1k",
+      "title": "Five9 (NASDAQ:FIVN) Reports Q3 In Line With Expectations",
+      "description": "Cloud contact center software provider Five9 (NASDAQ:FIVN) met Wall Streets revenue expectations in Q3 CY2025, with sales up 8.2% year on year to $285.8...",
+      "url": "https://finance.yahoo.com/news/five9-nasdaq-fivn-reports-q3-223714303.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/UjKSrFhjoqtu15YeH5mR5A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NjE-/https://media.zenfs.com/en/stockstory_922/5d2f3c6b63986f5c3dbd1b9d682bd8b6",
+      "publishedAt": "2025-11-06T22:37:14Z",
+      "content": "Cloud contact center software provider Five9 (NASDAQ:FIVN) met Wall Streets revenue expectations in Q3 CY2025, with sales up 8.2% year on year to $285.8 million. On the other hand, next quarters reve\u2026 [+4795 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Simon Sage",
-      "title": "New study reveals overlooked crisis costing North American economy nearly $3 billion: 'Will not be uniform'",
-      "description": "Luckily, some solutions are emerging.",
-      "url": "https://www.yahoo.com/news/articles/study-reveals-overlooked-crisis-costing-203000944.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/hiJIKYmd7URr8kEGNdfNog--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02Nzk7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/314932ab1b76a73ab541b76e3a33c187",
-      "publishedAt": "2025-11-05T20:30:00Z",
-      "content": "Recent research is showing that increased spread of diseases is costing the agricultural industry billions of dollars, according to The Weather Network.\r\nWhat's happening?\r\nA study of wheat producers\u2026 [+1991 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Firm fined nearly \u00a31m after plant worker struck by falling metal",
-      "description": "An employee of Altrad Babcock suffered serious injuries when a 130kg metal coil plummetted to the ground at Mossmorran in Fife.",
-      "url": "https://www.bbc.com/news/articles/ce3xg1z0neqo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3305/live/f8db7db0-b3fc-11f0-ba75-093eca1ac29b.jpg",
-      "publishedAt": "2025-11-05T20:15:32Z",
-      "content": "The incident happened during refurbishment work at the Mossmorran petrochemical plant\r\nAn engineering firm has been fined nearly \u00a31m after a worker was badly injured during work on a furnace at the M\u2026 [+2725 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Daniel Howley",
-      "title": "AI companies need to 'start generating some serious income'",
-      "description": "AI companies need to start bringing in major revenue to keep up with spending.",
-      "url": "https://finance.yahoo.com/news/ai-companies-need-to-start-generating-some-serious-income-195745389.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/z3bvm39T1gT8A6lrTxdtfg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDE-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/2d7a8090-ba6d-11f0-b27b-b848fc6e4061",
-      "publishedAt": "2025-11-05T19:57:45Z",
-      "content": "Big Tech earnings have come and gone. Well, save for Nvidia (NVDA), which reports on Nov. 19. That aside, one key trend emerging from this quarter's reports is that Wall Street largely likes what it'\u2026 [+4923 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Todd Maiden",
-      "title": "ArcBest flags margin pressure in Q4",
-      "description": "ArcBest flagged margin concerns heading into the seasonally weakest part of the year. The post ArcBest flags margin pressure in Q4 appeared first on...",
-      "url": "https://finance.yahoo.com/news/arcbest-flags-margin-pressure-q4-194954017.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ceTT36idLkO6Mz1Y4qEOYA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/freightwaves_373/3054f295e19a69cb60fb6d215f6ec392",
-      "publishedAt": "2025-11-05T19:49:54Z",
-      "content": "Weak demand is expected to again pressure ArcBests margins in the fourth quarter, potentially pushing its asset-based unit to near-breakeven operating results and post-pandemic lows.\r\nThe Arkansas-ba\u2026 [+5266 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Mone-linked firm PPE Medpro owes \u00a339m in taxes",
-      "description": "Administrator's report shows firm owes \u00a339m to HMRC on top of \u00a3148m owed to Department of Health",
-      "url": "https://www.bbc.com/news/articles/c5y95p045g9o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/891e/live/d3c9a440-ba76-11f0-b2a1-6f537f66f9aa.jpg",
-      "publishedAt": "2025-11-05T19:21:44Z",
-      "content": "Ben KingBusiness reporter\r\nA company linked to Baroness Michelle Mone and her husband Doug Barrowman owes \u00a339m in tax on top of the \u00a3148m it was ordered to pay the government for breaching a contract\u2026 [+2478 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Nick Bromberg",
-      "title": "Michigan won't play 2026 opener against Western Michigan in Germany",
-      "description": "The school was exploring the idea of opening next season in Frankfurt.",
-      "url": "https://sports.yahoo.com/college-football/breaking-news/article/michigan-wont-play-2026-opener-against-western-michigan-in-germany-191834757.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/zc6yGwgejbEI16ZApSh.Vg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/14eaab40-ba7c-11f0-a23d-9d5c58339d1b",
-      "publishedAt": "2025-11-05T19:18:34Z",
-      "content": "Michigan is keeping its 2026 season-opening game at home.\r\nThe school announced Wednesday that it would not move its Week 1 game against Western Michigan to Frankfurt, Germany, in Week Zero. The scho\u2026 [+1670 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Hannah Abraham, Contributor, \n Hannah Abraham, Contributor\n https://www.forbes.com/sites/hannahabraham/",
-      "title": "\u201cComedy Will Always Be Needed\u201d: Vir Das On Doing Things Scared",
-      "description": "With two distinctive shows, a memoir, and an upcoming movie, comedian Vir Das chats backstage with Hannah Abraham about his busiest season yet.",
-      "url": "https://www.forbes.com/sites/hannahabraham/2025/11/05/comedy-will-always-be-needed-vir-das-on-doing-things-scared/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b72d069bf17f99cc5144f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T19:17:44Z",
-      "content": "Vir Das performing the 'Sounds of India\" in Good Shepherd Auditorium, Bangalore, November 24, 2025.\r\nVir Das/Instagram\r\nContrary to his name and general public perception, Vir Das (pronounced VEEr DA\u2026 [+7992 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "MSPs pass land reform which could force break up of huge estates",
-      "description": "The legislation is designed to help reduce the concentration of rural land ownership among a small number of people.",
-      "url": "https://www.bbc.com/news/articles/cgr4d770znpo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/29a7/live/67783700-ba5a-11f0-ba75-093eca1ac29b.jpg",
-      "publishedAt": "2025-11-05T19:15:34Z",
-      "content": "Angus CochraneBBC Scotland\r\nThe government wants to change the way land is managed in Scotland \r\nThe Scottish Parliament has passed land reforms which could force the break-up of some large estates.\r\u2026 [+4101 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Tim Genske, Contributor, \n Tim Genske, Contributor\n https://www.forbes.com/sites/timgenske/",
-      "title": "The Milano-Cortina 2026 Olympics: Team USA Hopefuls",
-      "description": "With a little over 90 days until the 2026 winter Olympics in Milano-Cortina, who are the hopeful athletes for Team USA?",
-      "url": "https://www.forbes.com/sites/timgenske/2025/11/05/the-milano-cortina-2026-olympics-team-usa-hopefuls/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b992b5c3a42aaa6d1ba11/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T19:00:11Z",
-      "content": "Earlier this year I wrote several articles about American athletes hoping to make the Milano-Cortina 2026 Winter Olympics next February. With a little over 90 days to go until the opening ceremonies \u2026 [+10662 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Why the fall of Pokrovsk would matter to Ukraine and Russia",
-      "description": "The battle for this strategic point on a big road and rail artery in the Donetsk region has been going on for well over a year.",
-      "url": "https://www.bbc.com/news/articles/c0jdv0623pno",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0f2d/live/82f277c0-b9ab-11f0-b1fc-bb74f5a3bad8.jpg",
-      "publishedAt": "2025-11-05T18:42:07Z",
-      "content": "Paul Kirby,Europe digital editor\r\nUkraine's Volodymyr Zelensky visited troops not far from Pokrovsk this week\r\nUkraine could be facing its biggest loss for months, if the key eastern city of Pokrovsk\u2026 [+5396 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Kashvi Chandgothia",
-      "title": "3 Reasons to Fold MercadoLibre Stock Post Third Quarter Earnings Miss",
-      "description": "MELI's Q3 beat on revenue but missed on earnings, as shrinking margins and rising competition cloud its outlook.",
-      "url": "https://finance.yahoo.com/news/3-reasons-fold-mercadolibre-stock-184200194.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/2eea76e4b971ebcdca249735ba5992ee",
-      "publishedAt": "2025-11-05T18:42:00Z",
-      "content": "MercadoLibres MELI third-quarter 2025 earnings stumbled, despite delivering robust top-line expansion. While revenue surged 39.5% year over year to $7.41 billion and beat the Zacks Consensus Estimate\u2026 [+6031 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Pras Subramanian",
-      "title": "Rivian stock surges over 20% after Q3 beat, R2 midsize SUV on track for 2026",
-      "description": "Rivian stock surged after it reported third quarter results that beat estimates after the bell on Tuesday, as the pure-play electric vehicle maker navigates ...",
-      "url": "https://finance.yahoo.com/news/rivian-stock-surges-over-20-after-q3-beat-r2-midsize-suv-on-track-for-2026-183904840.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ST13R6GfN6BOhi.0Ox07Hg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NTU-/https://s.yimg.com/os/creatr-uploaded-images/2024-03/a5f52890-dcb6-11ee-bd76-e8e3b78afa55",
-      "publishedAt": "2025-11-05T18:39:04Z",
-      "content": "Rivian (RIVN) stock surged after it reported third quarter results that beat estimates after the bell on Tuesday, as the pure-play electric vehicle maker navigates the loss of federal electric vehicl\u2026 [+2871 chars]"
+      "author": "Radek Strnad",
+      "title": "WillScot Mobile Mini (NASDAQ:WSC) Misses Q3 Revenue Estimates, Stock Drops",
+      "description": "Temporary space provider WillScot (NASDAQ:WSC) fell short of the markets revenue expectations in Q3 CY2025, with sales falling 5.8% year on year to $566.8...",
+      "url": "https://finance.yahoo.com/news/willscot-mobile-mini-nasdaq-wsc-223603372.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/O7gtduKbjc43vnh7UihT3w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/0573cd8c22f41832196f95d84271a6da",
+      "publishedAt": "2025-11-06T22:36:03Z",
+      "content": "Temporary space provider WillScot (NASDAQ:WSC) fell short of the markets revenue expectations in Q3 CY2025, with sales falling 5.8% year on year to $566.8 million. Next quarters revenue guidance of $\u2026 [+7779 chars]"
     },
     {
       "source": {
@@ -644,12 +943,12 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Zacks Equity Research",
-      "title": "StoneCo Gears Up to Report Q3 Earnings: What's in the Offing?",
-      "description": "STNE's Q3 results are likely to show revenue and EPS gains, fueled by MSMB growth, credit expansion and cost efficiency moves.",
-      "url": "https://finance.yahoo.com/news/stoneco-gears-report-q3-earnings-183000100.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/5ffeb83ada09c44e2b9fdba5353a4fa9",
-      "publishedAt": "2025-11-05T18:30:00Z",
-      "content": "StoneCo Ltd. STNE is scheduled to report third-quarter 2025 results on Nov. 6, after market close. The companys quarterly results are likely to display a year-over-year rise in revenues and earnings \u2026 [+3796 chars]"
+      "title": "Universal Logistics (ULH) Beats Q3 Earnings Estimates",
+      "description": "Universal Truckload (ULH) delivered earnings and revenue surprises of +33.33% and -0.95%, respectively, for the quarter ended September 2025. Do the numbers ...",
+      "url": "https://finance.yahoo.com/news/universal-logistics-ulh-beats-q3-223503115.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/03fca48475577988aa4e0db94f484b4e",
+      "publishedAt": "2025-11-06T22:35:03Z",
+      "content": "Universal Logistics (ULH) came out with quarterly earnings of $0.24 per share, beating the Zacks Consensus Estimate of $0.18 per share. This compares to earnings of $1.01 per share a year ago. These \u2026 [+3930 chars]"
     },
     {
       "source": {
@@ -657,51 +956,12 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Zacks Equity Research",
-      "title": "Avis Budget Stock Declines 11% Despite Reporting Q3 Earnings Beat",
-      "description": "CAR's third-quarter 2025 earnings and revenues top estimates, yet the stock slides 11% as investors react to mixed segmental results.",
-      "url": "https://finance.yahoo.com/news/avis-budget-stock-declines-11-182900856.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/a925767af6f82f46cf1c5838bc9bc5a0",
-      "publishedAt": "2025-11-05T18:29:00Z",
-      "content": "Avis Budget Group, Inc.\u00a0CAR reported impressive third-quarter 2025 results, wherein earnings and revenues surpassed the Zacks Consensus Estimate.\r\nThe companys adjusted earnings per share of $10.11 b\u2026 [+2195 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Analyst Report: Shopify Inc",
-      "description": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_4837_AnalystReport_1762366657000/",
-      "urlToImage": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
-      "publishedAt": "2025-11-05T18:17:37Z",
-      "content": "James Kelleher, CFA \r\nDirector of Research &amp; Senior Analyst Technology \r\nJim has worked in the financial services industry for over 25 years and joined Argus in 1993. He is director of research a\u2026 [+910 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Analyst Report: Progressive Corp.",
-      "description": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3310_AnalystReport_1762366657000/",
-      "urlToImage": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
-      "publishedAt": "2025-11-05T18:17:37Z",
-      "content": "Kevin Heal \r\nChief Compliance Officer &amp; Senior Analyst: Financial Services \r\nKevin is the Chief Compliance Officer for the Argus Research Group. His responsibilities include ensuring that the fir\u2026 [+451 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Analyst Report: Generac Holdings Inc",
-      "description": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_5860_AnalystReport_1762366657000/",
-      "urlToImage": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
-      "publishedAt": "2025-11-05T18:17:37Z",
-      "content": "John Eade \r\nPresident &amp; Director of Portfolio Strategies \r\nJohn is chairman and CEO of Argus Research Group and president of Argus Research Company. Over the years, his responsibilities at Argus \u2026 [+941 chars]"
+      "title": "Zymeworks Inc. (ZYME) Reports Q3 Loss, Lags Revenue Estimates",
+      "description": "Zymeworks (ZYME) delivered earnings and revenue surprises of +13.33% and -2.31%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/zymeworks-inc-zyme-reports-q3-223503131.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/f541c90e0d995722d10914cb76a7c653",
+      "publishedAt": "2025-11-06T22:35:03Z",
+      "content": "Zymeworks Inc. (ZYME) came out with a quarterly loss of $0.26 per share versus the Zacks Consensus Estimate of a loss of $0.3. This compares to a loss of $0.39 per share a year ago. These figures are\u2026 [+3775 chars]"
     },
     {
       "source": {
@@ -709,467 +969,12 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Zacks Equity Research",
-      "title": "BayFirst Incurs Loss in Q3, Exits SBA Lending Amid Shakeup",
-      "description": "BAFN incurred a loss of $4.66 per share in Q3 2025 due to heavy restructuring and SBA loan exits. Management targets profitability recovery and balance-sheet...",
-      "url": "https://finance.yahoo.com/news/bayfirst-incurs-loss-q3-exits-181000754.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/fc7140c171b67cf9ddc1280d1a32cb83",
-      "publishedAt": "2025-11-05T18:10:00Z",
-      "content": "Shares of BayFirst Financial Corp. BAFN have declined 10.8% since the company reported its earnings for the quarter ended Sept. 30, 2025. This compares to the S&amp;P 500 indexs 0.4% decline over the\u2026 [+4639 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "By David Shepardson, Allison Lampert and Lisa Baertlein",
-      "title": "Death toll in Louisville UPS plane crash rises to 9",
-      "description": "By David Shepardson, Allison Lampert and Lisa Baertlein (Reuters) -The death toll has risen to nine in the crash of a UPS cargo plane that erupted into a...",
-      "url": "https://www.yahoo.com/news/articles/death-toll-louisville-ups-plane-180520286.html",
-      "urlToImage": "https://media.zenfs.com/en/reuters.com/43c50a4dfc6f54b21bb82fbc2525d4d7",
-      "publishedAt": "2025-11-05T18:05:20Z",
-      "content": "By David Shepardson, Allison Lampert and Lisa Baertlein\r\n(Reuters) -The death toll has risen to nine in the crash of a UPS cargo plane that erupted into a fireball moments after takeoff in Louisville\u2026 [+3190 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Michael Kern",
-      "title": "Norway Freezes $2.1 Trillion Oil Fund Ethics Rules to Protect Big Tech Stakes",
-      "description": "Norway has suspended the ethical investment rules governing its $2.1-trillion oil fund as an emergency measure to protect portfolio stability and prevent the...",
-      "url": "https://finance.yahoo.com/news/norway-freezes-2-1-trillion-180000659.html",
-      "urlToImage": "https://media.zenfs.com/en/oilprice.com/480c7596f93922801c96f5f647a2cebc",
-      "publishedAt": "2025-11-05T18:00:00Z",
-      "content": "Norway has suspended the ethical investment rules governing its $2.1-trillion oil fund just weeks after signaling higher 2026 withdrawals, drawing a direct line between petroleum revenues and fiscal \u2026 [+2653 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "WWW Q3 Earnings & Sales Beat Estimates on Broad-Based Brand Momentum",
-      "description": "Wolverine tops Q3 estimates with broad-based brand gains, record gross margin and solid y/y earnings growth.",
-      "url": "https://finance.yahoo.com/news/q3-earnings-sales-beat-estimates-180000273.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/884ad99f7957024a1337cf44d891e363",
-      "publishedAt": "2025-11-05T18:00:00Z",
-      "content": "Wolverine World Wide, Inc. WWW has reported impressive third-quarter 2025 results, wherein the top and bottom lines surpassed the Zacks Consensus Estimate. Also, revenues and earnings grew year over \u2026 [+6209 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "E-Commerce Momentum Builds: Is Digital PG's Next Growth Engine?",
-      "description": "The Procter & Gamble Company strengthens its digital edge with data-driven insights, agile brand teams and a next-gen automated supply chain.",
-      "url": "https://finance.yahoo.com/news/e-commerce-momentum-builds-digital-175200405.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/7f3667ffb0901a87f0646d99fc0299de",
-      "publishedAt": "2025-11-05T17:52:00Z",
-      "content": "The Procter &amp; Gamble Company PG is strategically harnessing digital technologies and advanced data analytics to possess deeper consumer insights and foster stronger connections. By leveraging ins\u2026 [+2855 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "BG Q3 Earnings Beat, Revenues Surge Y/Y Aided by Viterra Acquisition",
-      "description": "Bunge Global's Q3 profit beat estimates as the Viterra merger boosted volumes and margins across major crop segments.",
-      "url": "https://finance.yahoo.com/news/bg-q3-earnings-beat-revenues-175000390.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202",
-      "publishedAt": "2025-11-05T17:50:00Z",
-      "content": "Bunge Global SA BG reported third-quarter 2025 adjusted earnings of $2.27 per share, which beat the Zacks Consensus Estimate of $2.23. The bottom line, however, marked a 1% year-over-year dip.\r\nInclu\u2026 [+5866 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Jacob Wade",
-      "title": "5 Most Popular Ways People Build Wealth",
-      "description": "Discover the five most popular wealth-building strategies Americans are using now -- from homeownership to investing -- and how you can join them today.",
-      "url": "https://finance.yahoo.com/news/5-most-popular-ways-people-174808643.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/fuXaZl7IqDABhKTUUSrbcg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gobankingrates_644/11244c5db2b3dc058f20d473ff10809c",
-      "publishedAt": "2025-11-05T17:48:08Z",
-      "content": "Do you feel wealthy? According to a recent survey by LendingTree, only 21% of Americans currently see themselves as wealthy, and only 38% who dont see themselves as wealthy believe they ever will be.\u2026 [+4946 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Catherine Brock",
-      "title": "5 common traffic violations and how they affect your car insurance",
-      "description": "Speeding tickets, red-light tickets, DUIs, and at-fault accidents can prompt double-digit car insurance rate increases. Find out how much your costs could...",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/traffic-violations-car-insurance-174631810.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/.FLJHoi2n19gY6duBt5tQA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/8b53d740-ba6b-11f0-af66-b48c795913aa",
-      "publishedAt": "2025-11-05T17:46:31Z",
-      "content": "A ticket, at-fault accident, or driving-related conviction can go on your driving record and raise your insurance rates. The amount of the increase varies. The type of infraction, whether it was your\u2026 [+7105 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Reuters Videos",
-      "title": "EU agrees weakened climate target in final-hour deal for COP30",
-      "description": "<body><p>STORY: After intense negotiations, EU climate ministers have agreed on a 2040 climate change target ahead of the COP30 summit in Brazil.</p><p>The...",
-      "url": "https://www.yahoo.com/news/videos/eu-agrees-weakened-climate-target-174322067.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/2Uhs1gYlOr0fXOCzZte5hA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/38fdaf36-78a3-4336-9a58-a86a59208403/main/1280x720/35s573ms/match/image.jpg",
-      "publishedAt": "2025-11-05T17:43:22Z",
-      "content": "STORY: After intense negotiations, EU climate ministers have agreed on a 2040 climate change target ahead of the COP30 summit in Brazil.The agreement sets a goal to cut emissions by 90% by 2040.Howev\u2026 [+750 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "What we know about two mistakenly released prisoners",
-      "description": "Two men were released from HMP Wandsworth in error in the past week, with police hunts under way.",
-      "url": "https://www.bbc.com/news/articles/czxn397y0gxo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2266/live/bb8e6620-ba5a-11f0-aa13-0b0479f6f42a.jpg",
-      "publishedAt": "2025-11-05T17:39:59Z",
-      "content": "Manhunts are under way after two men were mistakenly released from Wandsworth Prison in London in the past week.\r\nThe first, released last Wednesday, is Brahim Kaddour-Cherif is a 24-year-old Algeria\u2026 [+6853 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Ray Garvin",
-      "title": "Fantasy Football Rookie Report Card: Emerging stars earn high marks in Q2, but several questions remain about 2025 draft class",
-      "description": "Ray Garvin grades 10 prominent rookies on their second quarter fantasy football performance.",
-      "url": "https://sports.yahoo.com/fantasy/article/fantasy-football-rookie-report-card-emerging-stars-earn-high-marks-in-q2-but-several-questions-remain-about-2025-draft-class-173901500.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/MC6iQf8lMMDFjWmwWEs9fA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/e2e5c0a0-ba60-11f0-a7ff-d41a33cb1291",
-      "publishedAt": "2025-11-05T17:39:01Z",
-      "content": "Quarter two of the NFL season is where the rookie haze burns off. Some of these first-year players are settling in as real fantasy starters while others look more like stashes for 2026. Roles have cl\u2026 [+14791 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "MPLX Beats Q3 Earnings Estimates, Hikes Quarterly Distribution",
-      "description": "MPLX posts strong Q3 results with higher earnings and revenues, and a 12.5% distribution hike amid volume and rate gains.",
-      "url": "https://finance.yahoo.com/news/mplx-beats-q3-earnings-estimates-173700458.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/5ffeb83ada09c44e2b9fdba5353a4fa9",
-      "publishedAt": "2025-11-05T17:37:00Z",
-      "content": "MPLX LP\u00a0MPLX reported third-quarter 2025 earnings of $1.52 per unit, which beat the Zacks Consensus Estimate of $1.07. The bottom line also increased from the year-ago quarters $1.01.\r\nTotal quarterl\u2026 [+5026 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "Recent Price Trend in Castle Biosciences (CSTL) is Your Friend, Here's Why",
-      "description": "Castle Biosciences (CSTL) could be a solid choice for shorter-term investors looking to capitalize on the recent price trend in fundamentally sound stocks...",
-      "url": "https://finance.yahoo.com/news/recent-price-trend-castle-biosciences-173656235.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9",
-      "publishedAt": "2025-11-05T17:36:56Z",
-      "content": "When it comes to short-term investing or trading, they say \"the trend is your friend.\" And there's no denying that this is the most profitable strategy. But making sure of the sustainability of a tre\u2026 [+3861 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Nilanshi Mukherjee",
-      "title": "Vertiv Soars 29% in Three Months: Should Investors Buy VRT Stock?",
-      "description": "VRT benefits from strategic acquisitions, AI-driven solutions, and an expanding partnership with NVIDIA.",
-      "url": "https://finance.yahoo.com/news/vertiv-soars-29-three-months-173500945.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/53d9a3fd304ab73d580828e5367313eb",
-      "publishedAt": "2025-11-05T17:35:00Z",
-      "content": "Vertiv VRT shares have gained 29.4% in the past three months, outperforming the broader Zacks Computer and Technology sectors increase of 15.8% and the Zacks Computers - IT Services industrys rise of\u2026 [+5136 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "Astera Labs Q3 Earnings Beat Estimates, Revenues Rise Y/Y",
-      "description": "ALAB posts a sharp Q3 earnings and revenue beat on soaring demand for its AI platform, yet shares slip in pre-market trading.",
-      "url": "https://finance.yahoo.com/news/astera-labs-q3-earnings-beat-173200064.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/d852549e356fec8c0c451470e2c7ebef",
-      "publishedAt": "2025-11-05T17:32:00Z",
-      "content": "Astera Labs ALAB reported third-quarter 2025 non-GAAP earnings of 49 cents per share, surpassing the Zacks Consensus Estimate by 25.64%. The company reported earnings of 23 cents per share in the yea\u2026 [+2498 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "nickthomas2@benzinga.com",
-      "title": "Japan Lanches the World's First Yen Stablecoin\u2014Here's Why It Could Reshape Asian Crypto Settlements",
-      "description": "While dollar-backed stablecoins continue their stranglehold on the global market\u2014commanding 99% of the $286 billion sector\u2014Japan just made a move that could ...",
-      "url": "https://finance.yahoo.com/news/japan-lanches-worlds-first-yen-173105431.html",
-      "urlToImage": "https://media.zenfs.com/en/benzinga_79/4672108c3277338b899fe8d5441a88ec",
-      "publishedAt": "2025-11-05T17:31:05Z",
-      "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nWhile dollar-backed stablecoins continue their stranglehold on the global marketcommanding 99% of\u2026 [+2360 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Raphielle Johnson",
-      "title": "Fantasy Basketball Week 3 Injury Report: Trae Young, Zion Williamson join the list",
-      "description": "While the Hawks will be without Young for over a month, the Pelicans may get Williamson back well before that.",
-      "url": "https://sports.yahoo.com/article/fantasy-basketball-week-3-injury-173000705.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/YHSNDksYa98coTWBdDhqkQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/nbcsports.com/efe0791212a6172f933177b22992c95c",
-      "publishedAt": "2025-11-05T17:30:00Z",
-      "content": "Another week, another list of key players who will miss time due to injury. Atlanta, Charlotte and New Orleans are among the teams forced to navigate the loss of key players, but some are better equi\u2026 [+12921 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Jewel Saha",
-      "title": "Vistra Set to Post Q3 Earnings: What to Expect From the Stock?",
-      "description": "VST's third-quarter results may show stronger revenues due to rising clean power demand, and the hedging program and integrated business model continue to...",
-      "url": "https://finance.yahoo.com/news/vistra-set-post-q3-earnings-172900650.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/2f7d12bc70a6f1d0d4e7800b20752a8a",
-      "publishedAt": "2025-11-05T17:29:00Z",
-      "content": "Vistra Corp. VST is expected to deliver an improvement in the top line and a decline in the bottom line when it reports third-quarter 2025 results on Nov. 6, before market open.The Zacks Consensus Es\u2026 [+5174 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "Hanesbrands to Report Q3 Earnings: What Should Investors Expect?",
-      "description": "HBI is set to post modest sales softness but improved profitability as cost cuts and efficiency gains are likely to have supported its Q3 performance.",
-      "url": "https://finance.yahoo.com/news/hanesbrands-report-q3-earnings-investors-172900323.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/130c50ccf11cbe05e83c97c79dd59f7e",
-      "publishedAt": "2025-11-05T17:29:00Z",
-      "content": "Hanesbrands Inc. HBI is likely to post year-over-year bottom-line growth when it reports third-quarter 2025 earnings on Nov. 6, before the opening bell.\r\nThe Zacks Consensus Estimate for earnings is \u2026 [+4968 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Nikita Kataruka",
-      "title": "Is IBKR's Karta Visa Card a Step Toward Its Diversification Strategy?",
-      "description": "Interactive Brokers expands beyond brokerage with its Karta Visa card, uniting trading, saving, investing and spending in one seamless platform.",
-      "url": "https://finance.yahoo.com/news/ibkrs-karta-visa-card-step-172600359.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/c6fad3ca7c16d98ecfc2bf948f4cf143",
-      "publishedAt": "2025-11-05T17:26:00Z",
-      "content": "In an effort to transition to a full-service financial platform from being just a broker, Interactive Brokers IBKR is offering eligible clients the Karta Visa card, which is a U.S.-dollar card with n\u2026 [+2646 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Yahoo Sports",
-      "title": "Week 11 college football picks, predictions: Is it time to invest in Texas A&M? What about Texas?",
-      "description": "Texas takes center stage of the college football season, as three teams from the state can shape the national scene.",
-      "url": "https://sports.yahoo.com/college-football/betting/article/week-11-college-football-picks-predictions-is-it-time-to-invest-in-texas-am-what-about-texas-172424213.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/W2yKCN1x2TEMVBksSiywDA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/a0b726f0-ba6b-11f0-b9bd-ad41c6d7e516",
-      "publishedAt": "2025-11-05T17:24:24Z",
-      "content": "Looking for sharp college football betting information through numbers and analysis?\r\nThe Power Rank member college football model comes from my background (Ph.D. in chemical engineering from Stanfor\u2026 [+5240 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Dori Zinn",
-      "title": "Bilt Mastercard review: Earn points on rent payments (Bilt Card 2.0 coming soon)",
-      "description": "The Bilt Mastercard offers a unique advantage: You can earn points on your rent payments, and Bilt will cover any added transaction fees. Check out all the...",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/bilt-credit-card-review-002855220.html",
-      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2024-04/af42f850-f219-11ee-bc4c-f9d348551d4e",
-      "publishedAt": "2025-11-05T17:18:18Z",
-      "content": "The Bilt Mastercard lets you earn rewards on rent payments with no transaction fees. And soon, you'll be able to earn points on mortgage payments as well. For anyone looking to take advantage of thes\u2026 [+8385 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Subhasish Mukherjee",
-      "title": "Watch These 5 Internet Stocks for Q3 Earnings: Beat or Miss?",
-      "description": "Here, we take a sneak peek at some Internet Software stocks, BLZE, DDOG, FROG, AFRM and XYZ, which are set to report their Q3 earnings results on Nov. 6.",
-      "url": "https://finance.yahoo.com/news/watch-5-internet-stocks-q3-171100578.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/d10d4428c213ff155c9fa3853df90e24",
-      "publishedAt": "2025-11-05T17:11:00Z",
-      "content": "Internet Software industry stocks upcoming third-quarter 2025 results are anticipated to reflect the benefits of continued technological innovation, particularly in artificial intelligence (AI), clou\u2026 [+10354 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "Will Lululemon (LULU) Beat Estimates Again in Its Next Earnings Report?",
-      "description": "Lululemon (LULU) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in...",
-      "url": "https://finance.yahoo.com/news/lululemon-lulu-beat-estimates-again-171002317.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/c2fdcaac033e049c74f38d188afcc9f9",
-      "publishedAt": "2025-11-05T17:10:02Z",
-      "content": "Looking for a stock that has been consistently beating earnings estimates and might be well positioned to keep the streak alive in its next quarterly report? Lululemon (LULU), which belongs to the Za\u2026 [+2333 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "MASI Stock Gains Post Q3 Earnings and Revenue Beat, Margins Expand",
-      "description": "Masimo beats third-quarter 2025 earnings and revenue estimates as operating margins and profits improve on lower expenses.",
-      "url": "https://finance.yahoo.com/news/masi-stock-gains-post-q3-170900349.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/838cf8b60fbc1e7928a087dc9bcb3648",
-      "publishedAt": "2025-11-05T17:09:00Z",
-      "content": "Masimo Corporation MASI delivered adjusted earnings per share (EPS) from continuing operations of $1.32 in the third quarter of 2025, up 37.5% year over year. The figure beat the Zacks Consensus Esti\u2026 [+6663 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "McCormick's Gross Margin Under Pressure: Will Q4 Show Relief?",
-      "description": "MKC battles cost pressures and tariff impacts but eyes a modest Q4 margin lift as savings initiatives gain traction.",
-      "url": "https://finance.yahoo.com/news/mccormicks-gross-margin-under-pressure-170700184.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/35c687708a92dc1852487b4945bc1b43",
-      "publishedAt": "2025-11-05T17:07:00Z",
-      "content": "McCormick &amp; Company Inc.s MKC adjusted gross profit margin declined 120 basis points in the third quarter of 2025, reflecting the impact of higher tariffs, increased commodity costs, and expenses\u2026 [+3999 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Chris Allen",
-      "title": "Fantasy Football Week 10 Panic Meter: Is there any hope for 're-Krafting' Packers offense?",
-      "description": "Who should fantasy football managers be panicking about this week?",
-      "url": "https://sports.yahoo.com/fantasy/article/fantasy-football-week-10-panic-meter-is-there-any-hope-for-re-krafting-packers-offense-165954297.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/fI5idnLql1xFx8aPlCzfbQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/f68f9c50-ba67-11f0-b96e-93626b1671a3",
-      "publishedAt": "2025-11-05T16:59:54Z",
-      "content": "Video games used to take up a large part of my spare time. Now, my kids rule the gaming consoles. Regardless, dying repeatedly or getting stuck on a level wasnt the most frustrating it was losing to \u2026 [+10935 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Chris Allen",
-      "title": "Fantasy Football Week 10 Panic Meter: Is there any hope for 're-Krafting' the Packers offense?",
-      "description": "Who should fantasy football managers be panicking about this week?",
-      "url": "https://sports.yahoo.com/fantasy/article/fantasy-football-week-10-panic-meter-is-there-any-hope-for-re-krafting-the-packers-offense-165954587.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/fI5idnLql1xFx8aPlCzfbQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/f68f9c50-ba67-11f0-b96e-93626b1671a3",
-      "publishedAt": "2025-11-05T16:59:54Z",
-      "content": "Video games used to take up a large part of my spare time. Now, my kids rule the gaming consoles. Regardless, dying repeatedly or getting stuck on a level wasnt the most frustrating it was losing to \u2026 [+10935 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "D.J. Short",
-      "title": "Bo Bichette Free Agent Profile: Contract prediction, best fits, stats",
-      "description": "Two-time All-Star Bo Bichette enters free agency following a strong rebound season and World Series run. Here\u2019s a look at his best fits, market outlook, and contract projection.",
-      "url": "https://sports.yahoo.com/article/bo-bichette-free-agent-profile-165243946.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/IVNuTe0LSAjac7be6FW3ng--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/nbcsports.com/c456148ea7ca00cf1fadf8f56d80a52c",
-      "publishedAt": "2025-11-05T16:52:43Z",
-      "content": "Coming off a strong bounceback season which culminated in the Blue Jays' first trip to the World Series since 1993, two-time All-Star shortstop Bo Bichette is hitting the open market this winter.\r\nTh\u2026 [+5795 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Exec-Edge",
-      "title": "Vinson & Elkins Adds Investment Funds Partner Samara Shepherd",
-      "description": "By Karen Roman Vinson & Elkins said Samara Shepherd joined the firm as a Houston-based partner in the Investment Funds practice, having previously served at ...",
-      "url": "https://finance.yahoo.com/news/vinson-elkins-adds-investment-funds-164848263.html",
-      "urlToImage": "https://media.zenfs.com/en/exec_edge_220/cfc0f0ca2e12cba753d688545e3289b0",
-      "publishedAt": "2025-11-05T16:48:48Z",
-      "content": "By Karen Roman\r\nVinson &amp; Elkins said Samara Shepherd joined the firm as a Houston-based partner in the Investment Funds practice, having previously served at Kirkland &amp; Ellis.\r\nMs. Shepherd f\u2026 [+782 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Brooke DiPalma",
-      "title": "McDonald's stock rises as US sales top forecasts, company continues value push amid 'challenging environment'",
-      "description": "The Golden Arches seems to have turned a tide with consumers as it reaccelerates same-store sales growth.",
-      "url": "https://finance.yahoo.com/news/mcdonalds-stock-rises-as-us-sales-top-forecasts-company-continues-value-push-amid-challenging-environment-164400532.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WX92Q356oomJhoqXxkTgmA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/fc7fa780-b8d3-11f0-bdde-7cef1fbb32f7",
-      "publishedAt": "2025-11-05T16:44:00Z",
-      "content": "McDonald's (MCD) on Wednesday reported US same-store sales that topped forecasts for the second straight quarter as it continues to focus on value offerings amid what the company called a \"challengin\u2026 [+3358 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Clyde Wayne Crews Jr., Contributor, \n Clyde Wayne Crews Jr., Contributor\n https://www.forbes.com/sites/waynecrews/",
-      "title": "Deregulation Frustration: Is \u201cGood Cause\u201d On Pause?",
-      "description": "The White House urges agencies to fast-track repeals of \u201cfacially unlawful\u201d rules using the Administrative Procedure Act\u2019s good cause exemption.",
-      "url": "https://www.forbes.com/sites/waynecrews/2025/11/05/deregulation-frustration-is-good-cause-on-pause/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b7b8eb8b41b2bf5ae1423/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T16:35:08Z",
-      "content": "Facially unlawful could be the phrase of the year when it comes to whether the long-promised deconstruction of the administrative state actually happens.\r\nCutting red tape and bureaucracy obstacle bu\u2026 [+12368 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "VRTX's New Drugs Performance Mixed in Q3: Can Their Sales Improve?",
-      "description": "VRTX's new drugs deliver a mixed Q3 performance. Alyftrek sales surge. Journavx and Casgevy lag expectations but show promise.",
-      "url": "https://finance.yahoo.com/news/vrtxs-drugs-performance-mixed-q3-163500527.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/96776645e0ac7ab203b7d5e3b37251a6",
-      "publishedAt": "2025-11-05T16:35:00Z",
-      "content": "Vertex Pharmaceuticals Incorporateds VRTX third-quarter 2025 results were strong\u00a0as it beat estimates for both earnings and sales.\r\nThe companys total revenues of $3.08 billion rose 11% year over yea\u2026 [+6517 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Daniel Phillips",
-      "title": "BNB Chain News: Volatility Returns, CZ Headlines, Ecosystem Expands",
-      "description": "The BNB Chain sector was unable to resist the market-wide crash this week.",
-      "url": "https://finance.yahoo.com/news/bnb-chain-news-volatility-returns-163113389.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/XfoKZBi3eyzjYwgDdISqNQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/coinmarketcap_783/238dda68c1868855b0d1d9f27f3afa9a",
-      "publishedAt": "2025-11-05T16:31:13Z",
-      "content": "<ul><li>Market: BTC retests ~$100K; Fear near 20; BNB sector -14.2%.\r\n</li><li>Ecosystem: Myriad launches; Creditcoin NTT to BNB; Binance Momentum HODLer airdrop.\r\n</li><li>Catalysts: CZ buys ASTER; \u2026 [+3431 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "Constellation Brands (STZ) Down 7.8% Since Last Earnings Report: Can It Rebound?",
-      "description": "Constellation Brands (STZ) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-      "url": "https://finance.yahoo.com/news/constellation-brands-stz-down-7-163002436.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/1154d43aaeb65735a640003549116295",
-      "publishedAt": "2025-11-05T16:30:02Z",
-      "content": "A month has gone by since the last earnings report for Constellation Brands (STZ). Shares have lost about 7.8% in that time frame, underperforming the S&amp;P 500.\r\nBut investors have to be wondering\u2026 [+6009 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Zacks Equity Research",
-      "title": "Flowco Holdings Inc. (FLOC) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-      "description": "Although the revenue and EPS for Flowco Holdings Inc. (FLOC) give a sense of how its business performed in the quarter ended September 2025, it might be...",
-      "url": "https://finance.yahoo.com/news/flowco-holdings-inc-floc-q3-163002914.html",
+      "title": "Eton Pharmaceuticals, Inc. (ETON) Reports Q3 Loss, Beats Revenue Estimates",
+      "description": "Eton Pharmaceuticals (ETON) delivered earnings and revenue surprises of -153.85% and +9.24%, respectively, for the quarter ended September 2025. Do the...",
+      "url": "https://finance.yahoo.com/news/eton-pharmaceuticals-inc-eton-reports-223502162.html",
       "urlToImage": "https://media.zenfs.com/en/zacks.com/078b2d95159d12a337f09f2519ff10ba",
-      "publishedAt": "2025-11-05T16:30:02Z",
-      "content": "For the quarter ended September 2025, Flowco Holdings Inc. (FLOC) reported revenue of $176.94 million, representing no change compared to the same period last year. EPS came in at $0.59, compared to \u2026 [+2372 chars]"
+      "publishedAt": "2025-11-06T22:35:02Z",
+      "content": "Eton Pharmaceuticals, Inc. (ETON) came out with a quarterly loss of $0.07 per share versus the Zacks Consensus Estimate of $0.13. This compares to earnings of $0.02 per share a year ago. These figure\u2026 [+3813 chars]"
     },
     {
       "source": {
@@ -1177,25 +982,12 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Zacks Equity Research",
-      "title": "Essential Utilities Q3 Earnings Surpass Estimates, Revenues Rise Y/Y",
-      "description": "Essential Utilities posts strong third-quarter earnings, reaffirms 2025 outlook, and announces a major merger with American Water Works.",
-      "url": "https://finance.yahoo.com/news/essential-utilities-q3-earnings-surpass-162400099.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/3c1d82b294d7115109bf76ee7125b7e1",
-      "publishedAt": "2025-11-05T16:24:00Z",
-      "content": "Essential Utilities Inc. WTRG reported third-quarter 2025 operating earnings per share (EPS) of 33 cents, which beat the Zacks Consensus Estimate of 27 cents by 22.2%.\r\nEPS improved 32% from the year\u2026 [+5277 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Yahoo Sports",
-      "title": "Texas, oil and football: How Texas Tech has raised a football monster in no time at all",
-      "description": "The Red Raiders are scoring in bunches and stuffing opponents. Their oil-rich boosters are keeping the coffers full. Is this the dawn of a new era for Texas Tech?",
-      "url": "https://sports.yahoo.com/college-football/breaking-news/article/texas-oil-and-football-how-texas-tech-has-raised-a-football-monster-in-no-time-at-all-162348066.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/peTlzd1Py_KeoHXXQCsfRQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/c5d8e950-ba5c-11f0-bfd7-40332b3107bb",
-      "publishedAt": "2025-11-05T16:23:48Z",
-      "content": "LUBBOCK, Texas In February, during the grand opening of Texas Techs 300,000-square foot, $242 million football facility, athletic director Kirby Hocutt, delivering a speech from behind a pulpit withi\u2026 [+18419 chars]"
+      "title": "Microchip Technology (MCHP) Q2 Earnings and Revenues Top Estimates",
+      "description": "Microchip Tech (MCHP) delivered earnings and revenue surprises of +6.06% and +0.75%, respectively, for the quarter ended September 2025. Do the numbers hold ...",
+      "url": "https://finance.yahoo.com/news/microchip-technology-mchp-q2-earnings-223502937.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/c2fdcaac033e049c74f38d188afcc9f9",
+      "publishedAt": "2025-11-06T22:35:02Z",
+      "content": "Microchip Technology (MCHP) came out with quarterly earnings of $0.35 per share, beating the Zacks Consensus Estimate of $0.33 per share. This compares to earnings of $0.46 per share a year ago. Thes\u2026 [+3887 chars]"
     },
     {
       "source": {
@@ -1203,25 +995,12 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Zacks Equity Research",
-      "title": "HUT 8 Q3 Earnings Beat Estimates, Revenues Up Y/Y, Shares Up",
-      "description": "Hut 8's Q3 revenues surge 91% to $83.5M, beating estimates as Bitcoin mining expansion and improved profitability drive a sharp rebound.",
-      "url": "https://finance.yahoo.com/news/hut-8-q3-earnings-beat-162300665.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/d852549e356fec8c0c451470e2c7ebef",
-      "publishedAt": "2025-11-05T16:23:00Z",
-      "content": "HUT 8 Corp. HUT reported a loss per share of 7 cents for the third quarter of 2025, which was narrower than a loss of 26 cents in the year-ago quarter. The figure beat the Zacks Consensus Estimate by\u2026 [+2446 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Maury Brown, Senior Contributor, \n Maury Brown, Senior Contributor\n https://www.forbes.com/sites/sportsmoney/people/bizballmaury/",
-      "title": "Formula E, FIA Unveil GEN4 Car With Staggering 815hp, Active All-Wheel Drive",
-      "description": "Formula E and the FIA have unveiled the GEN4 car that boasts 50% more power than the GEN3 Evo. Here's the details.",
-      "url": "https://www.forbes.com/sites/maurybrown/2025/11/05/formula-e-fia-unveil-gen4-car-with-staggering-815hp-active-all-wheel-drive/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b779992160b07f5ed0ad6/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T16:20:23Z",
-      "content": "Formula E and the FIA have unveiled the next generation of the global racing series' car, the GEN4.\r\nFormula E, FIA\r\nFormula E, the all-electric global racing series sanctioned by the FIA, unveiled i\u2026 [+2505 chars]"
+      "title": "Five9 (FIVN) Tops Q3 Earnings and Revenue Estimates",
+      "description": "Five9 (FIVN) delivered earnings and revenue surprises of +6.85% and +0.46%, respectively, for the quarter ended September 2025. Do the numbers hold clues to ...",
+      "url": "https://finance.yahoo.com/news/five9-fivn-tops-q3-earnings-223502117.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/39dfb058875b6e691de9136bc97a47b4",
+      "publishedAt": "2025-11-06T22:35:02Z",
+      "content": "Five9 (FIVN) came out with quarterly earnings of $0.78 per share, beating the Zacks Consensus Estimate of $0.73 per share. This compares to earnings of $0.67 per share a year ago. These figures are a\u2026 [+3797 chars]"
     },
     {
       "source": {
@@ -1229,77 +1008,298 @@
         "name": "Yahoo Entertainment"
       },
       "author": "Zacks Equity Research",
-      "title": "Pinterest Q3 Earnings Miss Estimates Despite Y/Y Revenue Growth",
-      "description": "PINS' Q3 revenues climb 17% to a record $1.05B as AI-driven ad tools boosted engagement, though earnings narrowly missed estimates.",
-      "url": "https://finance.yahoo.com/news/pinterest-q3-earnings-miss-estimates-161600193.html",
-      "urlToImage": "https://media.zenfs.com/en/zacks.com/6f95cc3c9f25e35e63789244ef74fa5f",
-      "publishedAt": "2025-11-05T16:16:00Z",
-      "content": "Pinterest Inc. PINS reported modest third-quarter 2025 results, wherein the bottom line missed the Zacks Consensus Estimate while revenues beat the same. The San Francisco-based Internet content prov\u2026 [+5574 chars]"
+      "title": "BioLife Solutions, Inc. (BLFS) Surpasses Q3 Earnings and Revenue Estimates",
+      "description": "BioLife Solutions (BLFS) delivered earnings and revenue surprises of +500.00% and +8.73%, respectively, for the quarter ended September 2025. Do the numbers ...",
+      "url": "https://finance.yahoo.com/news/biolife-solutions-inc-blfs-surpasses-223501470.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/71afbbc0512eb3c471136d93f39079c9",
+      "publishedAt": "2025-11-06T22:35:01Z",
+      "content": "BioLife Solutions, Inc. (BLFS) came out with quarterly earnings of $0.04 per share, beating the Zacks Consensus Estimate of a loss of $0.01 per share. This compares to a loss of $0.02 per share a yea\u2026 [+3897 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "BERNARD CONDON",
-      "title": "Musk the trillionaire? Debate over his Tesla pay package rages",
-      "description": "Shareholders gathering Thursday for Tesla's annual meeting in Austin, Texas, will decide in a proxy vote whether to grant Musk, the company's CEO and already...",
-      "url": "https://finance.yahoo.com/news/musk-trillionaire-debate-over-tesla-161239482.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/LK342I0_zKBOC4eiTUpqdw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NTc-/https://media.zenfs.com/en/ap_finance_articles_694/eb3a7cf8869f5bc2eec60a85c85f5572",
-      "publishedAt": "2025-11-05T16:12:39Z",
-      "content": "NEW YORK (AP) Elon Musk turned off many potential buyers of his Tesla cars and sent sales plunging with his foray into politics. But the stock has soared anyway and now he wants the company to pay hi\u2026 [+6016 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Asia Alexander, Forbes Staff, \n Asia Alexander, Forbes Staff\n https://www.forbes.com/sites/asia-alexander/",
-      "title": "The Biggest Billionaire Donors To HBCUs",
-      "description": "MacKenzie Scott\u2019s $80 million gift to Howard University this week is the latest\u2014but not biggest\u2014recent billionaire donation to an HBCU. These 9 billionaires have put more than $1 billion into historically Black colleges and universities.",
-      "url": "https://www.forbes.com/sites/asia-alexander/2025/11/05/the-biggest-billionaire-donors-to-hbcus/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b6f4adf3c293a7b23e225/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T16:10:13Z",
-      "content": "Robert F. Smith announced he would pay off the student loan debt of the 396-student graduating class at Morehouse College in 2019.\r\nGetty Images\r\nOn Monday, Howard University announced an unrestricte\u2026 [+10795 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Mark Joyella, Senior Contributor, \n Mark Joyella, Senior Contributor\n https://www.forbes.com/sites/markjoyella/",
-      "title": "CNN Beefs Up Its CNN Headlines FAST Channel With Anchor Brad Smith",
-      "description": "\"I want to make sure that with any ounce of time people give us, they feel like they\u2019re walking away with an extreme amount of value\"",
-      "url": "https://www.forbes.com/sites/markjoyella/2025/11/05/cnn-beefs-up-its-cnn-headlines-fast-channel-with-anchor-brad-smith/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b66f34bfe6de4f8c1ded5/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T16:10:05Z",
-      "content": "CNN anchor Brad Smith on the set of 'CNN Headlines,' part of the cable news network's investment into streaming news\r\nCNN\r\nFor anchor Brad Smith, who recently joined the networks FAST channel, CNN He\u2026 [+3880 chars]"
+      "author": "Kayode Omotosho",
+      "title": "Doximity\u2019s (NYSE:DOCS) Q3: Beats On Revenue But Stock Drops",
+      "description": "Medical professional network Doximity (NYSE:DOCS) announced better-than-expected revenue in Q3 CY2025, with sales up 23.2% year on year to $168.5 million...",
+      "url": "https://finance.yahoo.com/news/doximity-nyse-docs-q3-beats-223300087.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/nUT8rSTWlQHumWMMKhZ1vg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/d4bf7317e9286bca21a9af7d582c482a",
+      "publishedAt": "2025-11-06T22:33:00Z",
+      "content": "Medical professional network Doximity (NYSE:DOCS) announced better-than-expected revenue in Q3 CY2025, with sales up 23.2% year on year to $168.5 million. The company expects next quarters revenue to\u2026 [+4541 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "Martin Dasko",
-      "title": "Don\u2019t Trade Stocks on This Day of the Week",
-      "description": "Experts reveal the worst day to trade stocks\u2014and why it could cost you. Learn which day to avoid and how to protect your portfolio.",
-      "url": "https://finance.yahoo.com/news/don-t-trade-stocks-day-160515612.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wSwNRkQj8GNVdBeF6nJPPA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gobankingrates_644/26b0c22d60f6294776bde656e782ab99",
-      "publishedAt": "2025-11-05T16:05:15Z",
-      "content": "According to research from CNBC, if someone had invested $10,000 in the S&amp;P 500 index at the beginning of 2005 and left the investment untouched, it would be worth $71,750 by the end of 2024, yie\u2026 [+5302 chars]"
+      "author": "Khyathi Dalal",
+      "title": "Trader Who Lost $45 Million On Bitcoin, Ethereum, Solana Longs Now Turns Bearish",
+      "description": "Ethereum (CRYPTO: ETH) is down 25% over the past month, but experts see this as potential buying opportunity. What Happened: A whale trader known for his...",
+      "url": "https://finance.yahoo.com/news/trader-lost-45-million-bitcoin-223122780.html",
+      "urlToImage": "https://media.zenfs.com/en/benzinga_79/64db7cb79b9c68027d90e522a7f5f96f",
+      "publishedAt": "2025-11-06T22:31:22Z",
+      "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nEthereum (CRYPTO: ETH) is down 25% over the past month, but experts see this as potential buying \u2026 [+5728 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "VTEX (VTEX) Meets Q3 Earnings Estimates",
+      "description": "VTEX (VTEX) delivered earnings and revenue surprises of 0.00% and -0.35%, respectively, for the quarter ended September 2025. Do the numbers hold clues to...",
+      "url": "https://finance.yahoo.com/news/vtex-vtex-meets-q3-earnings-223003771.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/1a018a29aef5adbf5b4319f32058e209",
+      "publishedAt": "2025-11-06T22:30:03Z",
+      "content": "VTEX (VTEX) came out with quarterly earnings of $0.03 per share, in line with the Zacks Consensus Estimate . This compares to earnings of $0.02 per share a year ago. These figures are adjusted for no\u2026 [+3687 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Tandem Diabetes Care, Inc. (TNDM) Reports Q3 Loss, Tops Revenue Estimates",
+      "description": "Tandem Diabetes Care (TNDM) delivered earnings and revenue surprises of 0.00% and +4.83%, respectively, for the quarter ended September 2025. Do the numbers ...",
+      "url": "https://finance.yahoo.com/news/tandem-diabetes-care-inc-tndm-223003038.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/a7cdcede0bb5a646be035f4a7e678781",
+      "publishedAt": "2025-11-06T22:30:03Z",
+      "content": "Tandem Diabetes Care, Inc. (TNDM) came out with a quarterly loss of $0.31 per share in line with the Zacks Consensus Estimate. This compares to a loss of $0.36 per share a year ago. These figures are\u2026 [+3740 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "EOG Resources (EOG) Surpasses Q3 Earnings Estimates",
+      "description": "EOG Resources (EOG) delivered earnings and revenue surprises of +11.52% and -1.70%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/eog-resources-eog-surpasses-q3-223003099.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/gZA5XMnsr1RRZw6lGNAcdA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05NDA-/https://media.zenfs.com/en/zacks.com/c65fb4556b91b6c9dc83e4eff25fede0",
+      "publishedAt": "2025-11-06T22:30:03Z",
+      "content": "EOG Resources (EOG) came out with quarterly earnings of $2.71 per share, beating the Zacks Consensus Estimate of $2.43 per share. This compares to earnings of $2.89 per share a year ago. These figure\u2026 [+3947 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Dropbox (DBX) Q3 Earnings and Revenues Beat Estimates",
+      "description": "Dropbox (DBX) delivered earnings and revenue surprises of +15.63% and +1.75%, respectively, for the quarter ended September 2025. Do the numbers hold clues...",
+      "url": "https://finance.yahoo.com/news/dropbox-dbx-q3-earnings-revenues-223002733.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/1154d43aaeb65735a640003549116295",
+      "publishedAt": "2025-11-06T22:30:02Z",
+      "content": "Dropbox (DBX) came out with quarterly earnings of $0.74 per share, beating the Zacks Consensus Estimate of $0.64 per share. This compares to earnings of $0.6 per share a year ago. These figures are a\u2026 [+3832 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Camden (CPT) Tops Q3 FFO Estimates",
+      "description": "Camden (CPT) delivered FFO and revenue surprises of +0.59% and -0.93%, respectively, for the quarter ended September 2025. Do the numbers hold clues to what ...",
+      "url": "https://finance.yahoo.com/news/camden-cpt-tops-q3-ffo-223002726.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/b9775f315e7b6c4ada6e36d0048a929a",
+      "publishedAt": "2025-11-06T22:30:02Z",
+      "content": "Camden (CPT) came out with quarterly funds from operations (FFO) of $1.7 per share, beating the Zacks Consensus Estimate of $1.69 per share. This compares to FFO of $1.71 per share a year ago. These \u2026 [+3808 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kayode Omotosho",
+      "title": "Flowers Foods (NYSE:FLO) Reports Q3 In Line With Expectations",
+      "description": "Packaged bakery food company Flower Foods (NYSE:FLO) met Wall Streets revenue expectations in Q3 CY2025, with sales up 3% year on year to $1.23 billion. The ...",
+      "url": "https://finance.yahoo.com/news/flowers-foods-nyse-flo-reports-222124299.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/5Wsiw3X.zR0.iSuKaceg0Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/545979b59bcd09380e2389ea9d171695",
+      "publishedAt": "2025-11-06T22:21:24Z",
+      "content": "Packaged bakery food company Flower Foods (NYSE:FLO) met Wall Streets revenue expectations in Q3 CY2025, with sales up 3% year on year to $1.23 billion. The companys outlook for the full year was clo\u2026 [+4181 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Forbes"
       },
-      "author": "Sweta Kaushal, Contributor, \n Sweta Kaushal, Contributor\n https://www.forbes.com/sites/swetakaushal/",
-      "title": "\u2018Idli Kadai\u2019 Is Second Most-Watched On Netflix Top 10",
-      "description": "While 'Idli Kadai' is the second most-watched on-English film on Netflix global top 10, 'Lokah Chapter 1 Chandra' is India's most-watched film across platforms.",
-      "url": "https://www.forbes.com/sites/swetakaushal/2025/11/05/idli-kadai-is-second-most-watched-on-netflix-top-10/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690b71b1a99114e321f9f581/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2025-11-05T16:03:14Z",
-      "content": "Dhanush's 'Idli Kadai' is the second most-watched film on Netflix worldwide while the Malayalam box office hit 'Lokah Chapter 1 Chandra' is the most-viewed film in India across all online platforms.\r\u2026 [+6094 chars]"
+      "author": "Caroline Reid, Senior Contributor, \n Caroline Reid, Senior Contributor\n https://www.forbes.com/sites/carolinereid/",
+      "title": "Why This Disney Hotel Had Birds In Its Lobby",
+      "description": "On Monday Disney will open a new bird-themed bar in one of its flagship hotels. This is the inside story behind the birds which once flew inside it.",
+      "url": "https://www.forbes.com/sites/carolinereid/2025/11/06/why-this-disney-hotel-had-birds-in-its-lobby/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690d1bf69a360670bf421641/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-11-06T22:20:45Z",
+      "content": "One of Walt Disney World's hotels is set to get a new bird-themed attraction. (Joe Burbank/Orlando Sentinel/Tribune News Service via Getty Images)\r\nTNS\r\nOn Monday Disney will open a new bird-themed b\u2026 [+7113 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Gen Digital (GEN) Q2 Earnings and Revenues Top Estimates",
+      "description": "Gen Digital (GEN) delivered earnings and revenue surprises of +1.64% and +2.30%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/gen-digital-gen-q2-earnings-222002789.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/3d7c5b2146ac04ffd51752e17ff2a619",
+      "publishedAt": "2025-11-06T22:20:02Z",
+      "content": "Gen Digital (GEN) came out with quarterly earnings of $0.62 per share, beating the Zacks Consensus Estimate of $0.61 per share. This compares to earnings of $0.54 per share a year ago. These figures \u2026 [+3770 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Airbnb, Inc. (ABNB) Misses Q3 Earnings Estimates",
+      "description": "Airbnb (ABNB) delivered earnings and revenue surprises of -3.49% and +0.25%, respectively, for the quarter ended September 2025. Do the numbers hold clues to...",
+      "url": "https://finance.yahoo.com/news/airbnb-inc-abnb-misses-q3-222002757.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4",
+      "publishedAt": "2025-11-06T22:20:02Z",
+      "content": "Airbnb, Inc. (ABNB) came out with quarterly earnings of $2.21 per share, missing the Zacks Consensus Estimate of $2.29 per share. This compares to earnings of $2.13 per share a year ago. These figure\u2026 [+3852 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Crinetics Pharmaceuticals, Inc. (CRNX) Reports Q3 Loss, Lags Revenue Estimates",
+      "description": "CRINETICS PHARM (CRNX) delivered earnings and revenue surprises of -8.66% and -94.70%, respectively, for the quarter ended September 2025. Do the numbers...",
+      "url": "https://finance.yahoo.com/news/crinetics-pharmaceuticals-inc-crnx-reports-222002226.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/46ebfcbff417ac1bbde85ad33fa0d4be",
+      "publishedAt": "2025-11-06T22:20:02Z",
+      "content": "Crinetics Pharmaceuticals, Inc. (CRNX) came out with a quarterly loss of $1.38 per share versus the Zacks Consensus Estimate of a loss of $1.27. This compares to a loss of $0.96 per share a year ago.\u2026 [+3645 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kayode Omotosho",
+      "title": "Karat Packaging (NASDAQ:KRT) Posts Q3 Sales In Line With Estimates",
+      "description": "Foodservice packaging supplier Karat Packaging (NASDAQ:KRT) met Wall Streets revenue expectations in Q3 CY2025, with sales up 10.4% year on year to $124.5...",
+      "url": "https://finance.yahoo.com/news/karat-packaging-nasdaq-krt-posts-221950288.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/UUcft6IRp8MbE_.S8CfStQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/97da8187f53b71b576dae233acf1d8f7",
+      "publishedAt": "2025-11-06T22:19:50Z",
+      "content": "Foodservice packaging supplier Karat Packaging (NASDAQ:KRT) met Wall Streets revenue expectations in Q3 CY2025, with sales up 10.4% year on year to $124.5 million. The company expects next quarters r\u2026 [+5971 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "John Kingston",
+      "title": "Wabash, tied down in a weak trailer market, gets a debt downgrade",
+      "description": "For the second time this year, Moody\u2019s Investors Service has downgraded the debt rating of trailer manufacturer Wabash National. The latest move takes the...",
+      "url": "https://finance.yahoo.com/news/wabash-tied-down-weak-trailer-221843627.html",
+      "urlToImage": "https://media.zenfs.com/en/freightwaves_373/07f8bfa73785cc81bc04f394f489a934",
+      "publishedAt": "2025-11-06T22:18:43Z",
+      "content": "For the second time this year, Moodys Investors Service has downgraded the debt rating of trailer manufacturer Wabash National.\r\nThe latest move takes the companys corporate family rating (CFR) to B2\u2026 [+5039 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kayode Omotosho",
+      "title": "Evolent Health (NYSE:EVH) Beats Q3 Sales Expectations, Stock Jumps 14.8%",
+      "description": "Healthcare solutions company Evolent Health (NYSE:EVH) beat Wall Street\u2019s revenue expectations in Q3 CY2025, but sales fell by 22.8% year on year to $479.5...",
+      "url": "https://finance.yahoo.com/news/evolent-health-nyse-evh-beats-221723364.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/mZpgCzRWN3DNSVWIuU.wsQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/d9497c64fbd7f73943a22ca6896c038c",
+      "publishedAt": "2025-11-06T22:17:23Z",
+      "content": "Healthcare solutions company Evolent Health (NYSE:EVH) beat Wall Streets revenue expectations in Q3 CY2025, but sales fell by 22.8% year on year to $479.5 million. On the other hand, next quarters re\u2026 [+6333 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Radek Strnad",
+      "title": "Clarus (NASDAQ:CLAR) Exceeds Q3 Expectations",
+      "description": "Outdoor lifestyle and equipment company Clarus (NASDAQ:CLAR) reported Q3 CY2025 results topping the market\u2019s revenue expectations, with sales up 3.3% year on...",
+      "url": "https://finance.yahoo.com/news/clarus-nasdaq-clar-exceeds-q3-221606884.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/7Agoo_58f3_ZaCWKnBUoWQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/9cdc923be9daca7ea592dcd6b154d712",
+      "publishedAt": "2025-11-06T22:16:06Z",
+      "content": "Outdoor lifestyle and equipment company Clarus (NASDAQ:CLAR) reported Q3 CY2025 results topping the markets revenue expectations , with sales up 3.3% year on year to $69.35 million. Its non-GAAP prof\u2026 [+4252 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Wynn Resorts (WYNN) Misses Q3 Earnings Estimates",
+      "description": "Wynn (WYNN) delivered earnings and revenue surprises of -21.10% and +3.88%, respectively, for the quarter ended September 2025. Do the numbers hold clues to ...",
+      "url": "https://finance.yahoo.com/news/wynn-resorts-wynn-misses-q3-221503422.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/b369e357aa3d42cc28ac674490d4ae83",
+      "publishedAt": "2025-11-06T22:15:03Z",
+      "content": "Wynn Resorts (WYNN) came out with quarterly earnings of $0.86 per share, missing the Zacks Consensus Estimate of $1.09 per share. This compares to earnings of $0.9 per share a year ago. These figures\u2026 [+3766 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Blend Labs (BLND) Reports Break-Even Earnings for Q3",
+      "description": "Blend Labs (BLND) delivered earnings and revenue surprises of -100.00% and +1.42%, respectively, for the quarter ended September 2025. Do the numbers hold...",
+      "url": "https://finance.yahoo.com/news/blend-labs-blnd-reports-break-221502035.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee",
+      "publishedAt": "2025-11-06T22:15:02Z",
+      "content": "Blend Labs (BLND) reported break-even quarterly earnings per share versus the Zacks Consensus Estimate of $0.02. This compares to break-even earnings per share a year ago. These figures are adjusted \u2026 [+3831 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Petr Hu\u0159\u0165\u00e1k",
+      "title": "Topgolf Callaway\u2019s (NYSE:MODG) Q3 Sales Beat Estimates, Stock Soars",
+      "description": "Golf entertainment and gear company Topgolf Callaway (NYSE:MODG) reported Q3 CY2025 results exceeding the market\u2019s revenue expectations, but sales fell by...",
+      "url": "https://finance.yahoo.com/news/topgolf-callaway-nyse-modg-q3-221441131.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/omQVybS0P_SEGHUv4C4LHQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/db708fe7ea0d1e15868c52cafd58b452",
+      "publishedAt": "2025-11-06T22:14:41Z",
+      "content": "Golf entertainment and gear company Topgolf Callaway (NYSE:MODG) reported Q3 CY2025 results exceeding the markets revenue expectations , but sales fell by 7.8% year on year to $934 million. The compa\u2026 [+5224 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Petr Hu\u0159\u0165\u00e1k",
+      "title": "F&G Annuities & Life (NYSE:FG) Reports Strong Q3",
+      "description": "Insurance solutions provider F&G Annuities & Life (NYSE:FG) reported Q3 CY2025 results beating Wall Street\u2019s revenue expectations, with sales up 16.5% year...",
+      "url": "https://finance.yahoo.com/news/f-g-annuities-life-nyse-221015168.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Nh4RS4Nj4duW8VKXhIDgHQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/d55b48e9577db4d79856d3090fad9969",
+      "publishedAt": "2025-11-06T22:10:15Z",
+      "content": "Insurance solutions provider F&amp;G Annuities &amp; Life (NYSE:FG) reported Q3 CY2025 results beating Wall Streets revenue expectations , with sales up 16.5% year on year to $1.69 billion. Its non-G\u2026 [+6368 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "GigaCloud Technology Inc. (GCT) Beats Q3 Earnings and Revenue Estimates",
+      "description": "GigaCloud Technology Inc. (GCT) delivered earnings and revenue surprises of +52.31% and +9.96%, respectively, for the quarter ended September 2025. Do the...",
+      "url": "https://finance.yahoo.com/news/gigacloud-technology-inc-gct-beats-221002260.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/bdc2850a48a0f40806db817a9e24f36f",
+      "publishedAt": "2025-11-06T22:10:02Z",
+      "content": "GigaCloud Technology Inc. (GCT) came out with quarterly earnings of $0.99 per share, beating the Zacks Consensus Estimate of $0.65 per share. This compares to earnings of $0.98 per share a year ago. \u2026 [+3843 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Zacks Equity Research",
+      "title": "Curis (CRIS) Reports Q3 Loss, Beats Revenue Estimates",
+      "description": "Curis (CRIS) delivered earnings and revenue surprises of +20.97% and +8.58%, respectively, for the quarter ended September 2025. Do the numbers hold clues to...",
+      "url": "https://finance.yahoo.com/news/curis-cris-reports-q3-loss-221001871.html",
+      "urlToImage": "https://media.zenfs.com/en/zacks.com/7ea641b46fe75c0a913349e5e610d6a2",
+      "publishedAt": "2025-11-06T22:10:01Z",
+      "content": "Curis (CRIS) came out with a quarterly loss of $0.49 per share versus the Zacks Consensus Estimate of a loss of $0.62. This compares to a loss of $1.7 per share a year ago. These figures are adjusted\u2026 [+3748 chars]"
     }
   ]
 }
