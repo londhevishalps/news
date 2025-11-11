@@ -1,7 +1,23 @@
 {
-  "lastUpdated": "2025-11-10T06:59:16.930486",
-  "count": 13,
+  "lastUpdated": "2025-11-11T06:57:46.666896",
+  "count": 15,
   "articles": [
+    {
+      "title": "AGL Sells Majority of Tilt Renewables Stake for $750 Million",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/agl-sells-majority-tilt-renewables-030000570.html",
+      "date": "10-11-2025",
+      "description": "AGL divests nearly all of its holding in Tilt Renewables to QIC and the Future Fund as part of its capital recycling strategy.",
+      "image": "https://media.zenfs.com/en/oilprice.com/6e8e16ab856449fa6fa5cbd91918a23d"
+    },
+    {
+      "title": "Do UN climate talks have a point any more?",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c205jvyg3wjo",
+      "date": "10-11-2025",
+      "description": "The US president is notably absent from these UN climate talks, as are other world leaders, all of which prompts questions about the purpose of COP today.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/cdc6/live/3570dfa0-bbe5-11f0-ae46-bd64331f0fd4.jpg"
+    },
     {
       "title": "China blames Netherlands for disrupting chip supply with Nexperia move",
       "source": "Yahoo Entertainment",
