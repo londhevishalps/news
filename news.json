@@ -1,7 +1,23 @@
 {
-  "lastUpdated": "2025-11-13T06:57:29.077654",
-  "count": 17,
+  "lastUpdated": "2025-11-14T06:56:53.335717",
+  "count": 19,
   "articles": [
+    {
+      "title": "Fossil Electricity Not Growing Globally, So What Is Growing And Where",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/ianpalmer/2025/11/12/fossil-electricity-not-growing-globally-so-what-is-growing-and-where/",
+      "date": "13-11-2025",
+      "description": "Renewables are growing fast, and are forecast to meet all new demand for electrical power in 2025. Fossil electricity will be flat, the first time since the pandemic.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6913c8647cb81aa3b485c5ae/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+    },
+    {
+      "title": "Fossil fuel emissions rise again - but renewables boom offers hope for climate",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c620q30w0q0o",
+      "date": "13-11-2025",
+      "description": "Carbon emissions from burning fossil fuels are forecast to reach a new high in 2025 but could soon peak.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0935/live/4af5ad30-c01b-11f0-9d56-0b951cdd0436.jpg"
+    },
     {
       "title": "Exclusive-GM wants parts makers to pull supply chains from China",
       "source": "Yahoo Entertainment",
