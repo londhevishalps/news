@@ -1,7 +1,23 @@
 {
-  "lastUpdated": "2025-11-15T06:52:34.621594",
-  "count": 20,
+  "lastUpdated": "2025-11-16T06:58:28.764096",
+  "count": 22,
   "articles": [
+    {
+      "title": "UBS Reaffirms Buy on Nvidia (NVDA) Despite Growth Sustainability and Valuation Concerns",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/ubs-reaffirms-buy-nvidia-nvda-061033776.html",
+      "date": "15-11-2025",
+      "description": "Nvidia Corporation (NASDAQ:NVDA) is the top stock on our list of the most fantastic stocks every investor should pay attention to. The company is expected to...",
+      "image": "https://s.yimg.com/ny/api/res/1.2/ApYQ6_w0G2fn0lcOooU5DA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/insidermonkey.com/a079136e941b43293f25b66228839740"
+    },
+    {
+      "title": "Can technology fix fashion's sizing crisis?",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cjekg1pd9j4o",
+      "date": "15-11-2025",
+      "description": "The BBC looks into whether artificial intelligence (AI) can help people who struggle when clothes are oddly sized.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/4c22/live/d34583d0-c08f-11f0-924c-87dcfe4462ba.jpg"
+    },
     {
       "title": "Rio Tinto Inks New Wind Power Deal to Advance Kennecott Decarbonisation",
       "source": "Yahoo Entertainment",
