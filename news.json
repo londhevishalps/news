@@ -1,7 +1,23 @@
 {
-  "lastUpdated": "2025-11-21T06:59:56.508135",
-  "count": 11,
+  "lastUpdated": "2025-11-22T06:52:33.630799",
+  "count": 13,
   "articles": [
+    {
+      "title": "Fire breaks out at UN climate talks, forcing delay at critical phase",
+      "source": "Yahoo Entertainment",
+      "url": "https://www.yahoo.com/news/videos/fire-breaks-un-climate-talks-012153615.html",
+      "date": "21-11-2025",
+      "description": "A fire broke out Thursday inside the UN climate summit venue in Brazil, burning through the roof and causing a panicked evacuation and the suspension of t...",
+      "image": "https://s.yimg.com/lo/mysterio/api/8147CAF579A7791EF0077A7D042F35093A7C08CD55D4C6F4E93A2ABEBAE10D57/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F6415665815001%2Fc2d36ca3-dfa2-4237-a514-15ba6c7ba48c%2Fmain%2F1280x720%2F7s594ms%2Fmatch%2Fimage.jpg"
+    },
+    {
+      "title": "India's delayed action plan raises eyebrows at COP30 climate summit",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cy8v8k8mlego",
+      "date": "21-11-2025",
+      "description": "India says it has met a key target of its previous climate action plan, but many say it needs to do more.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/f972/live/ba929fd0-c675-11f0-a674-cf008e1f5535.jpg"
+    },
     {
       "title": "Africa hosts its first G20 and urges the rich world to do more against climate disasters",
       "source": "Yahoo Entertainment",
